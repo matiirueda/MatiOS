@@ -5,6 +5,9 @@ Analizar cada conversación reciente y decidir qué merece convertirse en memori
 
 Esta skill es crítica: las conversaciones son efímeras; Git y la base de datos son la memoria durable.
 
+## Convención operativa
+Cuando Mati diga **“anotá”, “guardá”, “dejalo en MatiOS”** o equivalente, significa persistir el conocimiento durable correspondiente mediante un commit/push al repositorio Git de MatiOS, salvo que por su naturaleza sea un evento/estado vivo que pertenezca a PostgreSQL. No responder solamente “queda anotado”: ejecutar la persistencia cuando las herramientas estén disponibles.
+
 ## Criterio superior
 Memory Curator no debe actuar como un archivista literal. Para evaluar relevancia puede cargar las skills `coach`, `mentor` y `teacher` como lentes de criterio:
 - **Coach:** ¿esto cambia conductas, hábitos, fricción o ejecución futura?
@@ -39,18 +42,23 @@ Orden orientativo, no rígido:
 ## Qué guardar en Git
 Conocimiento relativamente estable y curado:
 - preferencias
-- objetivos
+- principios y premisas
 - reglas personales
 - rutinas vigentes
 - recetas probadas
 - decisiones de arquitectura
 - instrucciones de skills
-- aprendizajes que deberían afectar respuestas futuras
+- conocimiento técnico destilado
+- aprendizajes reutilizables que deberían afectar respuestas o proyectos futuros
+
+Los objetivos/proyectos/tareas con fechas, progreso y estado pertenecen principalmente a PostgreSQL. Git puede guardar la lógica del sistema de objetivos y decisiones durables asociadas.
 
 No guardar transcripciones enteras como conocimiento.
 
 ## Qué guardar en PostgreSQL
-Eventos e históricos:
+Eventos, históricos y estado vivo:
+- objetivos activos y sus plazos
+- proyectos, tareas y subtareas
 - comidas realizadas
 - peso/mediciones
 - entrenamientos
