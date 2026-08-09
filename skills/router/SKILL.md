@@ -19,8 +19,12 @@ Ser la puerta de entrada del cerebro MatiOS. Interpretar la intención del mensa
 - piel, serum, FPS -> skincare
 - entrenamiento, fútbol, gym -> training
 - agenda, recordatorios -> life-admin
+- tarea grande, procrastinación, “partamos esto”, “terminé”, bloque de foco -> focus
 - Agentis, producto, ventas, aprendizaje -> agentis
 - nueva preferencia, aprendizaje, decisión -> memory
+
+## Composición
+Una interacción puede activar varias skills. Ejemplo: “Tengo que hacer una hora de Agentis pero no arranco” -> agentis + focus + habits. No crear un subagente nuevo si una composición de skills resuelve el caso.
 
 ## Principio
 No cargar todo MatiOS en cada prompt. Recuperar el mínimo contexto suficiente y citar/identificar la fuente interna utilizada cuando sea útil.
