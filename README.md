@@ -1,55 +1,103 @@
 # MatiOS 🤖
 
-Sistema Operativo de Mati - Tu agente personal de vida.
+Sistema operativo personal de Mati: memoria durable + agentes + automatización para ayudar a tomar mejores decisiones y ejecutar hábitos/proyectos sin depender de la memoria de una conversación.
 
-## Descripción
+## Visión
+MatiOS no es solo un chatbot. El objetivo es construir un cerebro personal portable entre modelos y canales.
 
-MatiOS es un asistente inteligente que aprende tus preferencias y hábitos para ayudarte en tu día a día. Comienza con el seguimiento de nutrición, registrando lo que comes y recomendando comidas basadas en tus preferencias y tu historial.
-
-## Objetivo Principal
-
-> Escribo desde DEV qué comí, MatiOS lo registra y luego puede usar ese dato junto con mis preferencias para recomendarme la próxima comida.
-
-## Estructura del Proyecto
-
-```
-matios/
-├── src/                      # Código fuente principal
-│   ├── api/                  # API FastAPI
-│   ├── core/                 # Lógica central
-│   ├── db/                   # Modelos y migraciones
-│   └── services/             # Servicios de negocio
-├── prompts/                  # Prompts para Codex/LLMs
-├── scripts/                  # Scripts de utilidad
-├── docker/                   # Configuración Docker
-├── tests/                    # Tests unitarios
-├── config/                   # Configuración
-└── docs/                     # Documentación
+```text
+Mati / canales
+      ↓
+MatiOS Core + Router
+      ↓
+Skills especializadas
+      ↓
+Git + PostgreSQL + pgvector
+      ↓
+Agentes / herramientas
+      ↓
+       n8n
 ```
 
-## Stack Tecnológico
+## Fuentes de verdad
+- **Git:** conocimiento estable y curado: preferencias, objetivos, rutinas, recetas, proyectos, decisiones y skills.
+- **PostgreSQL:** eventos/históricos: comidas, entrenamientos, hábitos, sueño, mediciones, tareas y recordatorios.
+- **pgvector:** índice semántico derivado para encontrar contexto; no es la fuente primaria.
 
-- **Backend**: Python 3.11+
-- **API**: FastAPI
-- **Base de datos**: PostgreSQL + pgvector
-- **Contenedorización**: Docker & Docker Compose
-- **Integración**: Telegram (DEV)
-- **Automatización**: n8n (futuro)
+## Agentes iniciales
+- **MatiOS Core:** router y coordinador.
+- **Health Coach:** hábitos, nutrición, entrenamiento, movilidad y skincare.
+- **Agentis Coach:** ejecución del proyecto Agentis.
+- **Life Admin:** agenda, tareas y recordatorios.
+- **Memory Curator:** analiza la conversación reciente y decide qué guardar, actualizar, registrar como evento o ignorar.
 
-## Roadmap
+## Skills
+Las skills son procedimientos versionados que explican cómo resolver cada dominio y qué conocimiento consultar. Ver `skills/`.
 
-1. ✅ Inicializar estructura
-2. ⬜ Docker Compose (PostgreSQL + pgvector)
-3. ⬜ API mínima (registrar comidas)
-4. ⬜ Integración Telegram DEV
-5. ⬜ Sistema de preferencias con pgvector
-6. ⬜ Motor de recomendaciones
-7. ⬜ Automatización con n8n
+## Flujo crítico de memoria
+```text
+conversación
+   ↓
+Memory Curator
+   ↓
+extraer + deduplicar + clasificar
+   ↓
+Git / PostgreSQL / ignorar / pedir confirmación
+   ↓
+reindexar pgvector
+```
 
-## Guía Rápida
+Esto permite que una conversación futura pueda reconstruir contexto leyendo MatiOS aunque la memoria del modelo sea limitada.
 
-Consulta [MatiOS-Guia-de-Inicio.md](./MatiOS-Guia-de-Inicio.md) para instrucciones detalladas de configuración.
+## Estructura conceptual
+```text
+MatiOS/
+├── cerebro/                 # conocimiento personal curado
+├── recetas/                 # recetario personal
+├── skills/                  # procedimientos del cerebro
+│   ├── router/
+│   ├── memory/
+│   ├── habits/
+│   ├── nutrition/
+│   ├── training/
+│   ├── mobility/
+│   ├── skincare/
+│   ├── life-admin/
+│   └── agentis/
+├── docs/
+│   ├── arquitectura-cerebro-matios.md
+│   └── flows/memory-curator.md
+├── src/                     # backend/API
+├── prompts/
+├── scripts/
+├── docker/
+├── tests/
+└── config/
+```
 
----
+## Stack
+- Python 3.11+
+- FastAPI
+- PostgreSQL + pgvector
+- Docker / Docker Compose
+- Telegram inicialmente como canal DEV
+- n8n como orquestador futuro
+- GitHub como memoria curada/versionada
 
-**Mantra**: Un recorrido completo y pequeño vale más que veinte carpetas sin funcionamiento.
+## Camino de implementación
+1. ✅ Estructura inicial y memoria curada en Git.
+2. ✅ Skills iniciales y diseño de Memory Curator.
+3. ⬜ PostgreSQL + pgvector.
+4. ⬜ API mínima para eventos/memoria.
+5. ⬜ Canal DEV (Telegram u otro).
+6. ⬜ RAG sobre Git + DB.
+7. ⬜ Implementar Memory Curator end-to-end.
+8. ⬜ n8n: recordatorios, morning brief, cierre diario y triggers.
+9. ⬜ Agentes coordinadores Health / Agentis / Life Admin.
+
+## Principios
+- Un recorrido completo y pequeño vale más que veinte carpetas sin funcionamiento.
+- Pocos agentes, muchas skills pequeñas.
+- Git para verdad; DB para historia; vector para búsqueda.
+- No guardar conversaciones enteras: destilar aprendizajes.
+- Reducir decisiones y aumentar repeticiones útiles.
