@@ -1,0 +1,38 @@
+version: 1
+updated_at: 2026-08-09
+
+avena:
+  status: validated
+  likes: true
+  rule: "No debe dominar el sabor ni la textura."
+  preferred_amount_per_serving_g:
+    min: 20
+    max: 30
+  preferred_formats:
+    - harina de avena
+    - integrada en yogur
+    - panqueques
+    - batidos
+  dislikes:
+    - porciones grandes de avena remojada como sabor principal
+
+verduras:
+  status: validated
+  raw_vegetables: true
+  seasoning_required: false
+
+mantequilla_de_mani:
+  status: validated
+  plain: false
+  preferred_formats:
+    - integrada en recetas
+    - mezclada con yogur
+    - versiones saborizadas
+
+adherencia:
+  status: validated
+  principles:
+    - reducir fricción de decisión
+    - priorizar comidas fáciles de repetir
+    - esconder mejoras nutricionales cuando no alteren sabor ni textura
+    - no forzar alimentos en formatos que Mati no disfruta
