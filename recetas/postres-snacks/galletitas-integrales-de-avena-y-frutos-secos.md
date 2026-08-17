@@ -21,12 +21,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar ingredientes secos y frutos secos.
-2. Agregar huevo, aceite y endulzante.
-3. Incorporar leche de a poco hasta formar una masa no pegajosa.
-4. Estirar a 5 mm, cortar y colocar en placa.
-5. Hornear 10-12 minutos a 180 °C hasta dorar bordes.
-6. Enfriar en rejilla antes de guardar.
+1. Calentar el horno a 180 °C y preparar una placa con papel manteca.
+2. Mezclar avena, harina, frutos secos, polvo de hornear, chía o lino, sal y ralladura.
+3. En otro recipiente batir huevo, aceite y edulcorante.
+4. Incorporar los líquidos a los secos. Agregar primero ¼ de taza de leche y mezclar.
+5. Sumar más leche de a 1 cucharada sólo hasta formar una masa suave, que se una sin quedar pegajosa.
+6. Reposar 10 minutos para que avena y semillas absorban líquido.
+7. Estirar entre dos papeles hasta 5 mm y cortar piezas iguales. Pasarlas a la placa con espátula.
+8. Hornear 10-14 minutos, hasta que los bordes y la base estén dorados; el centro se afirmará al enfriarse.
+9. Dejar 5 minutos en la placa y luego pasar a rejilla. Guardar sólo cuando estén completamente frías.
 
 ## Nutrición aproximada
 
