@@ -13,7 +13,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 2-3 cucharadas de mantequilla de maní
 - 2 cucharadas de cacao amargo
 - 1-3 cucharaditas de agua caliente
-- Edulcorante a gusto
+- Edulcorante equivalente a 1 cucharada de azúcar, según el producto
 - Chocolate con 60% de cacao o más, opcional
 
 ## Preparación
