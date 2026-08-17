@@ -4,7 +4,7 @@ slug: auditoria-mis-recetas-saladas
 domain: alimentacion
 module: recetario
 type: source-audit
-status: in-progress
+status: completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -48,27 +48,11 @@ La unidad canónica de MatiOS sigue siendo una ficha por receta. Las tablas del 
 
 Todas se incorporan como `🧪 por-probar`. No se calculan macros hasta confirmar rendimiento y pesos reales.
 
-### Cola de curación
+### Importación completada
 
-- tortilla de avena;
-- panqueques integrales salados y rellenos;
-- rellenos y salsas para canelones;
-- crackers integrales;
-- huevos rellenos;
-- panes de zanahoria, espinaca, integral y avena;
-- tomates rellenos y mayonesa casera;
-- dips, hummus y guacamole;
-- guiso de pollo y guiso de lentejas;
-- milanesa de pollo napolitana;
-- papas al horno con colita de cuadril;
-- arrollado de pollo;
-- falsos canelones;
-- bizcochitos integrales;
-- pionono de espinaca;
-- locro;
-- pasteles de papa, zapallito y calabaza;
-- salteado de carne picada;
-- zapallitos, morrones y calabaza rellenos.
+Las 28 preparaciones o familias pendientes se convirtieron en 29 fichas: la página de tomates rellenos se separó en receta y aderezo de huevo duro con yogur. Sumadas a la primera tanda, el PDF queda representado por **43 fichas canónicas**.
+
+No se duplicaron los rellenos dulces/salados que ya existían por otra fuente; se enlazaron conceptualmente mediante las bases correspondientes.
 
 ## Decisiones de curación
 
@@ -89,6 +73,19 @@ Todas se incorporan como `🧪 por-probar`. No se calculan macros hasta confirma
 - Los medallones de lentejas no incluyen aglutinante en la fuente y podrían desarmarse.
 - Rendimientos, tiempos y macros siguen pendientes en varias recetas.
 
-## Integración futura
+## Correcciones aplicadas
 
-La web y la IA deben consultar las fichas individuales. Esta auditoría sirve para trazabilidad, detectar pendientes y evitar volver a importar duplicados.
+- “Tortilla de avena” pasó a tortillas integrales porque la fórmula no contiene avena.
+- Pan integral: se corrigieron hidratación, temperatura y rendimiento.
+- Guacamole: se redujo la conservación recomendada.
+- Guiso “light” y locro “reducido en calorías” recibieron nombres descriptivos, sin promesas nutricionales.
+- Milanesas y arrollado de pollo incluyen cocción a 74 °C en el centro.
+- Falsos canelones: se redujo la vida de heladera y se normalizó la cocción del huevo.
+- Preparaciones acuosas como zapallitos, espinaca y calabaza incluyen escurrido y notas de textura.
+- Papa, pasta, ricota y vegetales rellenos tienen instrucciones específicas de freezer y regeneración.
+
+## Estado final
+
+Fuente completamente curada. Las fichas siguen como `🧪 por-probar` hasta cocinar, pesar rendimiento y completar macros.
+
+La web y la IA deben consultar las fichas individuales. Esta auditoría queda solo para trazabilidad y para evitar duplicados.
