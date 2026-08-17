@@ -13,7 +13,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 2 cucharadas de cacao amargo
 - ¼ taza de leche
 - 1 cucharadita de polvo de hornear
-- Edulcorante a gusto
+- Edulcorante equivalente a 1-2 cucharadas de azúcar, según el producto
 - 1 medida de proteína o 1 cucharada de mantequilla de maní, opcionales
 
 ## Preparación
