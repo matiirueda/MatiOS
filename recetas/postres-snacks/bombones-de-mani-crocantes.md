@@ -16,11 +16,14 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar mantequilla de maní y edulcorante; refrigerar 30 minutos.
-2. Procesar los copos sin pulverizarlos por completo.
-3. Formar bolitas y pasarlas por el cereal.
-4. Bañar con chocolate derretido.
-5. Refrigerar o congelar al menos 40 minutos.
+1. Mezclar la mantequilla de maní con el edulcorante. Si está muy líquida, refrigerar 30 minutos antes de formar.
+2. Romper los copos de maíz con las manos o pulsos muy breves; deben quedar trozos pequeños, no polvo.
+3. Dividir la mantequilla de maní en 12-15 porciones con dos cucharitas. Enfriar otros 10 minutos si se pega demasiado.
+4. Formar bolitas rápidamente con las manos frías y pasarlas por el cereal, presionando para adherirlo.
+5. Colocarlas sobre papel manteca y llevarlas 15 minutos al freezer para que soporten el baño.
+6. Picar y derretir el chocolate en intervalos de 15 segundos, mezclando entre cada uno.
+7. Bañar cada bombón con dos tenedores, dejar escurrir el exceso y devolverlo al papel.
+8. Refrigerar 30-40 minutos, hasta que el chocolate esté firme. Reposar unos minutos antes de comer si estuvieron congelados.
 
 ## Nutrición aproximada
 
