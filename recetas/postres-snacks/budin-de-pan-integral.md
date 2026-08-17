@@ -13,7 +13,7 @@ Receta curada y corregida para MatiOS.
 - 1 litro de leche
 - 2 yemas
 - 6 claras
-- Edulcorante a gusto
+- Edulcorante equivalente a 100-150 g de azúcar, según el producto
 - Vainilla y ralladura de limón
 - Frutos secos, opcionales
 
