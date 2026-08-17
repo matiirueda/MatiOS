@@ -21,11 +21,16 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Activar la levadura con azúcar y un poco de agua tibia.
-2. Mezclar avena, harina y sal; sumar aceite, endulzante y levadura.
-3. Agregar agua de a poco, unir y reposar tapado 20-30 minutos.
-4. Formar bolitas, hundir el centro y colocar el relleno.
-5. Pintar bordes con huevo y hornear 15-18 minutos a 180 °C.
+1. Mezclar la levadura y el azúcar con ¼ de taza de agua tibia. Dejar 5-10 minutos, hasta que aparezca espuma.
+2. En un bowl unir avena, harina, sal y edulcorante. Agregar aceite y la mezcla de levadura.
+3. Incorporar agua tibia de a 1 cucharada hasta formar una masa suave que no se desarme. Registrar la cantidad usada.
+4. Amasar 3-5 minutos, cubrir y dejar reposar 20-30 minutos en un lugar templado.
+5. Calentar el horno a 180 °C y cubrir una placa con papel manteca.
+6. Dividir en 18-24 porciones iguales. Formar bolitas y colocarlas separadas.
+7. Hundir el centro con el pulgar sin atravesar la base. Colocar aproximadamente ½ cucharadita de relleno; demasiado relleno se derrama.
+8. Batir el huevo y pincelar sólo los bordes.
+9. Hornear 15-18 minutos, hasta que base y bordes estén dorados.
+10. Enfriar en rejilla. El relleno conserva mucho calor, por lo que no conviene probarlas recién salidas.
 
 ## Nutrición aproximada
 
