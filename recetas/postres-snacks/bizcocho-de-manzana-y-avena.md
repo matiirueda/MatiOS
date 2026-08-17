@@ -18,12 +18,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Cocinar o rallar las manzanas y hacer un puré grueso.
-2. Mezclar con huevo, avena, polvo de hornear y especias.
-3. Volcar en un molde pequeño, no directamente en una sartén con mango no apto.
-4. Agregar frutos secos.
-5. Hornear 20-25 minutos a 180 °C.
-6. Enfriar antes de cortar.
+1. Calentar el horno a 180 °C y aceitar o forrar un molde de 18-20 cm.
+2. Pelar las manzanas, retirar el centro y rallarlas grueso. Para textura más suave, cocinarlas 5-8 minutos y pisarlas.
+3. Batir el huevo con canela o vainilla. Agregar la manzana y mezclar.
+4. Incorporar harina de avena y polvo de hornear. Reposar 5 minutos para que la avena absorba el jugo.
+5. La mezcla debe ser espesa y húmeda, no líquida. Si la manzana largó mucho jugo, agregar 1 cucharada extra de avena.
+6. Volcar en el molde y distribuir en una capa pareja. Agregar frutos secos por encima y presionar apenas.
+7. Hornear 20-28 minutos. Está listo cuando el centro se ve firme y un palillo sale sin mezcla cruda.
+8. Enfriar 10 minutos en el molde y luego por completo antes de cortar; caliente puede desarmarse.
 
 ## Nutrición aproximada
 
