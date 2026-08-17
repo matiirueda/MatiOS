@@ -13,7 +13,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - ½ taza de avena
 - 1 cucharada de aceite
 - Edulcorante y vainilla
-- Agua, cantidad necesaria
+- 2-6 cucharadas de agua fría, según absorción
 - 500 g de ricota magra
 - 2 cucharadas de avena
 - 1 cucharada de polvo de hornear
@@ -23,12 +23,16 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar harina, avena, endulzante, vainilla y aceite.
-2. Agregar agua de a poco hasta formar una masa manejable; estirar en tartera aceitada.
-3. Mezclar ricota, avena, saborizante y polvo de hornear; sumar claras si se busca un relleno más firme.
-4. Volcar sobre la masa.
-5. Hornear 35-40 minutos a 180 °C hasta que esté firme y dorada.
-6. Enfriar antes de decorar y cortar.
+1. Calentar el horno a 180 °C y aceitar una tartera de 20-22 cm.
+2. Para la base, mezclar harina, ½ taza de avena, edulcorante, vainilla y aceite.
+3. Agregar agua fría de a 1 cucharada hasta que la masa se una al presionarla. No debe quedar pegajosa.
+4. Distribuir directamente en la tartera con los dedos, formando una base pareja y un borde de 2 cm. Pinchar con tenedor.
+5. Para el relleno, escurrir la ricota si tiene líquido. Mezclar con 2 cucharadas de avena, polvo de hornear y ralladura o vainilla.
+6. Si se busca un relleno firme, batir las claras sólo hasta espumar e incorporarlas. No dejarlas crudas en la preparación final.
+7. Probar el dulzor antes de agregar las claras o usando una cuchara aparte.
+8. Volcar sobre la base y alisar.
+9. Hornear 35-45 minutos. El borde debe verse dorado y el centro firme, con un movimiento mínimo al sacudir suavemente.
+10. Enfriar 20 minutos en el molde y luego refrigerar antes de cortar. Decorar únicamente cuando esté fría.
 
 ## Nutrición aproximada
 
