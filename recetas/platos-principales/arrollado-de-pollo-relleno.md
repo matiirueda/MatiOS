@@ -4,26 +4,41 @@ Receta salada curada y adaptada al formato MatiOS.
 
 **Estado:** 🧪 por-probar  
 **Tipo:** plato principal  
-**Rinde:** 8 porciones  
-**Tiempo total:** 60 minutos
+**Rinde:** 6-8 porciones  
+**Tiempo total:** 60-70 minutos
 
 ## Ingredientes
 
 - 1 kg de pollo picado
-- ½-1 taza de avena fina, comenzar con ½
-- Sal, pimienta, ajo y hierbas
-- Espinaca cocida y escurrida
-- Tomates secos hidratados
-- Jamón, queso y aceitunas, opcionales
+- 2 huevos
+- 1 taza de avena fina o harina integral; comenzar con ¾ y agregar el resto sólo si hace falta
+- 1-2 dientes de ajo picados
+- Sal, pimienta y hierbas a gusto
+
+### Para el relleno
+
+- 150-200 g de jamón cocido natural
+- 150-200 g de queso en fetas
+- 1 taza de espinaca cocida, muy bien escurrida y picada
+- 6-8 tomates secos, previamente hidratados y escurridos
+- ½ taza de aceitunas descarozadas y picadas
+
+### Para terminar
+
+- ½ taza de salsa de tomate
+- 30-50 g de queso rallado
 
 ## Preparación
 
-1. Mezclar pollo con avena y condimentos sin amasar de más.
-2. Extender en rectángulo sobre papel manteca.
-3. Distribuir relleno frío dejando bordes libres.
-4. Enrollar con ayuda del papel y cerrar extremos.
-5. Hornear a 180 °C durante 35-45 minutos, hasta que el centro alcance 74 °C.
-6. Reposar 10 minutos antes de cortar.
+1. Calentar el horno a 180 °C. Cocinar la espinaca, escurrirla muy bien y dejarla enfriar. Hidratar los tomates secos en agua tibia, escurrirlos y picarlos.
+2. En un bowl grande mezclar el pollo picado, los huevos, el ajo, la sal, la pimienta, las hierbas y ¾ de taza de avena. Integrar con las manos sólo hasta unir. Si la mezcla está demasiado húmeda, agregar de a poco el resto de la avena.
+3. Colocar una hoja grande de papel manteca sobre la mesada. Volcar la mezcla y extenderla formando un rectángulo parejo de aproximadamente 1,5 cm de espesor.
+4. Distribuir el jamón, el queso, la espinaca, los tomates secos y las aceitunas sobre el pollo. Dejar 2-3 cm libres en todos los bordes para que el relleno no se escape.
+5. Levantar uno de los lados largos con ayuda del papel y enrollar lentamente, apretando lo justo para que mantenga la forma. Cerrar los extremos con la mezcla de pollo.
+6. Pasar el arrollado a una fuente, sin envolverlo con el papel. Cubrir la parte superior con salsa de tomate.
+7. Hornear durante 35-45 minutos. Está listo cuando el centro alcanza 74 °C o, al pinchar la parte más gruesa, los jugos salen claros y no queda pollo rosado.
+8. Agregar el queso rallado y volver al horno 5-10 minutos, hasta gratinar.
+9. Dejar reposar 10 minutos antes de cortar: así conserva mejor el relleno y no pierde sus jugos.
 
 ## Nutrición aproximada
 
@@ -31,7 +46,7 @@ Por porción: **pendiente de calcular después de confirmar rendimiento y pesos 
 
 ## Versión MatiOS
 
-Se agrega temperatura interna y se empieza con menos avena para evitar un arrollado seco. No hornear solo 25 minutos sin comprobar el centro.
+Se conserva toda la receta original, pero se ordenan las cantidades y el procedimiento. Se empieza con menos avena para evitar un arrollado seco, se aclara que la espinaca y los tomates deben quedar bien escurridos y se incorpora un control seguro de cocción en el centro.
 
 ## Variantes
 
