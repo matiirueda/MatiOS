@@ -14,7 +14,7 @@ Receta curada y corregida para MatiOS.
 - Aproximadamente 150 ml de agua tibia
 - 1 cucharada de aceite suave
 - 1 cucharadita de azúcar para la levadura
-- Edulcorante a gusto
+- Edulcorante equivalente a 40-60 g de azúcar, según el producto
 - ½ cucharadita de sal
 - 1 huevo para pintar
 - Membrillo o dulce de leche para rellenar, opcional
