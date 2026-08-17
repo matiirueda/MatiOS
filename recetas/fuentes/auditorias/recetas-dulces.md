@@ -4,7 +4,7 @@ slug: auditoria-recetas-dulces
 domain: alimentacion
 module: recetario
 type: source-audit
-status: in-progress
+status: completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -44,37 +44,11 @@ La fuente contiene 41 preparaciones o familias de preparaciones. MatiOS conserva
 
 Todas quedan como `🧪 por-probar`, con macros pendientes hasta confirmar pesos y rendimiento.
 
-## Cola de curación
+## Importación completada
 
-- bizcochuelo integral;
-- medialunas integrales;
-- galletitas integrales tipo Cachafaz;
-- lemon pie;
-- budín de banana y coco;
-- avena con leche;
-- helado de banana, yogur y maní;
-- barritas y bombones de chocolate;
-- mantecol casero;
-- budín de naranja;
-- alfajores tipo Chocoarroz;
-- pepas de avena;
-- barritas de cereal;
-- panqueques de avena;
-- panqueques integrales y rellenos;
-- budín de pan integral;
-- bizcocho de manzana;
-- gelatina con yogur;
-- pochoclos;
-- muffins dulces;
-- hot cakes de avena;
-- chocotorta sin harina;
-- alfajores marplatenses;
-- mantequilla de maní casera;
-- mermelada de fruta y chía;
-- galleta XXL;
-- tarta de manzana;
-- panqueques de coco y banana;
-- pasta frola integral.
+Las 29 preparaciones o familias que quedaban pendientes fueron curadas. La página de mantequilla de maní y mermelada se dividió en dos fichas porque son bases independientes; por eso la segunda tanda produjo 30 archivos canónicos.
+
+El PDF queda completamente procesado: 42 fichas creadas a partir de 41 preparaciones o familias inventariadas.
 
 ## Decisiones editoriales
 
@@ -102,9 +76,17 @@ Todas quedan como `🧪 por-probar`, con macros pendientes hasta confirmar pesos
 
 La lectura de etiquetas, el orden descendente de ingredientes y la diferencia entre declaraciones comerciales ya pertenecen a la guía de alacena. No se duplican en todas las recetas; dentro de cada ficha solo se conserva la advertencia específica que cambia la elección o la técnica.
 
-## Próximo criterio de prioridad
+## Correcciones aplicadas
 
-1. preparaciones que Mati probablemente usaría para sumar calorías y proteína: budines, helado, avena, panqueques y muffins;
-2. bases reutilizables: mantequilla de maní y mermelada con chía;
-3. productos que se congelan bien: bizcochuelo, galletitas, budines y alfajores;
-4. recetas que requieren corrección técnica antes de entrar: lemon pie y mantecol.
+- Lemon pie: crema cocida a temperatura segura y merengue suizo con claras pasteurizadas; alternativa simple con yogur.
+- Mantecol: almíbar a 118 °C incorporado a clara pasteurizada; se elimina el método ambiguo por minutos.
+- Gelatina con yogur: cuajado en heladera, no freezer.
+- Mermelada con chía: tratada como preparación de heladera/freezer, no conserva de alacena.
+- Pochoclos: se descartan equivalencias incorrectas de peso, volumen y calorías.
+- Pasta frola: se reduce el relleno para un molde de 20 cm.
+- Mantequilla de maní: el aceite pasa a ser excepcional, porque el maní libera el propio.
+- Muffins y budines: tiempos e hidratación se expresan como rangos verificables.
+
+## Estado final
+
+Fuente completamente curada. Las recetas siguen como `🧪 por-probar`: “completa” significa que fueron importadas y corregidas editorialmente, no que Matías ya las cocinó.
