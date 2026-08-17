@@ -19,11 +19,16 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cortar zapallitos al medio, ahuecar y reservar pulpa.
-2. Rehogar aromáticos, agregar carne y cocinar completamente.
-3. Sumar pulpa y tomate; reducir bien el líquido y condimentar.
-4. Rellenar los zapallitos.
-5. Cubrir con salsa y cocinar en horno a 180 °C durante 30-40 minutos; gratinar al final.
+1. Calentar el horno a 180 °C. Lavar los zapallitos, cortarles una lámina fina en la base si se mueven y luego cortarlos a la mitad.
+2. Retirar la pulpa con una cucharita dejando paredes de aproximadamente 1 cm. Picar la pulpa y reservarla.
+3. Picar cebolla, morrón, ajo, zanahoria y tomate. Calentar el aceite en una sartén grande.
+4. Cocinar cebolla, morrón y zanahoria 5-7 minutos. Agregar el ajo durante el último minuto.
+5. Incorporar la carne, separarla con cuchara y cocinar hasta que no queden zonas rosadas.
+6. Agregar la pulpa de zapallito y el tomate. Condimentar y cocinar destapado hasta que se evapore casi todo el líquido. Este paso es clave para que el relleno no quede aguado.
+7. Distribuir parte de la salsa roja en una fuente. Acomodar las mitades y rellenarlas sin compactar.
+8. Cubrir con el resto de la salsa, tapar la fuente y hornear 25 minutos.
+9. Destapar, agregar queso si se usa y cocinar 10-15 minutos más. Están listos cuando un cuchillo atraviesa fácilmente la pared del zapallito.
+10. Reposar 5 minutos antes de servir.
 
 ## Nutrición aproximada
 
