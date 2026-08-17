@@ -13,7 +13,7 @@ Receta salada curada y adaptada al formato MatiOS.
 - 50 g de harina integral
 - 1 cucharada de aceite
 - 1 cucharada de polvo de hornear
-- Agua, cantidad necesaria
+- 100-160 ml de agua tibia; comenzar con 100 ml
 - Sal, especias y semillas
 
 ## Preparación
