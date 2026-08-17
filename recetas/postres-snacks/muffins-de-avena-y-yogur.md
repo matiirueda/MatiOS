@@ -14,7 +14,7 @@ Receta curada y corregida para MatiOS.
 - 1 taza de avena fina
 - 2 cucharadas de queso crema
 - 1 cucharada de polvo de hornear
-- Edulcorante a gusto
+- Edulcorante equivalente a 50-70 g de azúcar, según el producto
 - Fruta, cacao, coco o chocolate picado, opcionales
 
 ## Preparación
