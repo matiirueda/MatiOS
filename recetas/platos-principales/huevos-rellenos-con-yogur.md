@@ -17,10 +17,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cocinar los huevos hasta que yema y clara estén firmes; enfriar rápidamente y pelar.
-2. Cortar al medio y retirar yemas.
-3. Mezclar yemas, yogur, mostaza y condimentos.
-4. Rellenar las claras y refrigerar hasta servir.
+1. Colocar los huevos en una olla pequeña y cubrirlos con agua fría por 2-3 cm.
+2. Llevar a hervor. Cuando el agua hierva, bajar apenas el fuego y cocinar 10 minutos para que la yema quede completamente firme.
+3. Pasarlos de inmediato a un bowl con agua fría o con hielo durante 5 minutos. Este corte de cocción ayuda a pelarlos y evita que la yema se oscurezca.
+4. Golpear suavemente la cáscara, pelar y enjuagar para retirar restos. Secar con papel.
+5. Cortar cada huevo a lo largo. Retirar las yemas con una cucharita sin romper las claras.
+6. Pisar las yemas hasta que no queden grumos. Mezclar con el yogur y la mostaza; condimentar con sal, pimienta y la hierba elegida.
+7. Si el relleno quedó muy firme, agregar 1 cucharadita extra de yogur. Debe quedar cremoso pero mantener la forma.
+8. Rellenar las cuatro mitades con cuchara o manga. Terminar con perejil, ciboulette o pimentón.
+9. Mantener refrigerados y servir fríos. No dejarlos a temperatura ambiente por más de 2 horas.
 
 ## Nutrición aproximada
 
