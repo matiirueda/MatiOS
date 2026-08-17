@@ -10,16 +10,19 @@ Receta curada y corregida para MatiOS.
 ## Ingredientes
 
 - 6 galletas de arroz
-- Mantequilla de maní o dulce de leche, cantidad medida
+- 3 cucharadas de mantequilla de maní o dulce de leche
 - 60-80 g de chocolate con 60% de cacao o más
 - Maní picado, opcional
 
 ## Preparación
 
-1. Rellenar las galletas y formar tres alfajores.
-2. Derretir el chocolate en intervalos breves, mezclando cada vez.
-3. Bañar o pincelar los alfajores.
-4. Agregar maní picado y enfriar hasta que el chocolate esté firme.
+1. Elegir seis galletas enteras. Distribuir 1 cucharada de relleno sobre tres de ellas sin llegar al borde.
+2. Cubrir con las otras galletas y presionar muy suavemente; son frágiles y pueden quebrarse.
+3. Picar el chocolate para que se derrita parejo. Colocarlo en un bowl seco apto para microondas.
+4. Calentar 15 segundos, mezclar y repetir hasta que queden sólo pequeños trozos. Terminar de fundir con el calor residual.
+5. Bañar cada alfajor con ayuda de dos tenedores o pincelar ambas caras para usar menos chocolate. Dejar escurrir el excedente.
+6. Colocar sobre papel manteca y agregar maní picado antes de que el chocolate se endurezca.
+7. Refrigerar 15-20 minutos, hasta que la cobertura esté firme. Evitar el freezer prolongado porque ablanda las galletas al descongelar.
 
 ## Nutrición aproximada
 
