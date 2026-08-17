@@ -9,16 +9,40 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Ingredientes
 
-- Remolacha: 4 remolachas cocidas, aceite, limón, ajo y sal
-- Zanahoria: 4 zanahorias cocidas, aceite, limón, ajo, sal y 1 cucharada de queso crema
-- Palta: 1 palta, limón, ajo, sal y 1 cucharada de queso crema
+### Dip de remolacha
+
+- 4 remolachas pequeñas cocidas, peladas y frías
+- 1 cucharada de aceite de oliva
+- 1-2 cucharadas de jugo de limón
+- ½ diente de ajo
+- ¼ cucharadita de sal
+
+### Dip de zanahoria
+
+- 4 zanahorias medianas cocidas y frías
+- 1 cucharada de aceite de oliva
+- 1-2 cucharadas de jugo de limón
+- ½ diente de ajo
+- 1 cucharada de queso crema
+- ¼ cucharadita de sal
+
+### Dip de palta
+
+- 1 palta grande madura
+- 1 cucharada de jugo de limón
+- ¼-½ diente de ajo
+- 1 cucharada de queso crema
+- ¼ cucharadita de sal
 
 ## Preparación
 
-1. Elegir una variante.
-2. Procesar los ingredientes hasta obtener textura cremosa.
-3. Ajustar limón, sal y líquido de a poco.
-4. Refrigerar en recipiente cerrado; cubrir la palta al ras para reducir oxidación.
+1. Elegir una variante. La remolacha y la zanahoria deben estar completamente tiernas al pincharlas y frías antes de procesar.
+2. Secar el exceso de humedad de los vegetales. Cortarlos en trozos para no forzar la procesadora.
+3. Procesar primero el vegetal elegido con la cantidad menor de limón, el ajo y la sal.
+4. Agregar el aceite y, en las variantes indicadas, el queso crema. Procesar hasta que no queden trozos grandes.
+5. Detener la máquina, raspar los bordes y probar. Ajustar limón y sal de a poco.
+6. Si el dip está demasiado espeso, agregar agua fría de a 1 cucharadita; no volcar mucha de una vez.
+7. Pasar a un recipiente limpio y refrigerar. En el dip de palta, apoyar film o una tapa reutilizable directamente sobre la superficie para reducir el contacto con el aire.
 
 ## Nutrición aproximada
 
