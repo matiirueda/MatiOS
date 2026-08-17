@@ -14,14 +14,18 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 2 cucharadas de avena
 - 1 cucharada de cacao amargo
 - Edulcorante a gusto
-- Un chorrito de leche si hace falta
+- 1-2 cucharadas de leche, sólo si hace falta
 
 ## Preparación
 
-1. Mezclar todos los ingredientes hasta que no queden grumos.
-2. Dividir entre dos tazas aptas para microondas sin llenarlas demasiado.
-3. Cocinar primero 60-90 segundos y sumar intervalos de 15 segundos hasta que el huevo esté cocido sin secarlo.
-4. Dejar reposar 1 minuto antes de comer.
+1. Elegir dos tazas de al menos 250 ml aptas para microondas. No usar recipientes con detalles metálicos.
+2. Batir huevo y clara en un bowl hasta que no queden partes separadas.
+3. Agregar avena, cacao y edulcorante. Mezclar bien, especialmente el fondo.
+4. Si la preparación está demasiado espesa, incorporar leche de a 1 cucharada. Debe caer lentamente de la cuchara.
+5. Dividir entre las tazas sin superar la mitad de su capacidad porque crecerá durante la cocción.
+6. Cocinar una taza por vez durante 60 segundos. Revisar el centro y continuar en intervalos de 10-15 segundos.
+7. Está listo cuando la superficie ya no tiene mezcla líquida y el centro rebota suavemente al tocarlo. No seguir cocinando una vez firme porque se seca rápido.
+8. Reposar 1 minuto: continúa cocinándose con el calor acumulado. Comer tibio con cuidado porque el interior estará caliente.
 
 ## Nutrición aproximada
 
