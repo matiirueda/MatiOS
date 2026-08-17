@@ -18,12 +18,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar secos y aceite.
-2. Agregar agua gradualmente hasta formar una masa.
-3. Reposar tapada 20 minutos.
-4. Estirar, cortar tiras parejas y agregar semillas presionándolas.
-5. Hornear unos 15-20 minutos a 180 °C hasta que estén secos y crocantes.
-6. Enfriar en rejilla.
+1. Calentar el horno a 180 °C y preparar una placa con papel manteca.
+2. Mezclar harina de avena, harina integral, polvo de hornear, ½ cucharadita de sal y las especias elegidas.
+3. Agregar el aceite y mezclar. Incorporar agua tibia de a 1 cucharada hasta que no quede harina seca y se forme una masa suave que no se pegue. Registrar la cantidad usada para la próxima preparación.
+4. Amasar sólo 2-3 minutos, hasta unir. Tapar y reposar 20 minutos para que las harinas absorban el agua.
+5. Estirar entre dos papeles hasta obtener un rectángulo de 3-4 mm de espesor. Retirar el papel superior.
+6. Agregar semillas y pasar suavemente el palo de amasar para adherirlas.
+7. Cortar tiras de 1 cm de ancho y largos parejos. Separarlas apenas en la placa; si se desean retorcidas, girar cada tira con cuidado.
+8. Hornear 15-20 minutos, girando la placa a mitad de cocción. Deben sentirse secos y tener bordes dorados.
+9. Pasar a una rejilla y enfriar completamente. Si el centro sigue blando al enfriarse, devolverlos al horno bajo 5 minutos.
 
 ## Nutrición aproximada
 
