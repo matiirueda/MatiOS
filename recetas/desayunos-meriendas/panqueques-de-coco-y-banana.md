@@ -19,10 +19,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Procesar o mezclar todos los ingredientes.
-2. Reposar 5-10 minutos para hidratar avena y coco.
-3. Cocinar porciones en sartén antiadherente a fuego medio-bajo.
-4. Dar vuelta cuando los bordes estén firmes y terminar la cocción.
+1. Pisar la banana hasta obtener un puré. Agregar huevo, clara, leche, vainilla o canela y batir.
+2. Incorporar avena, coco y endulzante si se usa. Mezclar hasta que no queden partes secas.
+3. Reposar 5-10 minutos para hidratar avena y coco. La mezcla debe ser espesa pero caer de la cuchara; agregar 1 cucharada de leche si hace falta.
+4. Calentar una sartén antiadherente a fuego medio-bajo y aceitarla apenas.
+5. Para cuatro unidades, colocar ¼ de la mezcla por vez y formar discos pequeños. Son más fáciles de dar vuelta que dos panqueques grandes.
+6. Cocinar 2-3 minutos, hasta que los bordes estén firmes y la base dorada.
+7. Dar vuelta con espátula y cocinar 1-2 minutos más. El centro debe quedar firme, sin mezcla húmeda.
+8. Bajar el fuego si el coco se dora antes de que el interior se cocine.
 
 ## Nutrición aproximada
 
