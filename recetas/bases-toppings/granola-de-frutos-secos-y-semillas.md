@@ -16,7 +16,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 3 cucharadas de semillas de zapallo
 - 8 cucharadas de quinoa inflada
 - 3 cucharadas de coco
-- 10 cucharadas de cereal con fibra, a definir
+- 10 cucharadas de copos integrales sin azúcar; también pueden reemplazarse por más quinoa inflada
 - 2 cucharadas de miel
 
 ## Preparación
