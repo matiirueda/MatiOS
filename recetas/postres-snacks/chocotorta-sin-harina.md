@@ -16,7 +16,8 @@ Receta curada y corregida para MatiOS.
 - 100 g de chocolate semiamargo
 - 1 cucharada de aceite
 - 1 cucharada de polvo de hornear
-- Vainilla y edulcorante a gusto
+- 1 cucharadita de vainilla
+- Edulcorante equivalente a 60-80 g de azúcar, según el producto
 
 ### Para el relleno
 
