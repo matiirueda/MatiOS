@@ -13,7 +13,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 1 clara
 - 2 cucharadas de avena
 - 1 cucharada de cacao amargo
-- Edulcorante a gusto
+- Edulcorante equivalente a 1-2 cucharadas de azúcar, según el producto
 - 1-2 cucharadas de leche, sólo si hace falta
 
 ## Preparación
