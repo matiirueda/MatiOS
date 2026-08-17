@@ -17,11 +17,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Cortar la fruta y cocinar con agua a fuego bajo 15-20 minutos.
-2. Pisar hasta la textura deseada.
-3. Agregar chía y cocinar 3-5 minutos más.
-4. Enfriar rápidamente y pasar a un frasco limpio.
-5. Refrigerar; no tratarla como conserva estable porque no fue envasada con proceso de conserva.
+1. Lavar la fruta, retirar cabos, carozos o partes dañadas y cortarla en trozos de 1-2 cm.
+2. Colocarla en una olla pequeña con 2 cucharadas de agua. Reservar el resto para agregar sólo si la fruta se pega o es poco jugosa.
+3. Cocinar a fuego bajo 15-20 minutos, revolviendo cada pocos minutos, hasta que la fruta esté blanda y haya liberado jugo.
+4. Pisar con tenedor o pisapapas. Para una textura lisa, procesar brevemente fuera del fuego y volver a la olla.
+5. Agregar la chía y cocinar 3-5 minutos mientras se revuelve. La mezcla todavía estará algo líquida: espesará al enfriarse.
+6. Probar con una cuchara limpia y agregar limón o endulzante sólo si hace falta.
+7. Pasar a un recipiente bajo y limpio para que pierda temperatura más rápido. Refrigerar cuando deje de humear.
+8. Guardar en un frasco limpio y cerrado. No conservar a temperatura ambiente: esta preparación no recibió un proceso seguro de envasado.
 
 ## Nutrición aproximada
 
