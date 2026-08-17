@@ -20,12 +20,16 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cortar calabaza al medio, retirar semillas y hornear boca abajo 30-45 minutos hasta tierna pero firme.
-2. Retirar parte de la pulpa dejando borde.
-3. Rehogar aromáticos, agregar carne y cocinar completamente.
-4. Sumar tomate, espinaca y pulpa; reducir el líquido y condimentar.
-5. Rellenar, cubrir opcionalmente con queso y pan rallado.
-6. Hornear 20-25 minutos a 180 °C.
+1. Calentar el horno a 200 °C. Lavar la calabaza, cortarla a lo largo y retirar semillas e hilos con una cuchara.
+2. Colocar las mitades boca abajo en una fuente apenas aceitada. Hornear 30-45 minutos: la pulpa debe poder retirarse con cuchara, pero la cáscara tiene que conservar la forma.
+3. Mientras se cocina, picar cebolla, morrón, ajo, zanahoria y tomate. Lavar la espinaca y cortarla en tiras.
+4. Calentar el aceite en una sartén grande. Cocinar cebolla, morrón y zanahoria 5-7 minutos, hasta que comiencen a ablandarse. Agregar el ajo durante el último minuto.
+5. Incorporar la carne, separarla con cuchara y cocinar hasta que no queden partes rosadas. Condimentar con pimentón, comino, sal y pimienta.
+6. Retirar la calabaza del horno. Sacar parte de la pulpa sin romper la cáscara y dejando un borde de aproximadamente 1 cm.
+7. Agregar a la sartén el tomate, la espinaca y la pulpa picada. Cocinar destapado hasta que el relleno quede húmedo pero sin líquido suelto.
+8. Probar y corregir los condimentos. Repartir el relleno entre las dos mitades y, si se desea, terminar con queso y una capa fina de pan rallado.
+9. Bajar el horno a 180 °C y cocinar 20-25 minutos, hasta que la calabaza esté completamente tierna y el centro del relleno bien caliente. Gratinar 2-3 minutos al final si hace falta.
+10. Reposar 5 minutos antes de cortar o servir.
 
 ## Nutrición aproximada
 
