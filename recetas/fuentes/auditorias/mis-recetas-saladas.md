@@ -4,7 +4,7 @@ slug: auditoria-mis-recetas-saladas
 domain: alimentacion
 module: recetario
 type: source-audit
-status: detailed-review-in-progress
+status: detailed-review-completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -86,8 +86,8 @@ No se duplicaron los rellenos dulces/salados que ya existían por otra fuente; s
 
 ## Estado editorial actual
 
-El inventario y la separación en fichas están completos, pero la auditoría detallada continúa. “Importada” no significa “lista para principiantes”.
+El inventario, la separación y la auditoría detallada de las fichas nuevas están completos. “Importada” ya no significa solamente que existe un archivo: cada receta nueva debe poder seguirse sin consultar el PDF.
 
-Las 17 fichas nuevas de platos principales ya fueron reescritas con procedimientos detallados. Las bases saladas y desayunos relacionados todavía deben pasar el mismo control contra la fuente.
+Se reescribieron las 17 fichas nuevas de platos principales y las 19 fichas nuevas de bases y desayunos relacionados. Se agregaron cantidades, preparativos, orden de trabajo, señales de cocción, controles de humedad, reposos y advertencias prácticas.
 
 Todas siguen como `🧪 por-probar` hasta cocinar, pesar rendimiento y completar macros.
