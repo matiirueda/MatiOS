@@ -19,12 +19,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Cortar el pan; no es necesario descartar toda la corteza si está tierna.
-2. Calentar la leche, verter sobre el pan y dejar hidratar 15 minutos.
-3. Desarmar y mezclar con yemas, endulzante, vainilla y ralladura; dejar entibiar.
-4. Batir claras a espuma firme e incorporar de forma envolvente.
-5. Volcar en molde aceitado y hornear 45 minutos a 170 °C, hasta que el centro esté cocido.
-6. Enfriar antes de desmoldar.
+1. Calentar el horno a 170 °C. Aceitar un molde de 22-24 cm o una budinera grande.
+2. Cortar el pan en cubos de 2-3 cm. Conservar la corteza si está tierna; retirar sólo partes excesivamente duras.
+3. Calentar la leche hasta que largue vapor, sin hervir. Volcar sobre el pan y dejar hidratar 15-20 minutos.
+4. Desarmar con tenedor o mixer según se prefiera textura rústica o lisa.
+5. Agregar yemas, edulcorante, vainilla, ralladura y frutos secos. Dejar entibiar antes de sumar las claras.
+6. En un bowl limpio batir las claras hasta que formen picos firmes pero todavía brillantes.
+7. Incorporar primero un tercio para aligerar y luego el resto con movimientos envolventes.
+8. Volcar en el molde y alisar. Hornear 45-60 minutos, hasta que el centro esté firme y un cuchillo salga sin mezcla líquida.
+9. Enfriar al menos 20 minutos antes de desmoldar. Para cortes prolijos, refrigerar una vez frío.
 
 ## Nutrición aproximada
 
