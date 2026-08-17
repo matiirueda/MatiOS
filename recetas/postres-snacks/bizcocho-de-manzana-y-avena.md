@@ -14,7 +14,7 @@ Receta curada y corregida para MatiOS.
 - 1 huevo
 - 1 cucharada de polvo de hornear
 - Canela o vainilla
-- Frutos secos a gusto
+- 2 cucharadas de frutos secos picados, opcionales
 
 ## Preparación
 
