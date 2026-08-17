@@ -80,6 +80,34 @@ MatiOS Core / Planificador
 
 OpenSandbox debe ubicarse fuera de los servicios productivos. Los sandboxes tendrían permisos mínimos, TTL, cuotas y acceso de red explícitamente limitado.
 
+## Relación con Railway DEV y PROD
+
+OpenSandbox **no reemplaza** los ambientes DEV y PROD persistentes previstos en Railway. Las tres capas cumplen responsabilidades distintas y se complementan:
+
+| Capa | Duración | Responsabilidad |
+|---|---|---|
+| OpenSandbox | Temporal y descartable | El agente modifica código, instala dependencias, ejecuta tests y valida una tarea con permisos mínimos. |
+| Railway DEV | Persistente | Integra y prueba la aplicación completa con API, bot, n8n, PostgreSQL, pgvector y credenciales exclusivamente DEV. |
+| Railway PROD | Persistente | Ejecuta la versión aprobada para uso real con servicios, datos y credenciales de producción. |
+
+El flujo de promoción recomendado es:
+
+```text
+OpenSandbox
+    ↓ código + tests + pull request
+Railway DEV
+    ↓ validación integral + aprobación humana
+Railway PROD
+```
+
+Reglas:
+
+- OpenSandbox no debe conectarse directamente a Railway PROD.
+- DEV y PROD deben conservar instancias separadas de API/bot, PostgreSQL, pgvector, n8n, datos y credenciales.
+- El mismo artefacto o commit validado en DEV debe promoverse a PROD; no se reconstruye manualmente un cambio distinto.
+- La destrucción del sandbox no afecta DEV ni PROD.
+- OpenSandbox puede reemplazar un entorno local temporal usado para programar o probar, pero no los servicios persistentes desplegados en Railway.
+
 ## Caso de uso principal para MatiOS
 
 ### Trabajo autónomo nocturno
