@@ -4,7 +4,7 @@ slug: auditoria-recetas-dulces
 domain: alimentacion
 module: recetario
 type: source-audit
-status: detailed-review-pending
+status: detailed-review-completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -89,6 +89,8 @@ La lectura de etiquetas, el orden descendente de ingredientes y la diferencia en
 
 ## Estado editorial actual
 
-El inventario y la separación en fichas están completos. La revisión detallada para principiantes todavía está pendiente y debe comparar cada ficha con su página de origen.
+El inventario, la separación y la revisión detallada para principiantes están completos para las 35 fichas nuevas de esta importación.
 
-Hasta completar esa revisión no se considera que las recetas estén terminadas. Todas siguen como `🧪 por-probar`.
+Se normalizaron cantidades, tamaños de molde, consistencia esperada, señales de cocción, técnicas de enfriado y pasos sensibles como derretir chocolate, trabajar almíbar y usar microondas.
+
+Las recetas están completas editorialmente, pero siguen como `🧪 por-probar` hasta cocinar, confirmar rendimiento y completar macros.
