@@ -19,12 +19,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Rehogar cebolla y morrón; sumar hojas picadas y cocinar.
-2. Escurrir si quedó líquido.
-3. Agregar ricota y condimentos.
-4. Incorporar el huevo y cocinar revolviendo hasta que la mezcla alcance 74 °C; enfriar.
-5. Rellenar las fetas y enrollar.
-6. Servir fríos o cubrir con salsa y gratinar.
+1. Lavar las hojas, retirar los tallos más gruesos y cortarlas en tiras. Picar cebolla y morrón.
+2. Cocinar cebolla y morrón en una sartén amplia durante 5-7 minutos. Agregar las hojas y cocinar hasta que se ablanden.
+3. Pasar la preparación a un colador y presionar para eliminar todo el líquido posible. Si queda agua, el relleno se escapará y los canelones quedarán blandos.
+4. Volver a la sartén, agregar la ricota, nuez moscada, pimienta y, si se usan, queso rallado y nueces picadas. Mezclar y probar antes de agregar sal, porque el jamón ya aporta bastante.
+5. Batir el huevo, incorporarlo y cocinar a fuego bajo mientras se revuelve hasta que la mezcla espese y alcance 74 °C. Retirar y enfriar completamente.
+6. Extender una feta de jamón y colocar 2-3 cucharadas de relleno cerca de un extremo, sin llegar a los bordes.
+7. Enrollar con cuidado y colocar con el cierre hacia abajo. Repetir con las ocho fetas.
+8. Para servir calientes, cubrir una fuente con salsa, acomodar los rollos y agregar más salsa por encima. Hornear 15-20 minutos a 180 °C y gratinar al final.
+9. Para servir fríos, refrigerar al menos 30 minutos y mantenerlos fríos hasta el momento de comer.
 
 ## Nutrición aproximada
 
