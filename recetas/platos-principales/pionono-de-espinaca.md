@@ -16,11 +16,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cocinar las hojas, enfriar y exprimir muy bien.
-2. Procesar con huevos, claras y condimentos.
-3. Cocinar tres panqueques gruesos en sartén antiadherente a fuego medio-bajo.
-4. Enfriar sobre papel o paño limpio.
-5. Rellenar, enrollar y refrigerar antes de cortar.
+1. Lavar bien las hojas. Cocinarlas sólo hasta que se ablanden: 2-3 minutos en una olla tapada con el agua del lavado, o 1-2 minutos en agua hirviendo.
+2. Pasarlas a agua fría, escurrir y exprimir muy bien con las manos o dentro de un paño. Si conservan agua, los discos se romperán.
+3. Picar las hojas y procesarlas con los huevos, las claras, sal, pimienta y nuez moscada hasta obtener una mezcla uniforme.
+4. Calentar una sartén antiadherente de 20-22 cm a fuego medio-bajo y aceitarla apenas.
+5. Volcar un tercio de la mezcla y mover la sartén para formar un disco parejo de 3-4 mm. Cocinar tapado hasta que la superficie se vea firme y los bordes se despeguen.
+6. Dar vuelta con una espátula ancha o con ayuda de un plato y cocinar 1-2 minutos del otro lado. Repetir hasta obtener tres discos.
+7. Enfriarlos extendidos y separados por papel manteca o un paño limpio; no apilarlos calientes porque acumulan humedad.
+8. Distribuir el relleno frío dejando 2 cm libres en el borde final. Enrollar con firmeza pero sin apretar hasta romper.
+9. Envolver cada rollo y refrigerar al menos 30 minutos antes de cortar con cuchillo afilado.
 
 ## Nutrición aproximada
 

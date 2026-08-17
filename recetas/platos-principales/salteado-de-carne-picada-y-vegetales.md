@@ -21,12 +21,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Rehogar cebolla y morrón.
-2. Agregar carne y cocinar completamente, separándola.
-3. Sumar calabaza primero; luego zapallitos y acelga.
-4. Agregar salsa y cocinar hasta integrar.
-5. Hacer huecos, añadir huevos y cocinar tapado hasta que claras y yemas alcancen el punto deseado; para meal prep, cocinarlos completamente.
-6. Servir.
+1. Picar cebolla y morrón. Cortar los zapallitos y la calabaza en cubos de 1,5-2 cm. Separar las pencas de la acelga de las hojas y picarlas por separado.
+2. Calentar el aceite en una sartén amplia o wok. Cocinar cebolla, morrón y pencas de acelga durante 5-6 minutos.
+3. Agregar la carne picada en trozos. Dejarla quieta 1-2 minutos para que dore y luego separarla con una cuchara.
+4. Cocinar hasta que no queden partes rosadas y el líquido se evapore. Condimentar con sal y pimienta.
+5. Incorporar la calabaza con 2-3 cucharadas de agua, tapar y cocinar 6-8 minutos, hasta que comience a ablandarse.
+6. Agregar los zapallitos y cocinar destapado 4-5 minutos. Deben quedar tiernos pero no desarmados.
+7. Sumar las hojas de acelga y la salsa roja. Mezclar y cocinar hasta que las hojas bajen y no quede agua suelta en el fondo.
+8. Hacer dos huecos, cascar un huevo en cada uno y tapar. Cocinar a fuego bajo hasta que las claras estén firmes. Para guardar o recalentar, cocinar también las yemas por completo.
+9. Probar, ajustar condimentos y servir. Si se preparará para varios días, es preferible cocinar los huevos aparte al momento de comer.
 
 ## Nutrición aproximada
 

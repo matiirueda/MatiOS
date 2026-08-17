@@ -19,10 +19,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cortar tapas y vaciar los tomates; salar apenas y dejarlos boca abajo para escurrir.
-2. Mezclar pollo, choclo, zanahoria, morrón, cebolla y aderezo.
-3. Rellenar justo antes de servir.
-4. Mantener refrigerados.
+1. Usar pollo ya cocido y frío. Si se cocina especialmente para esta receta, comprobar que llegue a 74 °C en el centro, enfriarlo rápidamente y desmenuzarlo.
+2. Lavar y secar los tomates. Cortar una tapa fina en la parte superior y retirar pulpa y semillas con una cucharita, sin perforar las paredes.
+3. Salar apenas el interior y colocarlos boca abajo sobre papel absorbente durante 10-15 minutos. Este paso evita que liberen demasiada agua.
+4. Picar muy fino el morrón y la cebolla. Si la cebolla resulta fuerte, dejarla 5 minutos en agua fría y escurrirla bien.
+5. En un bowl mezclar el pollo, el choclo, la zanahoria, el morrón, la cebolla y el perejil.
+6. Agregar primero la mitad del aceite o del aderezo y mezclar. Sumar el resto sólo si hace falta: el relleno debe quedar unido, no líquido.
+7. Probar y ajustar sal y pimienta. Secar nuevamente el interior de los tomates si acumularon agua.
+8. Rellenar sin presionar demasiado y colocar las tapas. Refrigerar hasta servir.
+9. Para mejor textura, rellenarlos como máximo 2-3 horas antes de comer; con más tiempo el tomate comienza a soltar agua.
 
 ## Nutrición aproximada
 

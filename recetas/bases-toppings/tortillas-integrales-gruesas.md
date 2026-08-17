@@ -18,11 +18,16 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar harina, polvo de hornear y sal.
-2. Agregar aceite y luego agua gradualmente hasta formar una masa suave.
-3. Amasar 5 minutos y reposar tapada 20 minutos.
-4. Dividir y estirar discos de 4-6 mm; el centímetro indicado en la fuente puede dejarlos crudos.
-5. Cocinar 2-3 minutos por lado en sartén a fuego medio hasta que el centro esté cocido.
+1. Mezclar harina integral, polvo de hornear, sal y las semillas o hierbas elegidas.
+2. Agregar el aceite y frotar con los dedos para distribuirlo. Incorporar ½ taza de agua tibia y mezclar.
+3. Agregar el resto del agua de a 1 cucharada hasta formar una masa suave que no se desarme ni se pegue en exceso.
+4. Amasar 5 minutos, hasta que se vea más lisa. Tapar y reposar 20 minutos para relajar el gluten.
+5. Dividir en ocho porciones iguales y mantenerlas tapadas. Formar bollos.
+6. Estirar cada bollo sobre una superficie apenas enharinada hasta obtener discos de 4-6 mm.
+7. Calentar una sartén pesada a fuego medio durante 3-4 minutos; no debe humear.
+8. Cocinar una tortilla 2-3 minutos, hasta que aparezcan burbujas y la base tenga manchas doradas. Dar vuelta y cocinar otros 2 minutos.
+9. Abrir la primera para comprobar que el centro no esté crudo. Ajustar fuego o espesor antes de cocinar las demás.
+10. Apilarlas bajo un paño limpio para mantenerlas flexibles.
 
 ## Nutrición aproximada
 

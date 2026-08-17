@@ -17,9 +17,14 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Elegir un vaso o frasco individual.
-2. Alternar capas de yogur, fruta y un topping cremoso.
-3. Terminar con granola, coco, frutos secos o chocolate justo antes de comer.
+1. Elegir un vaso o frasco de 250-300 ml, limpio y seco.
+2. Lavar y secar la fruta. Cortarla en trozos pequeños justo antes de armar para que no libere demasiado jugo.
+3. Colocar en el fondo 2 cucharadas de yogur y alisar.
+4. Agregar la mitad de la fruta y, si se usa, la mitad del dulce de leche, mantequilla de maní o chocolate.
+5. Repetir con el yogur y la fruta restantes. No mezclar si se quiere conservar el efecto de capas.
+6. Si se prepara con anticipación, tapar y refrigerar sin la granola ni los frutos secos.
+7. Agregar granola, coco y frutos secos justo antes de comer para que permanezcan crocantes.
+8. Consumir el mismo día si lleva fruta cortada; mantener siempre refrigerado.
 
 ## Nutrición aproximada
 

@@ -18,11 +18,14 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar ingredientes secos.
-2. Agregar quesos y aceite; unir sin amasar de más.
-3. Estirar a 1 cm, cortar y pinchar.
-4. Hornear 20-25 minutos a 180 °C hasta dorar.
-5. Enfriar en rejilla.
+1. Calentar el horno a 180 °C y cubrir una placa con papel manteca.
+2. Mezclar harina, polvo de hornear, sal y condimentos. Distribuir bien el leudante para evitar zonas amargas.
+3. Agregar queso crema, queso rallado y aceite. Mezclar con cuchara y luego unir con las manos.
+4. No amasar como pan: presionar sólo hasta formar una masa. Si queda demasiado seca para unirse, agregar agua de a 1 cucharadita.
+5. Estirar entre dos papeles hasta 1 cm de espesor. Cortar piezas iguales para que se cocinen al mismo tiempo.
+6. Pasarlas a la placa, separarlas y pinchar el centro con tenedor para controlar el inflado.
+7. Hornear 20-25 minutos, girando la placa a mitad de cocción. Deben quedar dorados en bordes y base y sentirse firmes.
+8. Enfriar por completo sobre rejilla. Al salir del horno todavía estarán algo tiernos y ganarán firmeza al enfriarse.
 
 ## Nutrición aproximada
 

@@ -11,16 +11,19 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 - 200 g de coco rallado
 - 4 huevos
-- Edulcorante a gusto
-- Leche, solo si hace falta para unir
+- Edulcorante equivalente a 80-100 g de azúcar, según el producto
+- 1-4 cucharadas de leche, sólo si hace falta para unir
 
 ## Preparación
 
-1. Mezclar coco, huevos y edulcorante.
-2. Reposar 30 minutos en heladera para hidratar el coco.
-3. Si no se une, agregar leche de a una cucharada.
-4. Compactar en un molde forrado con papel manteca.
-5. Hornear unos 20 minutos a 180 °C, hasta que esté firme y dorada.
+1. Batir los huevos con el edulcorante sólo hasta unir clara y yema.
+2. Agregar el coco en dos tandas y mezclar hasta humedecerlo por completo.
+3. Cubrir y refrigerar 30 minutos para que el coco absorba el líquido.
+4. Calentar el horno a 180 °C y forrar un molde de 20 cm con papel manteca.
+5. Revisar la mezcla: debe poder compactarse con una cuchara. Si se desarma, agregar leche de a 1 cucharada y mezclar antes de sumar otra.
+6. Volcar en el molde y presionar de manera pareja, especialmente en los bordes. Alisar la superficie.
+7. Hornear 18-25 minutos. Está lista cuando la superficie está dorada, el centro se ve firme y no se mueve como líquido al sacudir suavemente el molde.
+8. Enfriar 15 minutos antes de desmoldar y por completo antes de cortar, porque caliente es frágil.
 
 ## Nutrición aproximada
 

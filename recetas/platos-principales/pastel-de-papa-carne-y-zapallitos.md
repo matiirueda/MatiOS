@@ -19,12 +19,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Rehogar cebolla y morrón; agregar carne y cocinar completamente.
-2. Hervir papas y hacer puré con leche, aceite y condimentos.
-3. Rallar zapallitos, salar 10 minutos y exprimir muy bien; mezclar con huevos.
-4. Armar capas de carne, puré y zapallitos.
-5. Agregar queso y hornear 30-40 minutos a 180 °C.
-6. Reposar 10 minutos antes de cortar.
+1. Pelar las papas, cortarlas en cubos parejos y colocarlas en una olla con agua fría y sal. Hervir 15-20 minutos, hasta que se desarmen al pincharlas.
+2. Escurrirlas muy bien y pisarlas calientes. Agregar leche de a poco, un hilo de aceite y condimentos hasta obtener un puré firme, no líquido.
+3. Mientras se cocinan las papas, picar cebolla y morrón. Rehogarlos 6-8 minutos; agregar la carne, separarla con cuchara y cocinar hasta que no quede rosada y se reduzca el líquido. Condimentar.
+4. Rallar los zapallitos con la parte gruesa del rallador, mezclarlos con una pizca de sal y dejarlos reposar 10 minutos.
+5. Colocarlos en un paño limpio y exprimir con fuerza. Este paso evita que el pastel quede aguado. Mezclarlos con los huevos batidos.
+6. Calentar el horno a 180 °C y aceitar una fuente de aproximadamente 25 x 35 cm.
+7. Distribuir la carne en una capa pareja, cubrir con el puré y terminar con la mezcla de zapallitos y huevo. Espolvorear el queso rallado.
+8. Hornear 30-40 minutos. Está listo cuando la capa superior se ve firme, sin líquido, y el queso está dorado.
+9. Reposar al menos 10 minutos antes de cortar. Para porciones de freezer, enfriar por completo antes de dividir.
 
 ## Nutrición aproximada
 

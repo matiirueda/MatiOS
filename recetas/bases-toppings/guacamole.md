@@ -10,18 +10,22 @@ Receta salada curada y adaptada al formato MatiOS.
 ## Ingredientes
 
 - 1 palta madura
-- Jugo de limón
+- 1 cucharada de jugo de limón, más extra a gusto
 - 1 diente de ajo pequeño, opcional
 - Sal
 - 1 cucharada de queso crema, opcional
-- Cebolla y tomate picados, opcionales
+- 2 cucharadas de cebolla picada muy fina, opcional
+- ½ tomate pequeño sin semillas y en cubitos, opcional
 
 ## Preparación
 
-1. Pisar la palta con limón, sal y ajo.
-2. Agregar queso crema si se busca una textura más suave.
-3. Para la versión completa, incorporar cebolla y tomate al final.
-4. Cubrir al ras y refrigerar.
+1. Cortar la palta, retirar el carozo y sacar la pulpa con una cuchara. Debe ceder al presionarla suavemente, sin zonas negras ni olor fermentado.
+2. Colocarla en un bowl con el limón y una pizca de sal. Pisar con tenedor: dejar algunos trozos si se prefiere textura rústica.
+3. Rallar o picar muy fino el ajo e incorporar primero la mitad; agregar más sólo después de probar.
+4. Si se busca una textura más suave, mezclar la cucharada de queso crema.
+5. Para la versión completa, retirar las semillas acuosas del tomate y agregarlo junto con la cebolla al final, mezclando sin triturarlos.
+6. Probar y ajustar limón y sal. Servir de inmediato o pasar a un recipiente pequeño.
+7. Para guardarlo, alisar la superficie y cubrirla al ras, sin aire. Refrigerar y consumir preferentemente dentro de 24 horas.
 
 ## Nutrición aproximada
 

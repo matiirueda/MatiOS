@@ -17,11 +17,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Batir el huevo con parte de la leche en frío.
-2. Agregar el resto de la leche, avena, vainilla y endulzante.
-3. Cocinar a fuego medio-bajo revolviendo constantemente para evitar grumos de huevo.
-4. Continuar hasta espesar y asegurar que el huevo quede completamente cocido.
-5. Servir con fruta o coco.
+1. Colocar el huevo en una olla pequeña todavía fría. Agregar ¼ de taza de leche y batir hasta que no queden partes de clara separadas.
+2. Incorporar el resto de la leche, la avena, la vainilla y el endulzante.
+3. Llevar a fuego medio-bajo y revolver continuamente con batidor o espátula, recorriendo el fondo y los bordes.
+4. Cuando comience a largar vapor, bajar el fuego. No dejar que hierva fuerte porque el huevo puede coagular en grumos.
+5. Cocinar 5-7 minutos, hasta que la avena esté tierna y la mezcla cubra la cuchara. Debe verse uniforme, sin partes líquidas de huevo.
+6. Retirar del fuego cuando esté apenas más fluida que la textura deseada; espesará durante el reposo.
+7. Reposar 2 minutos y servir. Agregar banana, coco u otros toppings al final.
+8. Si se recalienta, sumar un poco de leche y mezclar para recuperar la cremosidad.
 
 ## Nutrición aproximada
 

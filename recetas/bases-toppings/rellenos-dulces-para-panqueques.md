@@ -9,18 +9,21 @@ Receta curada y corregida para MatiOS.
 
 ## Ingredientes
 
-- Yogur griego y fruta fresca
-- Puré de manzana con canela
-- Mantequilla de maní y banana
-- Ricota, vainilla y fruta
-- Cacao, avellanas trituradas y leche
+- **Yogur y fruta:** 3 cucharadas de yogur griego y ½ taza de fruta fresca
+- **Manzana y canela:** 1 manzana cocida y pisada con ¼ cucharadita de canela
+- **Maní y banana:** 1 cucharada de mantequilla de maní y ½ banana en rodajas
+- **Ricota y fruta:** ¼ taza de ricota, ¼ cucharadita de vainilla y ¼ taza de fruta
+- **Crema de cacao:** 1 cucharada de cacao amargo, 1 cucharada de avellanas molidas, 1-2 cucharadas de leche y endulzante a gusto
 
 ## Preparación
 
-1. Elegir una combinación.
-2. Preparar solo la cantidad que se consumirá, especialmente si lleva fruta fresca.
-3. Rellenar los panqueques justo antes de comer para evitar que se humedezcan.
-4. En la crema de cacao, agregar leche de a gotas hasta lograr textura untable.
+1. Elegir una combinación; las cantidades indicadas alcanzan para rellenar dos panqueques medianos.
+2. Para manzana y canela, cocinar la manzana pelada en cubos con 1 cucharada de agua hasta que esté tierna y luego pisarla.
+3. Para ricota, mezclarla primero con la vainilla hasta volverla cremosa y agregar la fruta al final.
+4. Para la crema de cacao, mezclar cacao, avellanas y endulzante. Agregar leche de a 1 cucharadita hasta obtener una pasta untable.
+5. En preparaciones con banana o fruta fresca, cortar la fruta justo antes de armar.
+6. Distribuir el relleno sin llegar a los bordes, doblar o enrollar y consumir enseguida para que el panqueque no se humedezca.
+7. Guardar cada relleno por separado y siempre refrigerado si contiene fruta cortada, yogur o ricota.
 
 ## Nutrición aproximada
 

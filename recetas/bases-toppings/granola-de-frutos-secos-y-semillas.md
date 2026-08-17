@@ -16,16 +16,20 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 3 cucharadas de semillas de zapallo
 - 8 cucharadas de quinoa inflada
 - 3 cucharadas de coco
-- 10 cucharadas de cereal con fibra, a definir
+- 10 cucharadas de copos integrales sin azúcar; también pueden reemplazarse por más quinoa inflada
 - 2 cucharadas de miel
 
 ## Preparación
 
-1. Mezclar todos los ingredientes secos.
-2. Agregar miel y distribuir bien.
-3. Extender en una placa sin amontonar.
-4. Hornear a temperatura alta en tandas cortas, revolviendo cada 5 minutos; retirar cuando esté dorada y vigilar para que no se queme.
-5. Enfriar completamente antes de guardar.
+1. Calentar el horno a 160 °C y cubrir una placa grande con papel manteca.
+2. Picar groseramente nueces, almendras y maní para que las piezas tengan tamaños parecidos.
+3. Mezclar en un bowl los frutos secos, las semillas, la quinoa inflada, el coco y el cereal elegido.
+4. Entibiar la miel unos segundos si está muy espesa. Volcarla en hilo mientras se mezcla para cubrir la preparación de manera pareja.
+5. Distribuir en una capa fina y uniforme, sin amontonar. Presionar apenas si se desean grupos más grandes.
+6. Hornear 12-18 minutos. Revolver a los 6-7 minutos y luego controlar cada 3 minutos: los frutos secos pasan de dorados a quemados rápidamente.
+7. Retirar cuando se vea apenas dorada y huela tostada, aunque todavía parezca blanda.
+8. Dejar enfriar por completo en la placa sin tapar; se vuelve crocante al enfriarse.
+9. Recién entonces romper los bloques y guardar en un recipiente hermético.
 
 ## Nutrición aproximada
 

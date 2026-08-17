@@ -16,10 +16,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Procesar todos los ingredientes para una textura más liviana.
-2. Reposar 5 minutos.
-3. Calentar una sartén antiadherente apenas aceitada.
-4. Cocinar porciones finas de ambos lados hasta que el huevo esté completamente cocido.
+1. Colocar huevos, claras, avena y el condimento elegido en una licuadora o vaso de mixer.
+2. Procesar 20-30 segundos, hasta que la avena quede fina y la mezcla uniforme.
+3. Reposar 5 minutos. Si se vuelve demasiado espesa para extender, agregar agua o leche de a 1 cucharada.
+4. Calentar una sartén antiadherente de 18-20 cm a fuego medio-bajo y aceitarla apenas.
+5. Volcar una porción pequeña y girar la sartén para formar una capa fina. Para 4-6 unidades, usar aproximadamente ¼ de taza por panqueque.
+6. Cocinar 60-90 segundos, hasta que la superficie pierda brillo y los bordes se despeguen.
+7. Dar vuelta con una espátula y cocinar 30-60 segundos más. No dejar zonas húmedas de huevo.
+8. Apilar bajo un paño para conservar flexibilidad. Enfriar antes de guardar o congelar.
 
 ## Nutrición aproximada
 

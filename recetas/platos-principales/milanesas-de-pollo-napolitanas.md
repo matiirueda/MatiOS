@@ -19,11 +19,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Marinar el pollo 30 minutos en huevo y condimentos, siempre refrigerado.
-2. Rebozar con avena fina y semillas; enfriar 15 minutos para adherir.
-3. Hornear o cocinar a la plancha hasta que el centro alcance 74 °C.
-4. Cubrir con salsa, jamón y queso.
-5. Gratinar hasta fundir y servir.
+1. Si los filetes tienen distinto grosor, colocarlos entre dos láminas y golpearlos suavemente hasta dejarlos de 1-1,5 cm. Así se cocinan de manera pareja.
+2. Batir los huevos con ajo, perejil, sal y pimienta. Incorporar el pollo, cubrir y dejar 30 minutos en la heladera; nunca marinar a temperatura ambiente.
+3. Mezclar la avena fina con las semillas en un plato amplio. Retirar cada filete, dejar escurrir el exceso de huevo y presionarlo contra el rebozador por ambos lados y en los bordes.
+4. Colocar las milanesas separadas en una placa apenas aceitada. Refrigerar 15 minutos para que el rebozado se adhiera mejor.
+5. Calentar el horno a 210 °C. Rociar la superficie con una pequeña cantidad de aceite y hornear 10-12 minutos.
+6. Dar vuelta y cocinar otros 8-12 minutos. El tiempo depende del grosor: el centro debe alcanzar 74 °C o verse completamente blanco, sin partes rosadas.
+7. Cubrir cada milanesa con una capa fina de salsa roja, una feta de jamón y queso.
+8. Volver al horno 5-8 minutos, hasta que el queso se funda. Gratinar 1-2 minutos si se desea más dorado, vigilando para que no se queme.
+9. Reposar 3 minutos antes de servir.
 
 ## Nutrición aproximada
 

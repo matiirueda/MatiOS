@@ -21,11 +21,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar avena y polvo de hornear; sumar huevo, aceite, jugo y endulzante.
-2. Usar una sartén apta o molde pequeño. Aceitar y distribuir azúcar, manzana y canela.
-3. Volcar la masa sobre las manzanas.
-4. Cocinar tapada a fuego muy bajo 10-15 minutos o llevar al horno a 180 °C hasta cocer el centro.
-5. Reposar 5 minutos y desmoldar con cuidado.
+1. Pelar la manzana, retirar el centro y cortarla en láminas finas y parejas.
+2. Mezclar harina de avena y polvo de hornear. En otro bowl batir huevo, aceite, jugo de naranja y edulcorante.
+3. Incorporar los secos a los líquidos y mezclar sólo hasta que no quede harina visible. Reposar 5 minutos.
+4. Aceitar muy bien una sartén antiadherente de 18-20 cm o un molde pequeño. Distribuir el azúcar mascabo y luego las manzanas superpuestas, sin dejar huecos grandes.
+5. Agregar canela y nueces si se usan. Volcar la masa lentamente para no mover el diseño y alisar.
+6. En sartén, tapar y cocinar al mínimo 12-18 minutos. Está lista cuando la superficie se ve firme y un palillo sale sin mezcla líquida.
+7. En horno, cocinar a 180 °C durante 18-25 minutos, controlando el centro.
+8. Reposar 5-8 minutos. Pasar un cuchillo por el borde, apoyar un plato y dar vuelta de una vez usando protección.
+9. No esperar a que se enfríe por completo dentro del molde porque el azúcar puede adherirse.
 
 ## Nutrición aproximada
 

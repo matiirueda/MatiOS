@@ -20,12 +20,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Dorar el pollo y reservar.
-2. Rehogar cebolla, morrón y vegetales.
-3. Agregar lentejas, tomate y condimentos.
-4. Reincorporar pollo, sumar agua y llevar a hervor.
-5. Agregar fideos y cocinar suave hasta que estén al dente y el pollo alcance 74 °C.
-6. Ajustar líquido y servir.
+1. Cortar el pollo en cubos de 2-3 cm y secarlo. Picar cebolla y morrón; cortar los demás vegetales en cubos parejos.
+2. Calentar el aceite en una olla grande. Dorar el pollo en tandas, 2-3 minutos por lado; todavía no necesita cocinarse por completo. Retirar y reservar.
+3. En la misma olla cocinar cebolla y morrón 5 minutos. Agregar primero los vegetales más firmes, como calabaza, y cocinar otros 3-4 minutos.
+4. Incorporar el tomate triturado, las lentejas cocidas y los condimentos. Mezclar y raspar el fondo de la olla.
+5. Volver a agregar el pollo y cubrir con agua o caldo hasta superar los ingredientes por unos 2 cm. Llevar a hervor.
+6. Bajar a fuego medio, agregar los fideos y cocinar el tiempo indicado en el envase, revolviendo para evitar que se peguen.
+7. Añadir zucchini u otros vegetales tiernos durante los últimos 5-7 minutos.
+8. Verificar que los fideos estén al dente y que el pollo no tenga zonas rosadas o alcance 74 °C en el centro.
+9. Ajustar la cantidad de líquido y la sazón. Apagar el fuego y reposar 5 minutos. Si se guardará, conviene dejarlo algo más líquido porque los fideos continúan absorbiendo caldo.
 
 ## Nutrición aproximada
 

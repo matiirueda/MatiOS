@@ -18,10 +18,13 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Procesar huevos duros, yogur, limón, ajo y condimentos.
-2. Agregar aceite solo si se busca más cuerpo.
-3. Ajustar con una cucharada de agua o yogur si queda demasiado espesa.
-4. Refrigerar inmediatamente.
+1. Cocinar los huevos en agua hirviendo durante 10 minutos. Enfriarlos en agua fría, pelarlos y secarlos.
+2. Cortarlos en cuartos y colocarlos en un vaso alto o procesadora con el yogur, 1 cucharada de limón, el ajo, sal y pimienta.
+3. Procesar hasta obtener una crema sin trozos. Detener y raspar los bordes si hace falta.
+4. Probar antes de agregar el resto del limón o más ajo. Ambos sabores se intensifican durante el reposo.
+5. Agregar el aceite sólo si se desea más cuerpo y procesar nuevamente.
+6. Si está demasiado espesa para el uso previsto, incorporar agua o yogur de a 1 cucharada.
+7. Pasar inmediatamente a un recipiente limpio, tapar y refrigerar. No dejar a temperatura ambiente y usar utensilios limpios al servir.
 
 ## Nutrición aproximada
 

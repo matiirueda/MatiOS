@@ -18,11 +18,16 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Sellar la carne por todos sus lados.
-2. Agregar cebolla, zanahoria, condimentos y caldo; tapar y cocinar suave 90 minutos o hasta tierna.
-3. Cortar papas parejas, mezclar con aceite y especias; salar moderadamente.
-4. Hornear en placa caliente a 220 °C, girando, 40-60 minutos.
-5. Dejar reposar la carne 10 minutos y cortar contra la fibra.
+1. Retirar la carne de la heladera 20-30 minutos antes. Secarla con papel y condimentarla con sal, pimienta, ajo, provenzal y ají molido.
+2. Calentar una olla amplia con 1 cucharada de aceite. Dorar la carne 3-4 minutos por lado, sin moverla constantemente, hasta formar una costra. Retirar y reservar.
+3. Cortar cebolla y zanahoria en trozos medianos. Cocinarlas 5 minutos en la misma olla, raspando el fondo para recuperar el sabor del sellado.
+4. Volver a colocar la carne y agregar el agua o caldo. El líquido debe llegar aproximadamente a un tercio de la altura de la carne, no cubrirla.
+5. Tapar y cocinar a fuego bajo durante unos 90 minutos. Dar vuelta la carne a mitad de cocción y agregar un poco de agua si el fondo se seca. Está tierna cuando un tenedor entra con poca resistencia.
+6. Para las papas, calentar el horno a 220 °C con la placa adentro. Lavar, pelar si se desea y cortar todas del mismo tamaño, aproximadamente 3 cm.
+7. Secarlas bien y mezclarlas con el aceite restante, pimienta y las especias elegidas. Distribuirlas en una sola capa sobre la placa caliente.
+8. Hornear 40-60 minutos, dándolas vuelta a mitad de cocción. Salar al final. Deben quedar doradas por fuera y tiernas al pincharlas.
+9. Retirar la carne y dejarla reposar 10 minutos antes de cortarla en fetas finas, siempre en sentido contrario a las fibras.
+10. Si el líquido de cocción está muy liviano, hervirlo destapado unos minutos. Servir la carne con ese jugo y las papas.
 
 ## Nutrición aproximada
 

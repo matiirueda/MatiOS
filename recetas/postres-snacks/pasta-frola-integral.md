@@ -19,13 +19,17 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar harina, polvo de hornear y ralladura.
-2. Batir huevo, yema, aceite, vainilla y endulzante.
-3. Unir sin amasar de más y refrigerar 30 minutos.
-4. Ablandar 400-500 g de membrillo con agua a fuego bajo.
-5. Forrar un molde de 20 cm con la mayor parte de la masa, rellenar y formar el enrejado.
-6. Hornear 30-35 minutos a 180 °C.
-7. Enfriar antes de cortar.
+1. Mezclar harina, polvo de hornear y ralladura en un bowl.
+2. En otro recipiente batir huevo, yema, aceite, vainilla y edulcorante.
+3. Incorporar los líquidos a los secos. Unir con espátula y manos sin amasar; si se trabaja de más, la masa queda dura.
+4. Separar un cuarto para las tiras. Formar discos, envolver y refrigerar 30 minutos.
+5. Cortar el membrillo en cubos y calentarlo a fuego bajo con 2 cucharadas de agua. Pisar hasta obtener una pasta; agregar la tercera sólo si hace falta. Enfriar.
+6. Calentar el horno a 180 °C y aceitar una tartera de 20 cm.
+7. Estirar la porción grande entre papeles y cubrir base y 2 cm de borde. Reparar grietas presionando con los dedos.
+8. Distribuir el membrillo frío en una capa pareja.
+9. Estirar la masa reservada, cortar tiras y formar el enrejado sin estirarlas al colocarlas.
+10. Hornear 30-38 minutos, hasta que masa y base estén doradas.
+11. Enfriar por completo antes de cortar; el relleno caliente no mantiene la forma.
 
 ## Nutrición aproximada
 

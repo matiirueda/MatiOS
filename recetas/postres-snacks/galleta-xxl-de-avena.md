@@ -19,11 +19,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar huevo, aceite, endulzante y aroma.
-2. Agregar avena y polvo de hornear; reposar 5 minutos.
-3. Incorporar chocolate y frutos secos.
-4. Cocinar en sartén antiadherente a fuego bajo, tapada, 3-5 minutos por lado, verificando que el centro esté cocido.
-5. También puede hornearse 10-15 minutos a 180 °C.
+1. Batir el huevo con aceite, endulzante y vainilla o ralladura.
+2. Agregar avena y polvo de hornear y mezclar hasta que no queden partes secas.
+3. Reposar 5 minutos para que la avena absorba humedad. La mezcla debe poder extenderse sin correr; si está líquida, sumar 1 cucharada de avena.
+4. Incorporar el chocolate y los frutos secos, reservando algunos para la superficie.
+5. Para sartén, aceitar apenas una antiadherente pequeña y calentarla a fuego bajo.
+6. Volcar la mezcla y formar un disco parejo de 1-1,5 cm. Tapar y cocinar 4-6 minutos, hasta que la base esté dorada y la superficie casi firme.
+7. Dar vuelta con ayuda de un plato y cocinar 2-4 minutos más, siempre a fuego bajo. El centro debe estar cocido, sin huevo húmedo.
+8. Para horno, formar el disco sobre papel manteca y cocinar 10-15 minutos a 180 °C, hasta que los bordes estén dorados.
+9. Reposar 5 minutos antes de cortar: caliente es más frágil.
 
 ## Nutrición aproximada
 

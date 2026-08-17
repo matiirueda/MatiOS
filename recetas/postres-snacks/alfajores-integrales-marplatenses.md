@@ -17,17 +17,21 @@ Receta curada y corregida para MatiOS.
 - 3 cucharadas de aceite
 - 1 cucharada de polvo de hornear
 - Vainilla, ralladura de naranja, edulcorante y pizca de sal
-- Dulce de leche para rellenar
-- Chocolate con 60% de cacao o más para bañar
+- 200-250 g de dulce de leche para rellenar
+- 180-220 g de chocolate con 60% de cacao o más para bañar
 
 ## Preparación
 
-1. Mezclar ingredientes húmedos y aromáticos.
-2. Mezclar ingredientes secos por separado.
-3. Unir sin amasar de más y refrigerar 20 minutos.
-4. Estirar a 5 mm, cortar tapas y hornear 10-12 minutos a 180 °C.
-5. Enfriar completamente, rellenar y bañar.
-6. Refrigerar hasta que el chocolate esté firme.
+1. Batir el huevo con leche, aceite, vainilla, ralladura y edulcorante.
+2. En otro bowl mezclar harina integral, harina de avena, cacao, polvo de hornear y sal.
+3. Incorporar los secos a los líquidos en dos tandas. Unir con espátula y luego con las manos, sin amasar.
+4. Formar un disco, envolver y refrigerar 20-30 minutos para que sea más fácil de estirar.
+5. Calentar el horno a 180 °C y preparar una placa con papel manteca.
+6. Estirar la masa entre dos papeles hasta 5 mm. Cortar 16-20 tapas del mismo tamaño y volver a unir los recortes una sola vez.
+7. Hornear 9-12 minutos. Las tapas deben verse secas en la superficie pero no duras; se afirman al enfriar.
+8. Enfriar por completo sobre rejilla. Colocar 1 cucharada de dulce de leche en la mitad de las tapas y cerrar sin presionar hasta romper.
+9. Derretir el chocolate en intervalos cortos. Bañar, escurrir y colocar sobre papel manteca.
+10. Refrigerar hasta que la cobertura esté firme. Dejar reposar unos minutos antes de servir para mejorar la textura.
 
 ## Nutrición aproximada
 

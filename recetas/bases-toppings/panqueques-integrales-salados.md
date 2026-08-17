@@ -18,11 +18,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar harina y sal.
-2. Batir leche, huevos, aceite y hierbas.
-3. Unir las mezclas y licuar o batir hasta eliminar grumos.
-4. Reposar 10-15 minutos.
-5. Cocinar porciones finas en sartén caliente apenas aceitada, de ambos lados.
+1. Colocar la harina y la sal en un bowl. En otro recipiente batir leche, huevos, aceite y hierbas.
+2. Agregar aproximadamente un tercio de los líquidos a la harina y batir hasta formar una pasta sin grumos.
+3. Incorporar el resto en dos tandas. También se puede licuar durante 20-30 segundos, sin batir de más.
+4. Reposar 10-15 minutos para hidratar la harina integral. Luego mezclar nuevamente; la consistencia debe ser fluida y cubrir apenas el dorso de una cuchara.
+5. Calentar una sartén antiadherente de 20-22 cm a fuego medio. Aceitarla apenas y retirar el exceso con papel.
+6. Volcar aproximadamente ¼ de taza de mezcla y girar de inmediato la sartén para formar una capa fina.
+7. Cocinar 60-90 segundos, hasta que la superficie pierda brillo y los bordes se despeguen.
+8. Dar vuelta con espátula y cocinar 20-40 segundos más. El primer panqueque sirve para ajustar temperatura y cantidad.
+9. Apilar los cocidos bajo un paño limpio para que conserven flexibilidad. Enfriar antes de rellenar o congelar.
 
 ## Nutrición aproximada
 

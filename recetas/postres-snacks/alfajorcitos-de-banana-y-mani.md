@@ -12,16 +12,20 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 1 banana firme
 - 2-3 cucharadas de mantequilla de maní
 - 2 cucharadas de cacao amargo
-- Agua caliente, cantidad mínima
-- Edulcorante a gusto
+- 1-3 cucharaditas de agua caliente
+- Edulcorante equivalente a 1 cucharada de azúcar, según el producto
 - Chocolate con 60% de cacao o más, opcional
 
 ## Preparación
 
-1. Cortar la banana en rodajas de aproximadamente 1 cm.
-2. Unir las rodajas de a pares con mantequilla de maní.
-3. Mezclar cacao, edulcorante y muy poca agua caliente hasta formar una cobertura espesa; también puede usarse chocolate derretido.
-4. Cubrir y llevar al freezer aproximadamente 1 hora.
+1. Elegir una banana firme para que no se desarme. Pelarla y cortarla en 12-16 rodajas parejas de aproximadamente 1 cm.
+2. Secar suavemente la superficie con papel. Colocar 1 cucharadita de mantequilla de maní sobre la mitad de las rodajas.
+3. Cubrir con las rodajas restantes y presionar apenas para formar los mini alfajores. Congelar 15 minutos sobre una placa para afirmarlos.
+4. Para la cobertura de cacao, mezclar cacao y edulcorante. Agregar agua caliente de a 1 cucharadita hasta lograr una pasta espesa que cubra la cuchara.
+5. Si se usa chocolate, derretirlo en intervalos de 15 segundos, mezclando entre cada uno para que no se queme.
+6. Bañar o pincelar los alfajores fríos. Trabajar rápido para que la banana no se ablande.
+7. Volver al freezer 45-60 minutos, hasta que la cobertura esté firme.
+8. Antes de comer, reposar 5 minutos a temperatura ambiente para que la banana no esté demasiado dura.
 
 ## Nutrición aproximada
 

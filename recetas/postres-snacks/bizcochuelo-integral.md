@@ -19,12 +19,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Precalentar el horno a 180 °C y preparar un molde de 24 cm; el molde de 28 cm de la fuente puede dejarlo demasiado bajo.
-2. Batir huevos y miel 5-7 minutos hasta aumentar volumen.
-3. Incorporar aceite, vainilla y yogur a velocidad baja.
-4. Tamizar harina, polvo de hornear y sal; integrar con movimientos envolventes sin sobrebatir.
-5. Hornear 35-45 minutos y verificar con palillo.
-6. Enfriar completamente antes de cortar o rellenar.
+1. Calentar el horno a 180 °C. Forrar la base de un molde de 22-24 cm y aceitar apenas los lados.
+2. Tener todos los ingredientes medidos antes de batir; el aire incorporado se pierde si la mezcla espera.
+3. Batir huevos y miel 5-7 minutos, hasta que la mezcla esté clara, espesa y al levantar el batidor deje una marca visible unos segundos.
+4. Mezclar aceite, vainilla y yogur. Incorporarlos en hilo a velocidad mínima o con espátula.
+5. Tamizar harina, polvo de hornear y sal. Agregarlos en tres tandas con movimientos envolventes desde el fondo.
+6. Detenerse apenas desaparezca la harina; mezclar de más elimina el aire.
+7. Volcar en el molde y llevar al horno inmediatamente. No abrir la puerta durante los primeros 30 minutos.
+8. Hornear 35-45 minutos. Está listo cuando el centro recupera la forma al tocarlo y un palillo sale limpio.
+9. Enfriar 10 minutos en el molde, desmoldar y dejar enfriar por completo sobre rejilla antes de cortar o rellenar.
 
 ## Nutrición aproximada
 

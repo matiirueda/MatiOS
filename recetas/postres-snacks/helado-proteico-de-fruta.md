@@ -16,11 +16,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Congelar la fruta limpia y cortada en una sola capa.
-2. Procesar la fruta congelada con yogur y mantequilla de maní.
-3. Agregar whey de a poco; si la máquina lo necesita, sumar una cucharada de leche.
-4. Consumir cremoso al momento o congelar 1-2 horas para más firmeza.
-5. Si queda muchas horas en freezer, reposar 10-15 minutos antes de servir.
+1. Lavar y secar la fruta. Pelar la banana o retirar cabos de frutillas y cortar todo en trozos de 2-3 cm.
+2. Distribuir en una sola capa y congelar al menos 4 horas. Una vez firme puede pasarse a una bolsa.
+3. Colocar la fruta congelada en una procesadora junto con yogur y mantequilla de maní.
+4. Procesar en pulsos. Detener varias veces para raspar los bordes; al comienzo tendrá aspecto de migas.
+5. Agregar la whey de a media medida para controlar la textura. Si la máquina no puede mover la mezcla, sumar leche de a 1 cucharada.
+6. Continuar hasta lograr una crema espesa sin trozos grandes. No agregar demasiado líquido o quedará como batido.
+7. Probar antes de endulzar. Servir inmediatamente para textura de helado suave.
+8. Para hacerlo más firme, pasar a un recipiente bajo, alisar, tapar y congelar 1-2 horas.
+9. Después de varias horas estará duro: reposar 10-15 minutos y remover antes de servir. No volver a congelar una porción que se derritió por completo.
 
 ## Nutrición aproximada
 

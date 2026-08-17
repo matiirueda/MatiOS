@@ -18,12 +18,16 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Forrar un molde pequeño y tener todos los ingredientes medidos.
-2. Cocinar azúcar y agua sin revolver hasta 118 °C.
-3. Mientras tanto, batir la clara pasteurizada hasta espuma firme.
-4. Verter el almíbar caliente en hilo sobre la clara mientras se bate, evitando las varillas; continuar hasta que el bol pierda calor.
-5. Incorporar mantequilla de maní y cacao rápidamente.
-6. Compactar en el molde y refrigerar al menos 6 horas.
+1. Forrar un molde de aproximadamente 15 x 15 cm. Medir todo antes de comenzar: el almíbar no permite pausas.
+2. Colocar azúcar y agua en una olla pequeña. Cocinar a fuego medio sin revolver; sólo mover suavemente la olla si hace falta.
+3. Controlar con termómetro. Mientras sube la temperatura, colocar la clara pasteurizada en un bowl resistente al calor.
+4. Cuando el almíbar llegue a unos 110 °C, comenzar a batir la clara hasta espuma firme.
+5. Retirar el almíbar exactamente a 118 °C. Es extremadamente caliente: no tocarlo, probarlo ni agregar líquidos.
+6. Con la batidora funcionando, verterlo en hilo fino por el costado del bowl, evitando que caiga sobre las varillas.
+7. Seguir batiendo hasta que la mezcla aumente volumen y el bowl pierda gran parte del calor.
+8. Incorporar mantequilla de maní y cacao rápidamente con espátula. Agregar frutos secos si se usan.
+9. Compactar de inmediato en el molde y alisar. Se vuelve firme a medida que enfría.
+10. Refrigerar al menos 6 horas antes de cortar en porciones pequeñas con cuchillo firme.
 
 ## Nutrición aproximada
 

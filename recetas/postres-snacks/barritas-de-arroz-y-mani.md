@@ -16,11 +16,14 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Triturar las galletas de arroz.
-2. Mezclar con mantequilla de maní y miel hasta que la preparación se una.
-3. Compactar firmemente en un recipiente pequeño forrado.
-4. Cubrir con chocolate derretido.
-5. Enfriar 30 minutos y cortar en barritas.
+1. Forrar un recipiente de aproximadamente 15 x 15 cm con papel manteca, dejando excedente para levantar la preparación.
+2. Romper las galletas con las manos y luego triturarlas hasta obtener migas pequeñas, sin convertirlas completamente en polvo.
+3. Si la mantequilla de maní está muy firme, entibiarla unos segundos. Mezclarla con la miel.
+4. Incorporar las migas y revolver hasta humedecerlas por completo. Al apretar una cucharada con la mano, debe mantener la forma.
+5. Volcar en el molde y compactar con mucha firmeza usando el fondo de un vaso cubierto con papel.
+6. Derretir el chocolate en intervalos breves y distribuirlo en una capa fina.
+7. Refrigerar 30-45 minutos, hasta que la base y la cobertura estén firmes.
+8. Levantar con el papel y cortar con cuchillo afilado en 6-8 barritas. Si el chocolate se quiebra, dejarlo 3 minutos fuera de la heladera antes de cortar.
 
 ## Nutrición aproximada
 

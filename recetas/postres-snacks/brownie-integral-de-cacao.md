@@ -21,11 +21,15 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Precalentar el horno a 180 °C y preparar un molde.
-2. Mezclar huevos, leche, vainilla y endulzante.
-3. Incorporar harina, cacao, polvo de hornear y bicarbonato.
-4. Agregar el agua hirviendo al final y mezclar hasta integrar.
-5. Hornear unos 20 minutos; retirar antes de secarlo y enfriar antes de cortar.
+1. Calentar el horno a 180 °C. Forrar un molde cuadrado de 20 cm con papel manteca y aceitar los lados.
+2. Tamizar harina, cacao, polvo de hornear y bicarbonato para eliminar grumos y distribuir los leudantes.
+3. En otro bowl batir huevos, leche, vainilla y azúcar o edulcorante sólo hasta integrar.
+4. Agregar los secos en dos tandas y mezclar con espátula. No batir de más una vez incorporada la harina.
+5. Agregar el agua hirviendo en hilo mientras se mezcla. La preparación quedará más fluida de lo habitual; debe verse uniforme, sin bolsillos de harina.
+6. Volcar de inmediato en el molde y alisar la superficie.
+7. Hornear 18-24 minutos. Comenzar a controlar a los 18: un palillo debe salir con migas húmedas, no con mezcla líquida ni completamente seco.
+8. Enfriar 15 minutos en el molde y luego, si mantiene la forma, pasar a una rejilla.
+9. Cortar únicamente cuando esté frío, porque el interior termina de afirmarse durante el enfriado.
 
 ## Nutrición aproximada
 

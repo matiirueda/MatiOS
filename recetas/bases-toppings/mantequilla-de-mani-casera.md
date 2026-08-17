@@ -15,11 +15,13 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Procesar el maní en intervalos, raspando los bordes.
-2. Continuar: primero se hará polvo, luego una pasta espesa y finalmente cremosa.
-3. Agregar sal o endulzante solo al final.
-4. No agregar aceite salvo que, después de varios minutos y con una procesadora adecuada, siga demasiado seca.
-5. Pasar a un frasco limpio y seco.
+1. Comprobar que el maní esté tostado, frío y completamente seco. Si está crudo, tostarlo 8-12 minutos a 170 °C y enfriarlo.
+2. Colocarlo en una procesadora resistente. Procesar 30 segundos y detener para raspar los bordes.
+3. Repetir en intervalos para no recalentar el motor. Primero se formará una harina, luego grumos y finalmente una pasta espesa.
+4. Continuar 3-8 minutos en total, según la potencia, hasta que el propio aceite del maní vuelva la preparación cremosa.
+5. Agregar sal o endulzante sólo al final y procesar unos segundos más. Los ingredientes secos pueden espesarla.
+6. No agregar aceite al comienzo. Sólo si después del tiempo indicado continúa seca, incorporar 1 cucharadita de aceite neutro y evaluar antes de agregar otra.
+7. Pasar a un frasco limpio y totalmente seco. Dejar enfriar antes de cerrar si la mezcla se calentó durante el procesado.
 
 ## Nutrición aproximada
 

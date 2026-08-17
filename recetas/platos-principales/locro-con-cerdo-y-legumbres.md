@@ -23,11 +23,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cortar todos los ingredientes en tamaños parejos.
-2. Cocinar maíz, parte de los porotos, choclo, media calabaza, batata y chorizo durante 45-60 minutos.
-3. Agregar carnes y el resto de vegetales y legumbres.
-4. Cocinar suave 90-120 minutos, revolviendo y agregando líquido cuando haga falta.
-5. Verificar cocción de carnes, ajustar condimentos y servir.
+1. Si se parte de maíz blanco y porotos secos, remojarlos por separado entre 8 y 12 horas. Escurrirlos y cocinarlos por separado hasta que estén casi tiernos antes de medir las cantidades de la receta.
+2. Cortar el cerdo en cubos de 2-3 cm. Pelar calabaza y batatas y cortarlas en cubos parejos. Desgranar los choclos y cortar el chorizo colorado en rodajas finas.
+3. Colocar en una olla grande el maíz cocido, la mitad de los porotos, el choclo, la mitad de la calabaza, una batata y el chorizo. Agregar 1,5 litros de agua o caldo.
+4. Llevar a hervor, retirar la espuma superficial si aparece y cocinar a fuego bajo entre 45 y 60 minutos, revolviendo cada 10-15 minutos.
+5. Agregar el cerdo, el resto de la calabaza, la otra batata y los porotos restantes. Condimentar con pimentón, comino y ají; dejar la sal para el final.
+6. Cocinar a fuego bajo entre 90 y 120 minutos, con la olla parcialmente tapada. Revolver con frecuencia, especialmente el fondo, porque la calabaza deshecha espesa el locro y puede pegarse.
+7. Agregar agua o caldo caliente de a poco si queda demasiado espeso antes de que el cerdo esté tierno.
+8. Comprobar que el maíz y los porotos estén tiernos y que el cerdo se corte fácilmente. Aplastar algunos cubos de calabaza contra la pared de la olla si se desea más cuerpo.
+9. Ajustar sal y condimentos. Reposar 10-15 minutos antes de servir; durante el reposo continuará espesando.
 
 ## Nutrición aproximada
 

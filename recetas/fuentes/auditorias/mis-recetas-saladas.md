@@ -4,7 +4,7 @@ slug: auditoria-mis-recetas-saladas
 domain: alimentacion
 module: recetario
 type: source-audit
-status: completed
+status: detailed-review-completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -84,8 +84,10 @@ No se duplicaron los rellenos dulces/salados que ya existían por otra fuente; s
 - Preparaciones acuosas como zapallitos, espinaca y calabaza incluyen escurrido y notas de textura.
 - Papa, pasta, ricota y vegetales rellenos tienen instrucciones específicas de freezer y regeneración.
 
-## Estado final
+## Estado editorial actual
 
-Fuente completamente curada. Las fichas siguen como `🧪 por-probar` hasta cocinar, pesar rendimiento y completar macros.
+El inventario, la separación y la auditoría detallada de las fichas nuevas están completos. “Importada” ya no significa solamente que existe un archivo: cada receta nueva debe poder seguirse sin consultar el PDF.
 
-La web y la IA deben consultar las fichas individuales. Esta auditoría queda solo para trazabilidad y para evitar duplicados.
+Se reescribieron las 17 fichas nuevas de platos principales y las 19 fichas nuevas de bases y desayunos relacionados. Se agregaron cantidades, preparativos, orden de trabajo, señales de cocción, controles de humedad, reposos y advertencias prácticas.
+
+Todas siguen como `🧪 por-probar` hasta cocinar, pesar rendimiento y completar macros.

@@ -16,11 +16,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar mantequilla de maní y miel.
-2. Incorporar el cereal y cubrirlo bien.
-3. Compactar con fuerza en un molde forrado.
-4. Cubrir con chocolate si se usa.
-5. Enfriar 30 minutos y cortar.
+1. Forrar un molde de aproximadamente 15 x 20 cm con papel manteca.
+2. Si el cereal tiene piezas grandes, romperlas apenas con las manos; no pulverizarlas.
+3. Entibiar la mantequilla de maní y la miel durante unos segundos para volverlas más fluidas. Mezclar hasta integrar.
+4. Incorporar el cereal en dos tandas y revolver hasta que todas las piezas estén cubiertas.
+5. Volcar en el molde y compactar con mucha fuerza, especialmente en las esquinas. Una base floja se desarma al cortar.
+6. Si se usa chocolate, derretirlo en intervalos de 15 segundos y extender una capa fina.
+7. Refrigerar 30-45 minutos, hasta que esté firme.
+8. Retirar con ayuda del papel y cortar ocho barritas con cuchillo afilado. Mantener refrigeradas si el ambiente es cálido.
 
 ## Nutrición aproximada
 

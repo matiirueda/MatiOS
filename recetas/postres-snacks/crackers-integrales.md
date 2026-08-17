@@ -17,12 +17,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar harina, polvo de hornear, sal y especias.
-2. Agregar aceite y agua gradualmente; amasar 5 minutos.
-3. Reposar tapada 30 minutos.
-4. Estirar muy fina, humedecer, agregar semillas y presionar con palote.
-5. Cortar y hornear 5-10 minutos a 180 °C, vigilando porque se doran rápido.
-6. Enfriar completamente en rejilla.
+1. Calentar el horno a 180 °C y preparar dos placas con papel manteca.
+2. Mezclar harina, polvo de hornear, ½ cucharadita de sal y especias.
+3. Agregar el aceite y 70 ml de agua. Mezclar y sumar el resto de a 1 cucharada hasta formar una masa firme que no se desarme.
+4. Amasar 5 minutos, cubrir y reposar 30 minutos.
+5. Dividir en dos para trabajar más fácil. Estirar entre papeles hasta 1-2 mm: cuanto más parejas y finas, más crocantes.
+6. Humedecer apenas la superficie, agregar semillas y pasar el palo suavemente para fijarlas.
+7. Cortar cuadrados parejos y pincharlos con tenedor. Separar apenas en las placas.
+8. Hornear 7-12 minutos, girando las placas y retirando antes las piezas que se doren.
+9. Enfriar completamente en rejilla. Si el centro sigue flexible, secar 3-5 minutos más en horno bajo.
 
 ## Nutrición aproximada
 

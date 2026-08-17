@@ -4,7 +4,7 @@ slug: auditoria-recetas-dulces
 domain: alimentacion
 module: recetario
 type: source-audit
-status: completed
+status: detailed-review-completed
 locale: es-AR
 reviewed_at: 2026-08-17
 source:
@@ -87,6 +87,10 @@ La lectura de etiquetas, el orden descendente de ingredientes y la diferencia en
 - Mantequilla de maní: el aceite pasa a ser excepcional, porque el maní libera el propio.
 - Muffins y budines: tiempos e hidratación se expresan como rangos verificables.
 
-## Estado final
+## Estado editorial actual
 
-Fuente completamente curada. Las recetas siguen como `🧪 por-probar`: “completa” significa que fueron importadas y corregidas editorialmente, no que Matías ya las cocinó.
+El inventario, la separación y la revisión detallada para principiantes están completos para las 35 fichas nuevas de esta importación.
+
+Se normalizaron cantidades, tamaños de molde, consistencia esperada, señales de cocción, técnicas de enfriado y pasos sensibles como derretir chocolate, trabajar almíbar y usar microondas.
+
+Las recetas están completas editorialmente, pero siguen como `🧪 por-probar` hasta cocinar, confirmar rendimiento y completar macros.

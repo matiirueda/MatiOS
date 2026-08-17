@@ -14,7 +14,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 - 1 cucharada de edulcorante
 - 1 cucharadita de polvo de hornear
 - 1 cucharadita de café
-- Un chorrito de leche
+- 1-3 cucharadas de leche
 - 3 cucharadas de ricota magra
 - 3 cucharadas de queso crema descremado
 - 2 cucharadas de proteína en polvo, opcional
@@ -22,12 +22,15 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar huevo, avena, edulcorante, polvo de hornear, café y leche.
-2. Cocinar en microondas en tandas cortas hasta que la base esté completamente cocida; enfriar y cortar.
-3. Humedecer levemente con café y leche.
-4. Batir ricota, queso crema, vainilla, edulcorante y proteína si se usa.
-5. Intercalar capas en un vaso y terminar con cacao.
-6. Refrigerar al menos 1 hora para mejorar la textura.
+1. Disolver el café en 1 cucharada de leche. Reservar una parte para humedecer las capas.
+2. Batir el huevo con avena, edulcorante, polvo de hornear y el resto del café con leche.
+3. Volcar en un recipiente amplio apto para microondas, sin llenarlo más de la mitad.
+4. Cocinar 60 segundos y luego en intervalos de 10-15 segundos, hasta que no quede huevo húmedo. Enfriar por completo.
+5. Mezclar ricota y queso crema hasta que la crema quede lisa. Agregar vainilla, edulcorante y proteína en polvo de a poco.
+6. Si la crema quedó demasiado firme, agregar leche de a 1 cucharadita; debe ser untable, no líquida.
+7. Cortar la base fría en discos o cubos. Humedecerla apenas con el café reservado, sin empaparla.
+8. Intercalar base y crema en un vaso, terminando con crema.
+9. Tamizar cacao por encima y refrigerar al menos 1 hora para que se integren sabores y textura.
 
 ## Nutrición aproximada
 

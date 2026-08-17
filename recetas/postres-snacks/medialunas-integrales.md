@@ -14,19 +14,23 @@ Receta curada y corregida para MatiOS.
 - Aproximadamente 150 ml de agua tibia
 - 1 cucharada de aceite suave
 - 1 cucharadita de azúcar para la levadura
-- Edulcorante a gusto
+- Edulcorante equivalente a 40-60 g de azúcar, según el producto
 - ½ cucharadita de sal
 - 1 huevo para pintar
 - Membrillo o dulce de leche para rellenar, opcional
 
 ## Preparación
 
-1. Mezclar levadura, azúcar y parte del agua; reposar 5-10 minutos.
-2. Unir harina, sal, edulcorante, aceite y levadura; agregar el agua gradualmente.
-3. Amasar 8-10 minutos y dejar levar tapada hasta duplicar, no solo por reloj.
-4. Estirar, cortar triángulos, rellenar opcionalmente y enrollar.
-5. Dejar levar nuevamente hasta que estén livianas al tacto.
-6. Pintar con huevo y hornear 15-20 minutos a 180 °C.
+1. Mezclar levadura y azúcar con 50 ml de agua tibia. Dejar 5-10 minutos, hasta que se forme espuma.
+2. En un bowl mezclar harina, sal y edulcorante. Agregar aceite y la levadura activada.
+3. Incorporar el resto del agua de a poco. La masa debe quedar suave y apenas pegajosa; puede no necesitar los 150 ml completos.
+4. Amasar 8-10 minutos, hasta que se vea lisa y recupere lentamente la forma al presionarla.
+5. Formar un bollo, cubrir y dejar levar en un lugar templado hasta duplicar, aproximadamente 45-75 minutos.
+6. Desgasificar suavemente y estirar un círculo de 4-5 mm. Cortarlo en 10-12 triángulos.
+7. Si se rellenan, colocar como máximo 1 cucharadita cerca de la base. Enrollar desde la base hacia la punta y curvar los extremos.
+8. Acomodar con la punta hacia abajo en una placa. Cubrir y dejar levar 25-45 minutos, hasta que se vean livianas.
+9. Calentar el horno a 180 °C. Batir el huevo y pincelar sin aplastar.
+10. Hornear 15-22 minutos, hasta que estén doradas en superficie y base. Enfriar sobre rejilla.
 
 ## Nutrición aproximada
 

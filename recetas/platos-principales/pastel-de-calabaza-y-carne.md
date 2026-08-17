@@ -19,12 +19,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Cocinar la calabaza al horno para obtener un puré menos acuoso.
-2. Rehogar cebolla y morrón; agregar carne y cocinar completamente.
-3. Armar una capa de puré, carne y otra capa de puré.
-4. Batir huevos y distribuir sobre la superficie; cubrir con queso.
-5. Hornear unos 30 minutos a 180 °C hasta que el huevo esté firme y el queso dorado.
-6. Reposar antes de cortar.
+1. Calentar el horno a 200 °C. Cortar la calabaza a lo largo, retirar las semillas y hornearla boca abajo entre 35 y 50 minutos, hasta que la pulpa esté tierna.
+2. Retirar la pulpa y pisarla mientras está caliente. Condimentar con sal, pimienta y nuez moscada si se desea. Si quedó acuosa, cocinar el puré unos minutos en una olla, revolviendo, hasta que espese.
+3. Picar cebollas y morrón. Cocinarlos en una sartén amplia con una pequeña cantidad de aceite durante 6-8 minutos.
+4. Agregar la carne y separarla con cuchara. Cocinar hasta que no queden partes rosadas y se evapore el exceso de líquido. Condimentar con comino, orégano, sal y pimienta.
+5. Si se agregan zanahoria, espinaca o brócoli, incorporarlos cocidos, picados y bien escurridos. El relleno debe quedar húmedo pero no aguado.
+6. Aceitar una fuente. Distribuir la mitad del puré formando una capa pareja, cubrir con toda la carne y terminar con el resto del puré.
+7. Batir los huevos hasta unir clara y yema y distribuirlos sobre la superficie. Inclinar suavemente la fuente para repartirlos. Cubrir con el queso.
+8. Bajar el horno a 180 °C y cocinar unos 30 minutos, hasta que el huevo esté completamente firme y el queso dorado.
+9. Reposar 10-15 minutos antes de cortar para que las capas se estabilicen.
 
 ## Nutrición aproximada
 

@@ -17,11 +17,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar todos los ingredientes.
-2. Si se usa espinaca cocida, exprimirla; si se usa zanahoria, rallarla fina.
-3. Volcar en sartén antiadherente pequeña apenas aceitada.
-4. Cocinar tapado a fuego bajo hasta que firme.
-5. Dar vuelta y terminar la cocción.
+1. Elegir una variante. Para zanahoria, rallarla fina; para espinaca, cocinarla brevemente, enfriarla y exprimirla hasta que no largue agua.
+2. Batir el huevo con sal y condimentos. Agregar el aceite y la avena y mezclar.
+3. Incorporar la taza de vegetal. La mezcla debe quedar húmeda pero no tener líquido separado; si la espinaca estaba mojada, agregar 1 cucharadita extra de avena.
+4. Calentar una sartén antiadherente de 16-18 cm a fuego bajo y aceitarla apenas.
+5. Volcar la mezcla y extenderla en un disco parejo de aproximadamente 1 cm.
+6. Tapar y cocinar 5-7 minutos, hasta que la base esté dorada y la superficie casi firme.
+7. Despegar los bordes. Dar vuelta con una espátula ancha o deslizar sobre un plato y devolverlo invertido a la sartén.
+8. Cocinar destapado 3-5 minutos más. El centro debe quedar firme y el huevo completamente cocido.
+9. Reposar 2 minutos antes de cortar o abrir para rellenar.
 
 ## Nutrición aproximada
 

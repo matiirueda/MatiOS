@@ -11,19 +11,24 @@ Receta salada curada y adaptada al formato MatiOS.
 
 - Base: 1 taza de garbanzos, arvejas o lentejas cocidas y escurridas
 - 1 cucharada de aceite de oliva
-- Jugo de limón
+- 1-2 cucharadas de jugo de limón
 - 1 diente de ajo
-- Sal y especias
-- Tahini, opcional para garbanzos
-- Espinaca picada, opcional para la variante verde
+- ¼ cucharadita de sal, más extra a gusto
+- 1 cucharada de tahini, opcional para garbanzos
+- ½ taza de espinaca cocida y bien exprimida, opcional para la variante verde
+- 1-4 cucharadas de agua fría
+- Pimentón, comino o ají molido, según la variante
 
 ## Preparación
 
-1. Procesar la legumbre elegida con aceite, limón, ajo y sal.
-2. Agregar una cucharada de agua fría si hace falta.
-3. Para garbanzos clásicos, sumar tahini y pimentón.
-4. Para lentejas, usar ají molido; para garbanzos verdes, agregar espinaca.
-5. Probar y ajustar.
+1. Escurrir y enjuagar la legumbre. Si se usó una conserva, hacerlo hasta que el agua salga limpia; si se cocinó en casa, debe estar muy tierna.
+2. Colocar en la procesadora la legumbre, el aceite, 1 cucharada de limón, el ajo y la sal.
+3. Procesar 1 minuto, detener y raspar los bordes. Agregar agua fría de a 1 cucharada hasta lograr una crema espesa y uniforme.
+4. Para hummus clásico de garbanzos, agregar tahini, pimentón y una pizca de comino.
+5. Para la variante de lentejas, usar ají molido o comino. Para arvejas, combinar con menta o perejil si se desea.
+6. Para la variante verde, exprimir muy bien la espinaca antes de incorporarla; de lo contrario aguará la preparación.
+7. Procesar nuevamente hasta que no queden trozos grandes. Probar y ajustar limón, sal y especias.
+8. Refrigerar al menos 30 minutos antes de servir para que se integren los sabores.
 
 ## Nutrición aproximada
 
