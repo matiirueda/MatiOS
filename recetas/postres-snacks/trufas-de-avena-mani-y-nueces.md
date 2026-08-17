@@ -18,10 +18,14 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Mezclar avena, nueces, cereal y coco.
-2. Incorporar mantequilla de maní y dulce de leche.
-3. Formar bolitas parejas; si la mezcla no une, enfriar 10 minutos.
-4. Pasar por coco y refrigerar.
+1. Picar las nueces y el cereal hasta obtener trozos pequeños, no polvo.
+2. Mezclar avena, nueces, cereal y coco para distribuir los ingredientes.
+3. Agregar mantequilla de maní y dulce de leche. Integrar con cuchara y luego presionar con las manos.
+4. Tomar una cucharada y apretarla: si mantiene la forma, está lista. Si está muy blanda, refrigerar 10-15 minutos; si se desarma, sumar 1 cucharadita de mantequilla de maní.
+5. Dividir en 10-12 porciones similares para que el rendimiento sea consistente.
+6. Formar bolitas con las palmas, sin trabajarlas demasiado porque se calientan y ablandan.
+7. Pasar por coco rallado y colocarlas separadas en un recipiente.
+8. Refrigerar al menos 30 minutos antes de comer. Mantener frías para que conserven la forma.
 
 ## Nutrición aproximada
 
