@@ -9,18 +9,33 @@ Receta curada y corregida para MatiOS.
 
 ## Ingredientes
 
-- Base: 4 huevos, 50 g de cacao, 100 g de chocolate semiamargo, 1 cucharada de aceite, 1 cucharada de polvo de hornear, vainilla y edulcorante
-- Relleno: 350 g de queso crema y 4 cucharadas de dulce de leche
-- Leche para humedecer, opcional
+### Para la base
+
+- 4 huevos
+- 50 g de cacao amargo
+- 100 g de chocolate semiamargo
+- 1 cucharada de aceite
+- 1 cucharada de polvo de hornear
+- Vainilla y edulcorante a gusto
+
+### Para el relleno
+
+- 350 g de queso crema
+- 4 cucharadas de dulce de leche
+- 2-4 cucharadas de leche para humedecer, opcional
 
 ## Preparación
 
-1. Precalentar el horno a 170 °C y forrar un molde de 30 x 15 cm.
-2. Batir huevos y endulzante hasta airear.
-3. Incorporar cacao y luego chocolate derretido con aceite, de forma envolvente.
-4. Hornear 10-15 minutos hasta que esté cocida pero húmeda; enfriar completamente.
-5. Cortar en capas o desmenuzar en vasos.
-6. Mezclar relleno, armar y refrigerar al menos 3 horas.
+1. Calentar el horno a 170 °C y forrar un molde rectangular de aproximadamente 30 x 15 cm.
+2. Picar el chocolate y derretirlo con el aceite en intervalos de 15 segundos. Mezclar y dejar entibiar.
+3. Batir huevos, vainilla y edulcorante 4-5 minutos, hasta que aumenten de volumen.
+4. Tamizar cacao y polvo de hornear. Incorporarlos en dos tandas con movimientos envolventes.
+5. Agregar el chocolate tibio en hilo y mezclar suavemente hasta que el color sea uniforme.
+6. Volcar en el molde y hornear 10-16 minutos. Debe estar cocida pero flexible; un palillo puede salir con migas húmedas, no con mezcla líquida.
+7. Enfriar por completo antes de retirar el papel. Cortar en dos o tres capas iguales, o en cubos para vasos.
+8. Mezclar queso crema y dulce de leche hasta obtener una crema uniforme.
+9. Si la base quedó seca, pincelarla apenas con leche. Intercalar base y relleno.
+10. Cubrir y refrigerar al menos 3 horas para que las capas se estabilicen.
 
 ## Nutrición aproximada
 
