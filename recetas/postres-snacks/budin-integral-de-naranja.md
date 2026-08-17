@@ -17,7 +17,8 @@ Receta curada y corregida para MatiOS.
 - 2 cucharadas de aceite
 - 1 cucharada de polvo de hornear
 - ½ taza de frutos secos
-- Edulcorante y vainilla a gusto
+- Edulcorante equivalente a 30-50 g de azúcar, según el producto
+- 1 cucharadita de vainilla
 
 ## Preparación
 
