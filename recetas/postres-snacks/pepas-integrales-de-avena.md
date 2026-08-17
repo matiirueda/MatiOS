@@ -14,8 +14,9 @@ Receta curada y corregida para MatiOS.
 - 5 g de levadura seca
 - 1 cucharadita de azúcar
 - 1 cucharada de aceite
-- Agua tibia, cantidad necesaria
-- Edulcorante y pizca de sal
+- 80-140 ml de agua tibia; comenzar con 80 ml
+- Edulcorante equivalente a 40 g de azúcar, según el producto
+- 1 pizca de sal
 - 1 huevo para pintar
 - Mermelada, membrillo o dulce de batata
 
