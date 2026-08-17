@@ -18,11 +18,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Mezclar harina y sal.
-2. Batir leche, huevos, aceite, vainilla y endulzante.
-3. Unir ambas mezclas y licuar o batir hasta eliminar grumos.
-4. Reposar 10-15 minutos.
-5. Cocinar porciones finas en sartén caliente apenas aceitada.
+1. Colocar harina y sal en un bowl. En otro recipiente batir leche, huevos, aceite, vainilla y el endulzante elegido.
+2. Agregar un tercio de los líquidos a la harina y batir hasta formar una pasta lisa; así se evitan grumos.
+3. Incorporar el resto en dos tandas. También se puede licuar 20-30 segundos.
+4. Reposar 10-15 minutos para hidratar la harina. Mezclar otra vez; debe quedar fluida. Si espesó demasiado, agregar leche de a 1 cucharada.
+5. Calentar una sartén antiadherente de 20-22 cm a fuego medio y aceitarla apenas.
+6. Volcar aproximadamente ¼ de taza y girar la sartén de inmediato para formar una capa fina.
+7. Cocinar 60-90 segundos, hasta que los bordes se despeguen y la superficie pierda brillo.
+8. Dar vuelta con espátula y cocinar 20-40 segundos más.
+9. Apilar bajo un paño limpio. Enfriar antes de rellenar o guardar.
 
 ## Nutrición aproximada
 
