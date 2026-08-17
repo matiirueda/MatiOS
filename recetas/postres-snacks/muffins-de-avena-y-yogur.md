@@ -19,12 +19,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Precalentar el horno a 180 °C y preparar moldes.
-2. Mezclar huevos, yogur, queso crema y endulzante.
-3. Agregar avena y polvo de hornear; reposar 5 minutos.
-4. Incorporar una sola variante de sabor para poder evaluar la base.
-5. Llenar moldes hasta ¾ y hornear 20-25 minutos, no 35 minutos automáticamente.
-6. Enfriar en rejilla.
+1. Calentar el horno a 180 °C. Colocar pirotines en una muffinera o aceitar bien ocho cavidades.
+2. Batir huevos, yogur, queso crema y edulcorante hasta que no queden grumos grandes.
+3. Mezclar avena y polvo de hornear por separado para distribuir el leudante.
+4. Incorporar los secos a los líquidos y reposar 5 minutos.
+5. Revisar la textura: debe caer lentamente de la cuchara. Si quedó demasiado firme, agregar 1 cucharada de leche.
+6. Incorporar una sola variante —fruta, cacao, coco o chocolate— para poder evaluar la base. Si se usa fruta, secarla y cortarla pequeña.
+7. Repartir llenando cada cavidad hasta ¾ de su altura.
+8. Hornear 20-27 minutos. Están listos cuando recuperan la forma al tocarlos y un palillo sale sin masa cruda.
+9. Dejar 5 minutos en el molde y luego pasar a rejilla para que no acumulen humedad.
 
 ## Nutrición aproximada
 
