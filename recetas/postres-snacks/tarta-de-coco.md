@@ -11,7 +11,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 
 - 200 g de coco rallado
 - 4 huevos
-- Edulcorante a gusto
+- Edulcorante equivalente a 80-100 g de azúcar, según el producto
 - 1-4 cucharadas de leche, sólo si hace falta para unir
 
 ## Preparación
