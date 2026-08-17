@@ -21,12 +21,15 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Enjuagar las lentejas; remojo opcional según variedad.
-2. Rehogar aromáticos y dorar la carne.
-3. Agregar lentejas, tomate, caldo, laurel y vegetales firmes.
-4. Cocinar suave 35-50 minutos hasta que carne y lentejas estén tiernas.
-5. Agregar zapallito y espinaca cerca del final para no sobrecocinarlos.
-6. Ajustar líquido y condimentos.
+1. Enjuagar las lentejas bajo agua fría. Si el envase recomienda remojo, cubrirlas con abundante agua durante el tiempo indicado y luego escurrir.
+2. Cortar la carne en cubos de 2-3 cm. Picar cebolla, morrón y ajo; cortar zanahoria, tomate, zapallito y papa en cubos parejos.
+3. Calentar el aceite en una olla grande. Dorar la carne en dos tandas para que tome color y no hierva en su propio jugo. Retirar y reservar.
+4. En la misma olla cocinar cebolla, morrón y zanahoria durante 5-7 minutos. Agregar ajo, pimentón y comino y revolver 30 segundos sin quemarlos.
+5. Incorporar nuevamente la carne, las lentejas, el tomate, el laurel, la papa si se usa y el caldo. El líquido debe cubrir los ingredientes por 2-3 cm.
+6. Cuando rompa hervor, bajar el fuego y cocinar parcialmente tapado entre 35 y 50 minutos. Revolver cada tanto y agregar agua caliente si queda demasiado espeso antes de que las lentejas estén tiernas.
+7. Agregar el zapallito durante los últimos 10-12 minutos y la espinaca durante los últimos 3-5 minutos.
+8. Comprobar que la carne y las lentejas estén tiernas. Retirar el laurel, ajustar sal y pimienta y dejar reposar 5 minutos.
+9. Si quedó muy espeso, sumar caldo caliente; si quedó aguado, cocinar unos minutos destapado. Al enfriarse espesará un poco más.
 
 ## Nutrición aproximada
 
