@@ -10,7 +10,7 @@ Receta dulce curada y adaptada al formato MatiOS.
 ## Ingredientes
 
 - 300 g de mantequilla de maní
-- Edulcorante a gusto
+- Edulcorante equivalente a 1-2 cucharadas de azúcar, según el producto
 - ½ taza de copos de maíz sin azúcar
 - Aproximadamente 120 g de chocolate con 60% de cacao o más
 
