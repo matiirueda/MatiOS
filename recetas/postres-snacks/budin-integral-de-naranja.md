@@ -21,12 +21,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Precalentar el horno a 180 °C y preparar una budinera.
-2. Batir huevos, jugo, miel, aceite, vainilla y endulzante.
-3. Agregar avena, coco, ralladura y polvo de hornear.
-4. Incorporar los frutos secos.
-5. Hornear 25-35 minutos hasta que el centro esté cocido.
-6. Enfriar antes de cortar.
+1. Calentar el horno a 180 °C. Aceitar y forrar una budinera de aproximadamente 22 x 10 cm.
+2. Lavar la naranja antes de rallarla, retirando sólo la parte coloreada; la parte blanca aporta amargor. Luego exprimirla.
+3. Batir huevos, jugo, miel, aceite, vainilla y edulcorante hasta integrar.
+4. En otro bowl mezclar avena procesada, coco, ralladura y polvo de hornear.
+5. Incorporar los secos a los líquidos y mezclar sólo hasta que no quede avena seca.
+6. Agregar los frutos secos, reservando algunos para arriba. Reposar 5 minutos.
+7. Volcar en el molde sin superar ¾ de su altura y alisar.
+8. Hornear 28-40 minutos. Está listo cuando el centro recupera la forma al tocarlo y un palillo sale sin masa cruda.
+9. Enfriar 15 minutos en el molde y luego completamente sobre rejilla antes de cortar.
 
 ## Nutrición aproximada
 
