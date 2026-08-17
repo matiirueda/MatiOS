@@ -16,7 +16,8 @@ Receta curada y corregida para MatiOS.
 - 1 cucharada de aceite
 - 1-2 cucharadas de leche
 - 1 cucharadita de polvo de hornear
-- Edulcorante y vainilla a gusto
+- Edulcorante equivalente a 40 g de azúcar, según el producto
+- 1 cucharadita de vainilla
 - 1 pizca de sal
 
 ### Para la crema de limón
@@ -26,7 +27,7 @@ Receta curada y corregida para MatiOS.
 - 150 ml de jugo de limón
 - 150 ml de agua
 - Ralladura fina de 1 limón
-- Endulzante a gusto
+- Endulzante equivalente a 80-100 g de azúcar, según el producto
 
 ### Para cubrir
 
