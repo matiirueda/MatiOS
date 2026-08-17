@@ -19,13 +19,16 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Activar la levadura con parte del agua y el azúcar.
-2. Mezclar harina y sal; agregar levadura, aceite y agua gradualmente.
-3. Amasar 10-15 minutos. La fuente indica solo 400 ml, probablemente insuficiente: ajustar hasta masa suave.
-4. Levar tapado hasta duplicar.
-5. Dividir en dos moldes, formar y dejar levar nuevamente.
-6. Hornear a 200 °C durante 35-45 minutos; verificar base sonora o temperatura interna cercana a 93 °C.
-7. Enfriar por completo en rejilla.
+1. Separar 100 ml del agua tibia. Debe sentirse apenas cálida, no caliente. Mezclarla con la levadura y el azúcar o miel; dejar 5-10 minutos, hasta que se forme espuma.
+2. En un bowl grande mezclar la harina y la sal. Hacer un hueco y agregar la levadura activada, el aceite y otros 450 ml de agua.
+3. Mezclar desde el centro. Agregar el agua restante de a 1-2 cucharadas hasta que no quede harina seca y se forme una masa suave y apenas pegajosa. La cantidad cambia según la harina.
+4. Amasar 10-15 minutos sobre la mesada. Al final debe verse más lisa, elástica y recuperar lentamente la forma al presionarla.
+5. Formar un bollo, colocarlo en un bowl aceitado y cubrir. Dejar levar en un lugar templado hasta que duplique su tamaño, aproximadamente 60-90 minutos.
+6. Desgasificar presionando suavemente, dividir en dos partes iguales y formar cilindros tensos. Colocar en dos moldes aceitados.
+7. Cubrir y dejar levar nuevamente 35-60 minutos. La masa debe crecer hasta cerca del borde; no esperar a que colapse.
+8. Calentar el horno a 200 °C durante los últimos 20 minutos del levado.
+9. Hornear 35-45 minutos. Deben verse bien dorados, sonar huecos al golpear la base o alcanzar cerca de 93 °C en el centro.
+10. Desmoldar y enfriar por completo sobre rejilla antes de cortar. Abrirlo caliente apelmaza la miga.
 
 ## Nutrición aproximada
 
