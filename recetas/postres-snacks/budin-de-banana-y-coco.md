@@ -15,17 +15,20 @@ Receta curada y corregida para MatiOS.
 - 100 g de coco rallado
 - 1 cucharada de polvo de hornear
 - Vainilla y edulcorante, opcionales
-- Leche o agua, solo si hace falta
+- 1-4 cucharadas de leche o agua, sólo si hace falta
 - Nueces o chocolate picado, opcionales
 
 ## Preparación
 
-1. Precalentar el horno a 180 °C y preparar una budinera.
-2. Pisar banana y mezclar con huevos y vainilla.
-3. Agregar avena, coco y polvo de hornear.
-4. Reposar 5 minutos; sumar líquido de a una cucharada solo si queda excesivamente espeso.
-5. Volcar en molde, agregar topping y hornear 25-35 minutos hasta que el centro esté cocido.
-6. Enfriar antes de cortar.
+1. Calentar el horno a 180 °C. Aceitar y forrar una budinera de aproximadamente 22 x 10 cm.
+2. Pisar las bananas maduras hasta obtener un puré sin trozos grandes.
+3. Batir los huevos con vainilla y edulcorante. Agregar el puré de banana.
+4. Incorporar avena, coco y polvo de hornear. Mezclar sólo hasta integrar.
+5. Reposar 5 minutos. La mezcla debe poder volcarse lentamente; si queda demasiado seca, agregar líquido de a 1 cucharada.
+6. Incorporar nueces o chocolate si se usan, reservando una parte para arriba.
+7. Volcar en el molde y alisar. No llenar más de ¾ de la altura.
+8. Hornear 28-40 minutos. Controlar desde los 28: un palillo debe salir sin masa cruda, aunque puede tener humedad de banana.
+9. Enfriar 15 minutos en el molde y luego sobre rejilla. Cortar sólo cuando esté frío.
 
 ## Nutrición aproximada
 
