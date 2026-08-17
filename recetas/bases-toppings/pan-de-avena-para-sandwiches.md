@@ -16,11 +16,14 @@ Receta salada curada y adaptada al formato MatiOS.
 
 ## Preparación
 
-1. Licuar todos los ingredientes.
-2. Reposar 5 minutos.
-3. Extender en capa fina sobre placa pequeña con papel manteca aceitado.
-4. Hornear 10-15 minutos a 180 °C hasta que el centro esté cocido y pueda despegarse.
-5. Enfriar y cortar en rectángulos.
+1. Calentar el horno a 180 °C. Cubrir una placa pequeña, de aproximadamente 20 x 20 cm, con papel manteca y aceitarlo bien.
+2. Licuar la avena, la leche, la clara, la sal y las hierbas hasta obtener una mezcla uniforme.
+3. Dejar reposar 5 minutos. La avena absorberá líquido; si la mezcla queda tan espesa que no se puede extender, agregar 1 cucharada de leche.
+4. Volcar sobre la placa y extender con espátula en un rectángulo parejo de 3-4 mm. Un espesor desigual produce bordes secos y centro crudo.
+5. Hornear 10-15 minutos, hasta que la superficie esté seca, el centro firme y los bordes comiencen a dorarse.
+6. Dejar reposar 2 minutos y despegar el papel con cuidado. Si se pega, hornear 2-3 minutos más.
+7. Enfriar sobre rejilla para evitar condensación. Cortar en cuatro rectángulos del mismo tamaño.
+8. Para un sándwich más tostado, dorar las tapas ya cortadas en sartén o tostadora antes de rellenar.
 
 ## Nutrición aproximada
 
