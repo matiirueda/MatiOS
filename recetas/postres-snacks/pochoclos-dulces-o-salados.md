@@ -1,0 +1,59 @@
+# Pochoclos dulces o salados
+
+Receta curada y corregida para MatiOS.
+
+**Estado:** 🧪 por-probar  
+**Tipo:** snack  
+**Rinde:** 2 porciones  
+**Tiempo total:** 10 minutos
+
+## Ingredientes
+
+- ½ taza de maíz pisingallo
+- 1 cucharadita de aceite de alto punto de humo
+- Versión dulce: 1 cucharada de azúcar mascabo o edulcorante apto
+- Versión salada: pimentón, ajo, hierbas o queso rallado
+
+## Preparación
+
+1. Calentar una olla grande con aceite y tres granos, tapada.
+2. Cuando revienten, agregar el resto del maíz, tapar y mover la olla periódicamente.
+3. Retirar del fuego cuando pasen 2-3 segundos entre explosiones.
+4. Para la versión dulce con azúcar, caramelizarla aparte con extrema atención y mezclar; el edulcorante se agrega fuera del fuego.
+5. Para la versión salada, condimentar todavía calientes.
+
+## Nutrición aproximada
+
+Por porción: **pendiente de calcular después de confirmar rendimiento y pesos reales**.
+
+## Versión MatiOS
+
+Se eliminan las equivalencias incorrectas entre 100 g, tazas y calorías. La porción se medirá pesando el maíz seco antes de cocinar.
+
+## Variantes
+
+- **Más proteica:** combinar con yogur, ricota, leche proteica o una fuente salada según la comida.
+- **Más calórica:** sumar frutos secos, mantequilla de maní o chocolate en cantidad medida.
+- **Más liviana:** simplificar toppings y ajustar la porción, sin depender de etiquetas “fit”.
+
+## Conservación y freezer
+
+- **Heladera:** No conviene.
+- **¿Se puede congelar?:** No.
+- **Momento ideal para congelar:** No aplica.
+- **Cómo porcionar:** Bols individuales.
+- **Envase:** Recipiente hermético a temperatura ambiente.
+- **Duración orientativa:** 1-2 días para mejor crocante.
+- **Descongelado:** No aplica.
+- **Recalentado:** Horno bajo unos minutos.
+- **Cambios de textura:** Absorben humedad rápidamente.
+
+## Hacer de más
+
+- **¿Conviene duplicar?:** No.
+- **Cantidad sugerida:** Preparar al momento.
+- **Cómo reutilizar:** Mezcla seca con frutos secos, si quedaron crocantes.
+
+## Notas de Mati
+
+Completar después de probar: rendimiento, textura, dulzor, tiempo real y cambios para la próxima.
