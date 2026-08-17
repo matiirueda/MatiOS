@@ -16,11 +16,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Calentar una olla grande con aceite y tres granos, tapada.
-2. Cuando revienten, agregar el resto del maíz, tapar y mover la olla periódicamente.
-3. Retirar del fuego cuando pasen 2-3 segundos entre explosiones.
-4. Para la versión dulce con azúcar, caramelizarla aparte con extrema atención y mezclar; el edulcorante se agrega fuera del fuego.
-5. Para la versión salada, condimentar todavía calientes.
+1. Usar una olla grande con tapa y fondo grueso. Agregar el aceite y tres granos de maíz.
+2. Tapar y calentar a fuego medio. Cuando revienten los tres granos, retirar la olla del fuego.
+3. Agregar el resto del maíz en una sola capa, volver a tapar y esperar 30 segundos fuera del fuego para que los granos se templen de forma pareja.
+4. Devolver al fuego. Mover la olla cada pocos segundos sujetando tapa y asas con protección.
+5. Dejar una mínima abertura para que salga vapor, sin permitir que escapen granos.
+6. Cuando haya 2-3 segundos entre explosiones, apagar y retirar inmediatamente para evitar que se quemen los del fondo.
+7. Para versión salada, volcar en un bowl y condimentar mientras están calientes.
+8. Para versión dulce, es más seguro mezclar el azúcar mascabo con los pochoclos calientes que improvisar caramelo. Si se prepara caramelo aparte, no tocarlo ni agregar líquidos fríos: produce quemaduras graves.
+9. Extender unos minutos antes de guardar para que pierdan vapor y conserven textura.
 
 ## Nutrición aproximada
 
