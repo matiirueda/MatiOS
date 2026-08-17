@@ -18,11 +18,14 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Pisar la banana y batir con huevo y leche.
-2. Agregar avena y saborizante; reposar 5 minutos.
-3. Cocinar porciones medianas en sartén antiadherente a fuego medio-bajo.
-4. Dar vuelta cuando aparezcan burbujas y los bordes estén firmes.
-5. Cocinar el centro por completo sin secarlos.
+1. Usar una banana madura, con manchas en la cáscara. Pisar media banana hasta obtener un puré sin trozos grandes.
+2. Agregar el huevo y la leche y batir hasta integrar. Incorporar avena, canela o vainilla y endulzante si se usa.
+3. Reposar 5 minutos para que la avena absorba líquido. La mezcla debe caer lentamente de la cuchara; si está muy espesa, agregar 1 cucharada de leche.
+4. Calentar una sartén antiadherente a fuego medio-bajo durante 2 minutos y aceitarla apenas.
+5. Colocar aproximadamente ¼ de taza por hot cake, dejando espacio entre ellos. No aplastarlos.
+6. Cocinar 2-3 minutos, hasta que aparezcan burbujas, los bordes pierdan brillo y una espátula pueda entrar por debajo sin romperlos.
+7. Dar vuelta una sola vez y cocinar 1-2 minutos más. El centro debe sentirse firme al presionarlo suavemente.
+8. Si se doran antes de cocinarse por dentro, bajar el fuego. Mantener los listos cubiertos mientras se cocina el resto.
 
 ## Nutrición aproximada
 
