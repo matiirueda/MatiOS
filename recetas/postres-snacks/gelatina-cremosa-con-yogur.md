@@ -18,12 +18,15 @@ Receta curada y corregida para MatiOS.
 
 ## Preparación
 
-1. Preparar la gelatina usando la cantidad de agua indicada en el envase; no asumir que una taza sirve para todas las marcas.
-2. Dejar entibiar sin que cuaje.
-3. Batir yogur y queso crema; incorporar whey si se usa.
-4. Agregar la gelatina en hilo y mezclar.
-5. Repartir en vasos y refrigerar al menos 3 horas.
-6. Agregar fruta y granola justo antes de comer.
+1. Leer el envase y medir exactamente el agua indicada por la marca.
+2. Disolver primero el polvo en el agua caliente indicada, mezclando hasta que no queden cristales.
+3. Agregar el agua fría indicada y dejar entibiar. No debe estar caliente al tocar el bowl, pero tampoco empezar a cuajar.
+4. En otro recipiente batir yogur y queso crema hasta obtener una crema sin grumos.
+5. Si se usa whey, incorporarla de a poco y mezclar completamente antes de agregar la gelatina.
+6. Volcar la gelatina en hilo mientras se bate de forma continua para evitar grumos.
+7. Repartir en cuatro vasos dejando espacio para los toppings.
+8. Refrigerar, no congelar, al menos 3 horas o hasta que el centro esté firme.
+9. Agregar fruta y granola justo antes de comer para evitar que larguen agua o pierdan textura.
 
 ## Nutrición aproximada
 
