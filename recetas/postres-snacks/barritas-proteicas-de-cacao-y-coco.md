@@ -14,16 +14,18 @@ Receta curada y corregida para MatiOS.
 - 1 cucharada de dulce de leche
 - 6 cucharadas de coco rallado
 - 1 medida de whey o 2 cucharadas de avena
-- Leche, cantidad mínima
+- 1-4 cucharaditas de leche
 - Edulcorante, opcional
 
 ## Preparación
 
-1. Mezclar todos los ingredientes secos.
-2. Agregar mantequilla de maní y dulce de leche.
-3. Incorporar leche de a cucharaditas hasta formar una masa moldeable.
-4. Formar barritas o bombones.
-5. Refrigerar al menos 2 horas.
+1. Mezclar cacao, coco y whey o avena hasta que no queden grumos.
+2. Agregar mantequilla de maní, dulce de leche y edulcorante si se usa. Integrar primero con cuchara y luego presionar con las manos.
+3. Agregar leche de a 1 cucharadita. Mezclar completamente antes de sumar otra: demasiada leche vuelve la preparación pegajosa.
+4. La masa está lista cuando se puede apretar y conserva la forma sin adherirse demasiado a los dedos.
+5. Para seis barritas, compactar en un recipiente pequeño forrado y marcar las porciones. Para bombones, dividir en doce partes y formar bolitas.
+6. Refrigerar al menos 2 horas para que coco y proteína terminen de absorber humedad.
+7. Cortar las barritas una vez frías. Si quedaron secas, registrar una cucharadita más de leche para la próxima tanda; si quedaron blandas, sumar coco.
 
 ## Nutrición aproximada
 
