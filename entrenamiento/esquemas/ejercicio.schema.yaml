@@ -47,6 +47,7 @@ fields:
   imagen_alt: string|null
   imagen_origen: enum[generada, propia, licenciada]|null
   imagen_estado: enum[ilustrativa, revisada, reemplazar]|null
+  errores_visuales: list[object]
   miniatura_url: string|null
   revisado_por: list[string]
   ultima_revision: date|null
