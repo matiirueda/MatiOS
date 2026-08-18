@@ -1,0 +1,33 @@
+version: 1
+description: Evento de una serie realmente realizada. En producción se almacena en PostgreSQL.
+required:
+  - user_id
+  - session_id
+  - exercise_id
+  - performed_at
+  - set_number
+  - reps
+fields:
+  user_id: uuid
+  session_id: uuid
+  routine_version_id: uuid|null
+  exercise_id: string
+  performed_at: datetime
+  set_number: integer
+  load_kg: decimal|null
+  reps: integer
+  rir: integer|null
+  rpe: decimal|null
+  tempo: string|null
+  pain_0_10: integer|null
+  completed: boolean
+  note: string|null
+example:
+  exercise_id: press-banca-con-barra
+  set_number: 1
+  load_kg: 60
+  reps: 10
+  rir: 2
+  pain_0_10: 0
+  completed: true
+

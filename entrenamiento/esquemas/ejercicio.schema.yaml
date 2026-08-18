@@ -1,0 +1,53 @@
+version: 1
+required:
+  - id
+  - nombre
+  - estado
+  - patrones
+  - musculos_principales
+  - equipo
+  - dificultad
+  - preparacion
+  - ejecucion
+  - respiracion
+  - errores_comunes
+  - regresiones
+  - progresiones
+  - alertas
+fields:
+  id: string
+  nombre: string
+  aliases: list[string]
+  estado: enum[borrador, revisado, grabado, publicado]
+  patrones: list[string]
+  musculos_principales: list[string]
+  musculos_secundarios: list[string]
+  equipo: list[string]
+  dificultad: enum[inicial, intermedia, avanzada]
+  preparacion: list[string]
+  ejecucion: list[string]
+  respiracion: string
+  tempo_sugerido: string
+  rango_repeticiones: string
+  descanso_sugerido: string
+  esfuerzo_objetivo: string
+  errores_comunes: list[object]
+  regresiones: list[string]
+  progresiones: list[string]
+  sustituciones: list[string]
+  alertas: list[string]
+  video_url: string|null
+  video_origen: enum[propio, referencia-externa]|null
+  video_referencia_url: string|null
+  video_referencia_titulo: string|null
+  video_referencia_revisado: boolean
+  video_duracion_segundos: integer|null
+  video_version: string|null
+  imagen_url: string|null
+  imagen_alt: string|null
+  imagen_origen: enum[generada, propia, licenciada]|null
+  imagen_estado: enum[ilustrativa, revisada, reemplazar]|null
+  errores_visuales: list[object]
+  miniatura_url: string|null
+  revisado_por: list[string]
+  ultima_revision: date|null

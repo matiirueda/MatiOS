@@ -1,0 +1,21 @@
+version: 1
+description: Resumen de una sesión; agrupa series y contexto para analizar evolución.
+required:
+  - user_id
+  - started_at
+  - status
+fields:
+  user_id: uuid
+  routine_version_id: uuid|null
+  planned_day_id: string|null
+  started_at: datetime
+  finished_at: datetime|null
+  status: enum[planned, in_progress, completed, partial, skipped]
+  available_minutes: integer|null
+  readiness_1_5: integer|null
+  energy_1_5: integer|null
+  sleep_hours: decimal|null
+  general_pain_0_10: integer|null
+  exercises: list[registro-serie]
+  note: string|null
+
