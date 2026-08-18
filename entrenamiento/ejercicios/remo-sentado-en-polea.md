@@ -11,8 +11,9 @@ video_version: null
 video_referencia_url: https://www.youtube.com/watch?v=JtTusrYzAos
 video_referencia_titulo: Remo sentado en polea — cómo hacerlo correctamente
 video_referencia_revisado: false
-imagen_url: null
+imagen_url: ../assets/ejercicios/remo-sentado-en-polea.webp
 imagen_estado: ilustrativa
+imagen_alt: Remo sentado en polea con brazos extendidos y agarre junto al abdomen
 ---
 
 # Remo sentado en polea
@@ -51,4 +52,3 @@ Detener si aparece dolor agudo en espalda, hombro o codo, hormigueo o pérdida d
 ## Recurso visual temporal
 
 La referencia de YouTube debe revisarse antes de mostrarse automáticamente a clientes y será reemplazada por el video propio de MatiOS.
-
