@@ -37,9 +37,16 @@ fields:
   sustituciones: list[string]
   alertas: list[string]
   video_url: string|null
+  video_origen: enum[propio, referencia-externa]|null
+  video_referencia_url: string|null
+  video_referencia_titulo: string|null
+  video_referencia_revisado: boolean
   video_duracion_segundos: integer|null
   video_version: string|null
+  imagen_url: string|null
+  imagen_alt: string|null
+  imagen_origen: enum[generada, propia, licenciada]|null
+  imagen_estado: enum[ilustrativa, revisada, reemplazar]|null
   miniatura_url: string|null
   revisado_por: list[string]
   ultima_revision: date|null
-
