@@ -11,8 +11,9 @@ video_version: null
 video_referencia_url: https://www.youtube.com/watch?v=eW1k9_2WrPI
 video_referencia_titulo: Formas de agarre en Press Banca, con PowerExplosive
 video_referencia_revisado: false
-imagen_url: null
+imagen_url: ../assets/ejercicios/press-banca-con-barra.webp
 imagen_estado: ilustrativa
+imagen_alt: Press banca con barra en posición inicial y final
 ---
 
 # Press banca con barra
