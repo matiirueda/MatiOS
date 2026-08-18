@@ -8,6 +8,11 @@ equipo: [polea-baja, agarre]
 dificultad: inicial
 video_url: null
 video_version: null
+video_referencia_url: https://www.youtube.com/watch?v=JtTusrYzAos
+video_referencia_titulo: Remo sentado en polea — cómo hacerlo correctamente
+video_referencia_revisado: false
+imagen_url: null
+imagen_estado: ilustrativa
 ---
 
 # Remo sentado en polea
@@ -42,4 +47,8 @@ video_version: null
 ## Alertas
 
 Detener si aparece dolor agudo en espalda, hombro o codo, hormigueo o pérdida de fuerza.
+
+## Recurso visual temporal
+
+La referencia de YouTube debe revisarse antes de mostrarse automáticamente a clientes y será reemplazada por el video propio de MatiOS.
 
