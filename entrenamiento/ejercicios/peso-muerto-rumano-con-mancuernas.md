@@ -14,6 +14,12 @@ video_referencia_revisado: false
 imagen_url: ../assets/ejercicios/peso-muerto-rumano-con-mancuernas.webp
 imagen_estado: ilustrativa
 imagen_alt: Peso muerto rumano con mancuernas al inicio y en bisagra de cadera
+errores_visuales:
+  - id: colapsar-el-tronco
+    imagen_url: ../assets/ejercicios/peso-muerto-rumano-error-espalda.webp
+    imagen_alt: Comparación entre espalda colapsada y tronco estable en peso muerto rumano
+    error: Bajar colapsando y redondeando el tronco para alcanzar más profundidad.
+    correccion: Llevar la cadera hacia atrás y detener el descenso antes de perder una posición estable del tronco.
 ---
 
 # Peso muerto rumano con mancuernas
