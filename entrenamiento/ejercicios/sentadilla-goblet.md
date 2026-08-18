@@ -11,8 +11,9 @@ video_version: null
 video_referencia_url: https://www.youtube.com/watch?v=XANUniwN1Jg
 video_referencia_titulo: La técnica de la sentadilla goblet
 video_referencia_revisado: false
-imagen_url: null
+imagen_url: ../assets/ejercicios/sentadilla-goblet.webp
 imagen_estado: ilustrativa
+imagen_alt: Sentadilla goblet de pie y en posición baja
 ---
 
 # Sentadilla goblet
@@ -51,4 +52,3 @@ No forzar profundidad con dolor. Detener ante dolor agudo de rodilla, cadera o e
 ## Recurso visual temporal
 
 La referencia de YouTube debe revisarse antes de mostrarse automáticamente a clientes y será reemplazada por el video propio de MatiOS.
-
