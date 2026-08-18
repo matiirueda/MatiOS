@@ -8,6 +8,11 @@ equipo: [mancuerna-o-kettlebell]
 dificultad: inicial
 video_url: null
 video_version: null
+video_referencia_url: https://www.youtube.com/watch?v=XANUniwN1Jg
+video_referencia_titulo: La técnica de la sentadilla goblet
+video_referencia_revisado: false
+imagen_url: null
+imagen_estado: ilustrativa
 ---
 
 # Sentadilla goblet
@@ -42,4 +47,8 @@ video_version: null
 ## Alertas
 
 No forzar profundidad con dolor. Detener ante dolor agudo de rodilla, cadera o espalda y registrar dónde aparece.
+
+## Recurso visual temporal
+
+La referencia de YouTube debe revisarse antes de mostrarse automáticamente a clientes y será reemplazada por el video propio de MatiOS.
 
