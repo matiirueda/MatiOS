@@ -8,6 +8,11 @@ equipo: [mancuernas]
 dificultad: intermedia
 video_url: null
 video_version: null
+video_referencia_url: https://www.youtube.com/watch?v=9j_L1KgpK8Y
+video_referencia_titulo: Cómo hacer peso muerto rumano con mancuernas
+video_referencia_revisado: false
+imagen_url: null
+imagen_estado: ilustrativa
 ---
 
 # Peso muerto rumano con mancuernas
@@ -42,3 +47,7 @@ video_version: null
 ## Alertas
 
 Detener ante dolor agudo lumbar, irradiación, hormigueo o pérdida de fuerza. Diferenciar esfuerzo muscular de dolor.
+
+## Recurso visual temporal
+
+La referencia de YouTube debe revisarse antes de mostrarse automáticamente a clientes y será reemplazada por el video propio de MatiOS.
