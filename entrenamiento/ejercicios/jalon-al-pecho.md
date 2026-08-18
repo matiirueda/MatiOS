@@ -9,8 +9,9 @@ dificultad: inicial
 video_url: null
 video_referencia_url: null
 video_referencia_revisado: false
-imagen_url: null
+imagen_url: ../assets/ejercicios/jalon-al-pecho.webp
 imagen_estado: ilustrativa
+imagen_alt: Jalón al pecho con brazos extendidos y barra próxima al pecho
 ---
 
 # Jalón al pecho en polea
@@ -45,4 +46,3 @@ imagen_estado: ilustrativa
 ## Alertas
 
 Detener ante dolor agudo de hombro o codo, hormigueo o pérdida de fuerza. Elegir un agarre tolerable.
-
