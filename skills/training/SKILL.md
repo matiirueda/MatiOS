@@ -15,6 +15,14 @@ description: Planificar, explicar, adaptar y registrar entrenamiento de fuerza y
 6. Al adaptar una rutina, conservar objetivos y prioridades, explicar los cambios y producir una nueva versión fechada.
 7. Integrar Nutrition para comidas pre/post entrenamiento y Mobility cuando corresponda, sin mezclar registros de dominios.
 
+## Armar rutinas
+
+- Tratar cada ejercicio como una carta reutilizable y la rutina como una combinación con dosis. Seguir `../../entrenamiento/guias/armador-de-rutinas.md`.
+- Elegir la división por objetivo, días, tiempo, experiencia, equipamiento, recuperación y preferencias; no por sexo.
+- Si el usuario prioriza un músculo, considerar frecuencia 2 o 3 para distribuir el trabajo, variar estímulos cuando sea útil y mantener el resto del cuerpo.
+- Definir por ejercicio series, rango de repeticiones, RIR/RPE, descanso, orden, sustitución y regla de progresión.
+- Revisar volumen y fatiga totales junto con deportes u otras actividades antes de entregar el plan.
+
 ## Seguridad
 
 - No diagnosticar lesiones ni interpretar síntomas graves como una simple técnica deficiente.
