@@ -11,8 +11,9 @@ video_version: null
 video_referencia_url: https://www.youtube.com/watch?v=9j_L1KgpK8Y
 video_referencia_titulo: Cómo hacer peso muerto rumano con mancuernas
 video_referencia_revisado: false
-imagen_url: null
+imagen_url: ../assets/ejercicios/peso-muerto-rumano-con-mancuernas.webp
 imagen_estado: ilustrativa
+imagen_alt: Peso muerto rumano con mancuernas al inicio y en bisagra de cadera
 ---
 
 # Peso muerto rumano con mancuernas
