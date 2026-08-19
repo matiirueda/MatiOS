@@ -1,0 +1,25 @@
+version: 1
+description: Evento canónico derivado de un mensaje de WhatsApp; alimenta historial y web sin doble carga.
+required: [event_id, user_id, occurred_at, channel, intent, original_text, confidence]
+fields:
+  event_id: uuid
+  user_id: uuid
+  occurred_at: datetime
+  channel: enum[whatsapp, web, manual]
+  conversation_id: string
+  message_id: string
+  intent: enum[start_session, log_sets, next_exercise, pause_session, finish_session, log_meal, report_pain, ask_plan, other]
+  original_text: string
+  parsed_payload: object|null
+  confidence: decimal
+  confirmation_status: enum[not_needed, pending, confirmed, corrected]
+  linked_session_id: uuid|null
+  linked_plan_version_id: uuid|null
+  created_records: list[record_reference]
+record_reference:
+  type: string
+  id: uuid
+rules:
+  - Conservar siempre el mensaje original.
+  - Pedir confirmación cuando la ambigüedad cambie carga, repeticiones, unidad, dolor o identidad del ejercicio.
+  - No ejecutar decisiones clínicas desde un payload de baja confianza.

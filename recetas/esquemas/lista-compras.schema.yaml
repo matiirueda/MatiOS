@@ -1,0 +1,25 @@
+version: 1
+description: Compra consolidada calculada desde un plan y el inventario disponible.
+required: [shopping_list_id, plan_version_id, generated_at, items]
+fields:
+  shopping_list_id: uuid
+  plan_version_id: uuid
+  generated_at: datetime
+  inventory_snapshot_at: datetime|null
+  items: list[shopping_item]
+shopping_item:
+  ingredient_id: string
+  display_name: string
+  category: string
+  required_quantity: decimal
+  stock_quantity_used: decimal
+  buy_quantity: decimal
+  unit: string
+  optional: boolean
+  substitution: string|null
+  source_recipes: list[string]
+rules:
+  - Normalizar unidades compatibles antes de sumar.
+  - Nunca producir una cantidad de compra negativa.
+  - No descontar stock desconocido ni vencido.
+  - Conservar trazabilidad hacia las recetas que originaron cada cantidad.

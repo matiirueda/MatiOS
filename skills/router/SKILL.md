@@ -14,10 +14,13 @@ Ser la puerta de entrada del cerebro MatiOS. Interpretar la intención del mensa
 
 ## Rutas iniciales
 - comida, receta, macros -> nutrition
+- menú semanal, lista del súper, stock, meal prep -> nutrition
 - rutina, constancia, checklist -> habits
 - postura, cuello, movilidad -> mobility
 - piel, serum, FPS -> skincare
 - entrenamiento, fútbol, gym -> training
+- “qué hago hoy”, “arranqué”, cargas/repeticiones, “siguiente” -> training + client-coaching
+- alta de alumno, propuesta de plan, aprobar rutina, check-in -> client-coaching + training/nutrition
 - agenda, recordatorios -> life-admin
 - tarea grande, procrastinación, “partamos esto”, “terminé”, bloque de foco -> focus
 - Agentis, producto, ventas, aprendizaje -> agentis

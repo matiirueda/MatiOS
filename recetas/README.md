@@ -25,6 +25,9 @@ Guardar recetas en un formato simple y reutilizable para que MatiOS pueda:
 - `guias/` — freezer, alacena, meal prep y técnicas transversales.
 - `fuentes/auditorias/` — revisión interna de las fuentes; no reemplaza las fichas individuales.
 - `vision/` — propósito y evolución del producto.
+- `esquemas/` — contratos del plan semanal y la lista de compras consolidada.
+
+Nutrition debe calcular menú, meal prep y compra desde recetas, porciones e inventario. No mantener listas manuales desconectadas ni descontar stock desconocido.
 
 ## Estados
 

@@ -1,0 +1,36 @@
+version: 1
+description: Versión inmutable de una rutina individual o plantilla aprobable.
+required: [routine_version_id, user_id, status, objective, days]
+fields:
+  routine_version_id: uuid
+  user_id: uuid|null
+  template_id: string|null
+  status: enum[draft, pending_review, approved, changes_requested, rejected, superseded]
+  objective: string
+  priorities: list[string]
+  valid_from: date|null
+  valid_until: date|null
+  supersedes_id: uuid|null
+  assumptions: list[string]
+  constraints: list[string]
+  days: list[routine_day]
+  progression_rule: string
+  reviewer_id: uuid|null
+  reviewed_at: datetime|null
+  review_note: string|null
+routine_day:
+  id: string
+  name: string
+  estimated_minutes: integer
+  exercises: list[prescription]
+prescription:
+  exercise_id: string
+  order: integer
+  sets: integer
+  rep_range: string
+  rpe_target: decimal|null
+  rir_target: integer|null
+  rest_seconds: integer
+  tempo: string|null
+  approved_substitutions: list[string]
+  progression: string

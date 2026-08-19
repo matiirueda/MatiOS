@@ -1,0 +1,31 @@
+version: 1
+description: Plan semanal alimentario versionado, basado en recetas y sujeto a revisión cuando sea individualizado.
+required: [plan_version_id, user_id, week_start, status, meals]
+fields:
+  plan_version_id: uuid
+  user_id: uuid
+  week_start: date
+  status: enum[draft, pending_review, approved, changes_requested, archived]
+  objective: string
+  nutrition_targets:
+    calories_daily: decimal|null
+    protein_g_daily: decimal|null
+    carbs_g_daily: decimal|null
+    fat_g_daily: decimal|null
+  assumptions: list[string]
+  restrictions: list[string]
+  meals: list[planned_meal]
+  meal_prep_tasks: list[string]
+  fridge_plan: list[string]
+  freezer_plan: list[string]
+  thawing_plan: list[string]
+  shopping_list_id: uuid|null
+  reviewer_id: uuid|null
+  reviewed_at: datetime|null
+planned_meal:
+  day: date
+  meal_type: string
+  recipe_slug: string|null
+  servings: decimal
+  variation: string|null
+  leftover_source: string|null
