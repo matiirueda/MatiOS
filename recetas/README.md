@@ -1,5 +1,7 @@
 # 🍳 Recetario MatiOS
 
+- `educacion-nutricional/` — biblioteca didáctica para comprender y aplicar nutrición desde WhatsApp y web.
+
 Fuente de verdad de las recetas que Mati usa, quiere probar o quiere adaptar a sus objetivos.
 
 ## Objetivo

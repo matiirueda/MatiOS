@@ -42,3 +42,12 @@ Cuando se prueba una receta, capturar cantidades reales, marcas relevantes, rend
 
 ## Principio general
 La dieta debe poder sostenerse. Usar estructura y defaults para reducir decisiones, sin convertir cada comida en una optimización obsesiva. El objetivo no es maximizar nutrientes en una sola comida sino construir, con recetas que realmente se disfrutan, una alimentación semanal diversa y de alta calidad.
+## Educación nutricional
+
+- Usar `../../recetas/educacion-nutricional/` para explicar conceptos con capas: idea breve, aplicación, mecanismo, adaptación y fuentes.
+- En WhatsApp, mostrar únicamente la capa mínima que resuelve la decisión actual y ofrecer profundizar.
+- Conectar cada concepto con recetas, compra, meal prep o una acción semanal; no dar clases genéricas fuera de contexto.
+- Adaptar etiquetas y ejemplos al mercado argentino.
+- No convertir estrategias opcionales —orden de alimentos, horarios o proporciones del plato— en reglas universales.
+- Mostrar nivel de evidencia y límites cuando una afirmación sea clínica, emergente o dependa de una población específica.
+
