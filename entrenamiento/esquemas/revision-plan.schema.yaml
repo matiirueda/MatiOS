@@ -1,0 +1,13 @@
+version: 1
+description: Decisión profesional sobre una versión de entrenamiento o nutrición.
+required: [review_id, plan_type, plan_version_id, reviewer_id, decision, reviewed_at]
+fields:
+  review_id: uuid
+  plan_type: enum[training, nutrition]
+  plan_version_id: uuid
+  reviewer_id: uuid
+  decision: enum[approved, changes_requested, rejected]
+  reviewed_at: datetime
+  comment: string|null
+  requested_changes: list[string]
+  content_hash: string

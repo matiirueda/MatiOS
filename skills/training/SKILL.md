@@ -15,6 +15,23 @@ description: Planificar, explicar, adaptar y registrar entrenamiento de fuerza y
 6. Al adaptar una rutina, conservar objetivos y prioridades, explicar los cambios y producir una nueva versión fechada.
 7. Integrar Nutrition para comidas pre/post entrenamiento y Mobility cuando corresponda, sin mezclar registros de dominios.
 
+## Estados y aprobación
+
+- Tratar una rutina generada como `draft`; nunca presentarla como plan profesional aprobado.
+- Guardar la propuesta con objetivo, supuestos, volumen, frecuencia, progresión y motivos de cada elección.
+- Enviar planes nuevos y cambios materiales al circuito `draft -> pending_review -> approved | changes_requested | rejected` definido en `../../entrenamiento/guias/aprobacion-profesional.md`.
+- Entregar al alumno solamente una versión `approved`. Conservar quién aprobó, cuándo y qué versión reemplaza.
+- Permitir ajustes operativos dentro de límites aprobados: cambiar orden, usar una sustitución prevista, acortar descansos accesorios o reducir dosis por falta de tiempo.
+- Requerir nueva aprobación al cambiar ejercicios principales, frecuencia, volumen semanal relevante, objetivo, restricciones o progresión prevista.
+
+## Sesión conversacional
+
+- Seguir `../../entrenamiento/guias/coaching-conversacional-whatsapp.md` cuando el alumno pregunte “¿qué hago hoy?”, inicie una sesión o registre series por mensaje.
+- Mantener un único ejercicio activo y responder primero con la próxima acción: ejercicio, dosis, esfuerzo, descanso y enlace a la ficha.
+- Interpretar formatos naturales como “60x8, 65x8, 70x8 y 75x7; última RPE 9” sin exigir formularios.
+- Registrar cada serie como evento; resumir lo entendido y preguntar solo ante ambigüedad que cambie el dato.
+- Después de cada bloque, indicar el siguiente ejercicio. Al finalizar, cerrar con volumen realizado, incidencias y próxima decisión de progresión.
+
 ## Armar rutinas
 
 - Tratar cada ejercicio como una carta reutilizable y la rutina como una combinación con dosis. Seguir `../../entrenamiento/guias/armador-de-rutinas.md`.
