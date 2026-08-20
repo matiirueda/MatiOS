@@ -6,8 +6,7 @@ Cada archivo representa una carta reutilizable. `Estado: borrador` significa que
 
 | Patrón | Ejercicios disponibles |
 |---|---|
-| Empuje horizontal | Press banca, press inclinado con mancuernas, press de pecho en máquina |
-| Aducción de hombro | Aperturas en polea |
+| Pecho | [Catálogo completo de pecho](../catalogos/pecho.md): 14 cartas de presses, aperturas, flexiones y fondos |
 | Tracción vertical | Jalón al pecho |
 | Tracción horizontal | Remo sentado en polea, remo con mancuerna apoyado |
 | Sentadilla/dominante de rodilla | Sentadilla goblet, prensa de piernas |
@@ -25,4 +24,3 @@ Cada archivo representa una carta reutilizable. `Estado: borrador` significa que
 - Unilaterales: búlgara, zancadas y step-up.
 - Core: anti-extensión, anti-rotación y carga.
 - Levantamientos, gimnasia y acondicionamiento para funcional/HIIT.
-

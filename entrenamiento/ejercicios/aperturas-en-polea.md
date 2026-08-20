@@ -6,11 +6,23 @@ patrones: [aduccion-horizontal-de-hombro]
 musculos_principales: [pectoral]
 equipo: [poleas, agarres-individuales]
 dificultad: intermedia
+tempo_sugerido: "2-1-2"
+rango_repeticiones: "10-20"
+descanso_sugerido: "60-90 segundos"
+esfuerzo_objetivo: "RPE 7-9"
 video_url: null
 video_referencia_url: null
 video_referencia_revisado: false
 imagen_url: null
 imagen_estado: ilustrativa
+animacion_url: https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/cable-standing-fly.gif
+animacion_formato: gif
+animacion_origen: referencia-externa
+animacion_proveedor: ExerciseGymGifsDB
+animacion_id_externo: pectorals/cable-standing-fly
+animacion_licencia: temporal-no-verificada
+animacion_uso: prototipo-interno
+animacion_revisada: false
 ---
 
 # Aperturas de pecho en polea
@@ -44,4 +56,3 @@ imagen_estado: ilustrativa
 ## Alertas
 
 Evitar estiramientos forzados. Detener ante dolor anterior de hombro o sensación de inestabilidad.
-

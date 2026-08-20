@@ -47,6 +47,14 @@ fields:
   imagen_alt: string|null
   imagen_origen: enum[generada, propia, licenciada]|null
   imagen_estado: enum[ilustrativa, revisada, reemplazar]|null
+  animacion_url: string|null
+  animacion_formato: enum[gif, webp, mp4]|null
+  animacion_origen: enum[propia, licenciada, referencia-externa]|null
+  animacion_proveedor: string|null
+  animacion_id_externo: string|null
+  animacion_licencia: enum[propia, comercial-verificada, temporal-no-verificada]|null
+  animacion_uso: enum[publicable, prototipo-interno, reemplazar]|null
+  animacion_revisada: boolean
   errores_visuales: list[object]
   miniatura_url: string|null
   revisado_por: list[string]
