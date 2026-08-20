@@ -6,6 +6,10 @@ patrones: [empuje-horizontal]
 musculos_principales: [pectoral, triceps, deltoides-anterior]
 equipo: [banco, barra, discos, soportes]
 dificultad: intermedia
+tempo_sugerido: "2-1-1"
+rango_repeticiones: "4-12"
+descanso_sugerido: "120-240 segundos"
+esfuerzo_objetivo: "RPE 7-9; evitar el fallo sin seguros o asistente"
 video_url: null
 video_version: null
 video_referencia_url: https://www.youtube.com/watch?v=eW1k9_2WrPI
@@ -14,6 +18,14 @@ video_referencia_revisado: false
 imagen_url: ../assets/ejercicios/press-banca-con-barra.webp
 imagen_estado: ilustrativa
 imagen_alt: Press banca con barra en posición inicial y final
+animacion_url: https://cdn.jsdelivr.net/gh/JahelCuadrado/ExerciseGymGifsDB@v1.1.0/pectorals/barbell-bench-press.gif
+animacion_formato: gif
+animacion_origen: referencia-externa
+animacion_proveedor: ExerciseGymGifsDB
+animacion_id_externo: pectorals/barbell-bench-press
+animacion_licencia: temporal-no-verificada
+animacion_uso: prototipo-interno
+animacion_revisada: false
 ---
 
 # Press banca con barra
