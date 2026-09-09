@@ -20,26 +20,82 @@ La prioridad actual NO es construir agentes puros en código desde cero. La prio
 8. Publicarlos como demos/casos/servicios.
 9. Vender la solución al problema, no la tecnología subyacente.
 
-## Templates prioritarios
+## Radar de mercado — hallazgos acumulados
 
-- AI Lead & Booking Engine
-- AI Sales Follow-up
-- AI Customer/Support Inbox
-- AI Clinic / Appointment Receptionist
-- AI Quote & Sales Agent
-- Lead Reactivation
-- Omnichannel Agent + human handoff
-- Voice Agent
-- CRM Automation Core
-- Web Research / Scraping Agent
+### Señales fuertes
 
-Objetivo de diseño: reutilizar idealmente 70–90% del sistema entre clientes mediante configuración.
+- El patrón dominante no es “necesito n8n” sino sistemas completos: lead entra → IA/calificación → CRM → seguimiento → agenda → human handoff → reporting.
+- GoHighLevel aparece con mucha más frecuencia que Chatwoot en demanda freelance observada y sigue como CRM prioritario para aprender/comercializar.
+- Chatwoot aparece menos, pero en proyectos más técnicos/self-hosted: WhatsApp/Meta omnicanal, IA, human handoff y control de infraestructura/datos.
+- En LATAM aparecen Kommo y Bitrix24; Kommo queda como CRM secundario a vigilar especialmente para mercado hispano.
+- HubSpot/Pipedrive aparecen como integraciones útiles, pero por ahora no justifican especialización profunda: conviene dominar adapters/API.
+- Make/Zapier aparecen como complementos. El core puede seguir siendo n8n; aprender suficiente para integrar/migrar y responder a demanda.
+- Python aparece como skill complementaria valiosa para resolver lo que low-code no cubre, pero no es prioridad construir runtimes puros en código en esta etapa.
+- WhatsApp + IA + CRM + agenda/seguimiento es una señal especialmente fuerte para LATAM.
+- Poca publicación explícita en Argentina no debe interpretarse como falta de mercado: puede ser oportunidad outbound donde el cliente conoce el problema pero no la palabra “automatización”.
+
+### Validación clave: template-first
+
+Se observó demanda explícita de clientes que quieren dejar de construir una automatización desde cero para cada cliente y pasar a un modelo:
+
+`core probado → configuración por cliente → integraciones → testing → deploy`
+
+Esto valida directamente la meta de Agentis de reutilizar 70–90% y parametrizar el resto.
+
+### Voice agents
+
+Retell sube de prioridad por aparición repetida junto con n8n + GHL + booking/CRM. El Voice Receptionist deja de ser una curiosidad futura y pasa a template comercial relevante, pero después del core de booking/lead.
+
+### Content Factory
+
+Apareció demanda de sistemas de contenido con:
+
+`n8n/Make → LLM productor → segundo LLM reviewer → human-in-the-loop → Notion/Kanban → publicación`
+
+Es un template reutilizable y además valida el patrón de dos modelos/agentes con enfoques distintos antes de aprobación humana.
+
+## Templates prioritarios — ranking vivo
+
+1. **AI Lead & Booking Engine** — señal muy alta; reuso estimado 85–90%.
+2. **CRM Sales Follow-up** — señal muy alta; reuso 85–90%.
+3. **AI Voice Receptionist** — señal alta y creciente; reuso 80–90%.
+4. **WhatsApp Support / Sales Agent** — señal alta; reuso 80–90%.
+5. **AI Quote & Qualification Agent** — señal media/alta; reuso 75–85%.
+6. **AI Content Factory + Reviewer** — señal creciente; reuso 80–90%.
+7. **Omnichannel Inbox + human handoff** — Chatwoot encaja especialmente bien; reuso 75–85%.
+8. **CRM Automation Core** — transversal; objetivo ~90% reutilizable.
+9. **Lead Reactivation** — reuso 85–90%.
+10. **Web Research / Scraping Agent** — reuso 70–80%.
+
+### Core compartido deseado
+
+Lead/Booking, Voice y WhatsApp Support no deben ser tres productos independientes. Deben compartir primitives:
+
+`Conversation Engine → Knowledge → Qualification → Calendar → CRM → Follow-up → Human Handoff → Logs`
+
+El canal debe ser intercambiable/configurable:
+
+`WhatsApp | Voice | Web | Telegram`
+
+## Servicios publicables derivados de demanda
+
+### Agentis AI Receptionist
+“Responde llamadas/WhatsApp, contesta preguntas, califica clientes, agenda turnos y deriva a tu equipo.”
+
+Implementación interna posible:
+`Retell / WhatsApp → n8n → LLM → Calendar → GHL → human handoff`
+
+### Agentis Lead Engine
+“Automatizamos tu proceso de leads de punta a punta: formulario/WhatsApp → CRM → calificación → seguimiento → cita.”
+
+La comunicación comercial no debe vender nombres de herramientas: debe vender resultado.
 
 ## Componentes reutilizables candidatos
 
 - CRM Adapter (GHL primero; Chatwoot/Kommo/HubSpot/Pipedrive/Bitrix según demanda)
 - WhatsApp Adapter
 - Telegram Adapter
+- Voice Adapter (Retell/Vapi)
 - Calendar Adapter
 - LLM Router
 - Human Handoff
@@ -54,8 +110,12 @@ Objetivo de diseño: reutilizar idealmente 70–90% del sistema entre clientes m
 
 ### Core
 - n8n — orquestación principal.
+- APIs/webhooks — habilidad central.
 - JavaScript/Python dentro de n8n o servicios auxiliares cuando los nodos no alcancen.
-- APIs/webhooks como habilidad central.
+
+### Prioridad de aprendizaje actual
+
+`n8n → APIs/Webhooks → GHL → WhatsApp Cloud API → OpenAI/Claude → Google Calendar → Supabase/Postgres → Retell → Make/Zapier básico`
 
 ### CRM / canales
 - GoHighLevel — prioridad comercial por demanda observada.
@@ -63,6 +123,7 @@ Objetivo de diseño: reutilizar idealmente 70–90% del sistema entre clientes m
 - Kommo — vigilar especialmente en LATAM.
 - HubSpot/Pipedrive/Bitrix24 — adapters según cliente/demanda.
 - WhatsApp Cloud API — preferencia para producción frente a automatizaciones no oficiales de WhatsApp Web.
+- Retell/Vapi — voice layer; Retell sube de prioridad por demanda observada.
 
 ### Datos / conocimiento
 - Supabase/Postgres.
@@ -228,6 +289,8 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 8. Todo componente reutilizable vuelve a la biblioteca Agentis.
 9. Muchos experimentos, pocas marcas al principio.
 10. La fábrica debe servir para múltiples proyectos/negocios, no sólo para un caso.
+11. La demanda freelance funciona también como investigación de producto: cada patrón pagado puede convertirse en template/servicio.
+12. Mantener un ranking vivo: frecuencia, presupuesto, competencia, idioma/país, vertical y reusabilidad.
 
 ## Próximas decisiones
 
@@ -240,3 +303,14 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 - [ ] Inventariar repos/templates n8n por cada template comercial prioritario.
 - [ ] Elegir el conjunto mínimo de herramientas de Agentis Factory v0.1.
 - [ ] Levantar Booking/Lead Agent con canales propios y probar end-to-end.
+- [ ] Diseñar el core compartido Conversation/Qualification/Calendar/CRM/Handoff/Logs.
+- [ ] Evaluar Retell después del primer Booking/Lead core para reutilizarlo como Voice Receptionist.
+
+## Última actualización de mercado
+
+- Fecha: 2026-09-09.
+- GHL mantiene prioridad sobre Chatwoot por volumen de demanda observado.
+- Retell sube de prioridad por demanda de voice receptionist + n8n + CRM/booking.
+- Se valida explícitamente el modelo template-first/configuración por cliente.
+- Content Factory + segundo LLM reviewer entra al backlog.
+- Próximo objetivo de producto: construir primero el core Lead & Booking y reutilizarlo como base de WhatsApp, Voice y otros verticales.
