@@ -97,6 +97,7 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Telegram Adapter
 - Voice Adapter (Retell/Vapi)
 - Calendar Adapter
+- Browser Operator Adapter (agent-browser)
 - LLM Router
 - Human Handoff
 - Lead Scoring
@@ -124,6 +125,12 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - HubSpot/Pipedrive/Bitrix24 — adapters según cliente/demanda.
 - WhatsApp Cloud API — preferencia para producción frente a automatizaciones no oficiales de WhatsApp Web.
 - Retell/Vapi — voice layer; Retell sube de prioridad por demanda observada.
+
+### Browser automation
+- `vercel-labs/agent-browser` — Browser Operator para casos donde no exista una API adecuada y un agente deba navegar/interactuar con una web como una persona: abrir páginas, leer snapshots semánticos, hacer click, completar formularios, manejar sesiones, screenshots y flujos web.
+- Tiene skill utilizable tanto por Claude Code como por Codex, por lo que encaja con la estrategia multi-modelo de Agentis.
+- No usar browser automation por defecto cuando exista una API estable/oficial. Prioridad: `API/webhook > integración nativa > browser automation`.
+- Usarlo sólo sobre sistemas propios o donde tengamos autorización y respetando permisos/términos del servicio.
 
 ### Datos / conocimiento
 - Supabase/Postgres.
@@ -165,6 +172,11 @@ Matías. Define objetivo, restricciones, prioriza y aprueba decisiones important
 - usa n8n MCP cuando resulte adecuado;
 - integra APIs, webhooks, CRM, canales y tools;
 - usa JS/Python sólo donde aporta.
+
+### Browser Operator
+- usa `agent-browser` cuando una tarea requiera interacción real con una interfaz web y no haya una API/integración mejor;
+- puede navegar, leer páginas, hacer click, completar formularios, reutilizar sesiones y verificar resultados;
+- funciona como “manos y ojos” web de otros agentes, no como reemplazo general de APIs.
 
 ### Frontend / UX Engineer
 - Next.js/React;
@@ -215,7 +227,11 @@ Regla: ningún template pasa a vendible sin testing + security review proporcion
 
 ### n8n
 - n8n MCP — investigar como interfaz para que los agentes entiendan/creen/modifiquen workflows.
+- `czlonkowski/n8n-mcp` + `czlonkowski/n8n-skills` como candidatos principales para el n8n Engineer.
 - Mantener radar de repos de workflows/templates y seleccionar bases por caso de uso.
+
+### Browser / computer-like web interaction
+- `vercel-labs/agent-browser` — candidato principal para Browser Operator. Skill compatible con Claude Code y Codex. Permite interacción web mediante browser real y snapshots/ref-based actions.
 
 ### RAG
 - LightRAG — candidato estándar para Knowledge/RAG cuando sea necesario.
@@ -246,6 +262,7 @@ Demanda freelance / outbound / problema real
  ┌──────────────┼──────────────┐
  ↓              ↓              ↓
 n8n Eng.    CRM/Integr.    Frontend/UX
+      ↘       Browser Operator       ↙
                 ↓
         Claude Code / Codex
        implementación + peer review
@@ -291,6 +308,7 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 10. La fábrica debe servir para múltiples proyectos/negocios, no sólo para un caso.
 11. La demanda freelance funciona también como investigación de producto: cada patrón pagado puede convertirse en template/servicio.
 12. Mantener un ranking vivo: frecuencia, presupuesto, competencia, idioma/país, vertical y reusabilidad.
+13. Para integración web: preferir API/webhook; usar Browser Operator cuando la interfaz sea realmente la única/mejor vía autorizada.
 
 ## Próximas decisiones
 
@@ -305,6 +323,7 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 - [ ] Levantar Booking/Lead Agent con canales propios y probar end-to-end.
 - [ ] Diseñar el core compartido Conversation/Qualification/Calendar/CRM/Handoff/Logs.
 - [ ] Evaluar Retell después del primer Booking/Lead core para reutilizarlo como Voice Receptionist.
+- [ ] Probar `vercel-labs/agent-browser` con Claude Code y Codex y documentar el Browser Operator SOP.
 
 ## Última actualización de mercado
 
