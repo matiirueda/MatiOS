@@ -54,6 +54,8 @@ Apareció demanda de sistemas de contenido con:
 
 Es un template reutilizable y además valida el patrón de dos modelos/agentes con enfoques distintos antes de aprobación humana.
 
+La Content Factory debe poder evolucionar a producción audiovisual completa: research/brief → ángulos/hooks → guion/storyboard → generación de assets → edición/motion → revisión independiente → aprobación humana → variantes/repurposing → publicación → métricas/aprendizaje.
+
 ## Templates prioritarios — ranking vivo
 
 1. **AI Lead & Booking Engine** — señal muy alta; reuso estimado 85–90%.
@@ -98,6 +100,8 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Voice Adapter (Retell/Vapi)
 - Calendar Adapter
 - Browser Operator Adapter (agent-browser)
+- Creative Asset Generator Adapter (Higgsfield)
+- Video Composition / Rendering Adapter (Remotion)
 - LLM Router
 - Human Handoff
 - Lead Scoring
@@ -131,6 +135,12 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Tiene skill utilizable tanto por Claude Code como por Codex, por lo que encaja con la estrategia multi-modelo de Agentis.
 - No usar browser automation por defecto cuando exista una API estable/oficial. Prioridad: `API/webhook > integración nativa > browser automation`.
 - Usarlo sólo sobre sistemas propios o donde tengamos autorización y respetando permisos/términos del servicio.
+
+### Creative / Content Factory
+- Higgsfield Skills — candidato para generación de imágenes/video/assets desde los agentes, sin sacar a Mati del flujo Claude Code/Codex. Integrarlo como herramienta del Creative/Content Engineer y no acoplar la arquitectura a un único modelo visual.
+- Remotion Skills — candidato para composición, edición programática, motion graphics, audio/timing y render de video desde Claude Code/Codex.
+- Patrón deseado: `brief/research → hooks → script/storyboard → Higgsfield/assets → Remotion/edit → reviewer independiente → Mati HITL → variantes → publish → métricas`.
+- Mantener revisión visual/render antes de publicar; la generación automática no implica aprobación automática.
 
 ### Datos / conocimiento
 - Supabase/Postgres.
@@ -177,6 +187,14 @@ Matías. Define objetivo, restricciones, prioriza y aprueba decisiones important
 - usa `agent-browser` cuando una tarea requiera interacción real con una interfaz web y no haya una API/integración mejor;
 - puede navegar, leer páginas, hacer click, completar formularios, reutilizar sesiones y verificar resultados;
 - funciona como “manos y ojos” web de otros agentes, no como reemplazo general de APIs.
+
+### Creative / Content Engineer
+- convierte brief/research en assets y piezas audiovisuales siguiendo la estrategia definida por Content Factory;
+- usa Higgsfield Skills como capa candidata de generación visual/video;
+- usa Remotion Skills para composición/edición/render programático;
+- genera variantes y piezas para repurposing;
+- entrega renders/assets a un reviewer independiente antes del human-in-the-loop de Mati;
+- sirve tanto para UGC de terceros como para publicidad/contenido de Agentis y otros negocios propios.
 
 ### Frontend / UX Engineer
 - Next.js/React;
@@ -233,6 +251,11 @@ Regla: ningún template pasa a vendible sin testing + security review proporcion
 ### Browser / computer-like web interaction
 - `vercel-labs/agent-browser` — candidato principal para Browser Operator. Skill compatible con Claude Code y Codex. Permite interacción web mediante browser real y snapshots/ref-based actions.
 
+### Creative / video
+- `higgsfield-ai/skills` — investigar/integrar como skill de generación de assets visuales/video para Claude Code y Codex.
+- `remotion-dev/skills` — investigar/integrar como skill de edición/composición/render programático de video para Claude Code y Codex.
+- Evaluar pipelines existentes que combinen generación + revisión + Remotion antes de construir uno desde cero.
+
 ### RAG
 - LightRAG — candidato estándar para Knowledge/RAG cuando sea necesario.
 
@@ -263,6 +286,7 @@ Demanda freelance / outbound / problema real
  ↓              ↓              ↓
 n8n Eng.    CRM/Integr.    Frontend/UX
       ↘       Browser Operator       ↙
+          Creative/Content Eng.
                 ↓
         Claude Code / Codex
        implementación + peer review
@@ -309,6 +333,7 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 11. La demanda freelance funciona también como investigación de producto: cada patrón pagado puede convertirse en template/servicio.
 12. Mantener un ranking vivo: frecuencia, presupuesto, competencia, idioma/país, vertical y reusabilidad.
 13. Para integración web: preferir API/webhook; usar Browser Operator cuando la interfaz sea realmente la única/mejor vía autorizada.
+14. En Content Factory: generación automática ≠ publicación automática; mantener reviewer independiente + human-in-the-loop.
 
 ## Próximas decisiones
 
@@ -324,6 +349,9 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 - [ ] Diseñar el core compartido Conversation/Qualification/Calendar/CRM/Handoff/Logs.
 - [ ] Evaluar Retell después del primer Booking/Lead core para reutilizarlo como Voice Receptionist.
 - [ ] Probar `vercel-labs/agent-browser` con Claude Code y Codex y documentar el Browser Operator SOP.
+- [ ] Probar Higgsfield Skills desde Claude Code y Codex para generación de assets.
+- [ ] Probar Remotion Skills con un video corto y documentar el ciclo render → revisión → corrección → render final.
+- [ ] Diseñar Content Factory v0.1 reutilizable para UGC externo + Agentis + negocios propios.
 
 ## Última actualización de mercado
 
