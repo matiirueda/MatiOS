@@ -102,6 +102,7 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Browser Operator Adapter (agent-browser)
 - Creative Asset Generator Adapter (Higgsfield)
 - Video Composition / Rendering Adapter (Remotion)
+- Architecture Map / Documentation Adapter (Archify)
 - LLM Router
 - Human Handoff
 - Lead Scoring
@@ -131,16 +132,19 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Retell/Vapi — voice layer; Retell sube de prioridad por demanda observada.
 
 ### Browser automation
-- `vercel-labs/agent-browser` — Browser Operator para casos donde no exista una API adecuada y un agente deba navegar/interactuar con una web como una persona: abrir páginas, leer snapshots semánticos, hacer click, completar formularios, manejar sesiones, screenshots y flujos web.
-- Tiene skill utilizable tanto por Claude Code como por Codex, por lo que encaja con la estrategia multi-modelo de Agentis.
-- No usar browser automation por defecto cuando exista una API estable/oficial. Prioridad: `API/webhook > integración nativa > browser automation`.
-- Usarlo sólo sobre sistemas propios o donde tengamos autorización y respetando permisos/términos del servicio.
+- `vercel-labs/agent-browser` — Browser Operator para casos donde no exista una API adecuada y un agente deba navegar/interactuar con una web como una persona.
+- Prioridad: `API/webhook > integración nativa > browser automation`.
 
 ### Creative / Content Factory
-- Higgsfield Skills — candidato para generación de imágenes/video/assets desde los agentes, sin sacar a Mati del flujo Claude Code/Codex. Integrarlo como herramienta del Creative/Content Engineer y no acoplar la arquitectura a un único modelo visual.
-- Remotion Skills — candidato para composición, edición programática, motion graphics, audio/timing y render de video desde Claude Code/Codex.
-- Patrón deseado: `brief/research → hooks → script/storyboard → Higgsfield/assets → Remotion/edit → reviewer independiente → Mati HITL → variantes → publish → métricas`.
-- Mantener revisión visual/render antes de publicar; la generación automática no implica aprobación automática.
+- Higgsfield Skills — generación de imágenes/video/assets desde los agentes.
+- Remotion Skills — composición, edición programática, motion graphics, audio/timing y render de video desde Claude Code/Codex.
+- Patrón: `brief/research → hooks → script/storyboard → Higgsfield/assets → Remotion/edit → reviewer independiente → Mati HITL → variantes → publish → métricas`.
+
+### Arquitectura / documentación visual
+- `tt-a1i/archify` — candidato para generar y mantener mapas visuales de arquitectura, workflows, secuencias, data flows y cambios del sistema desde Claude Code/Codex.
+- Usarlo especialmente en proyectos/templates medianos o grandes para que Mati pueda entender visualmente qué construyeron los agentes y para mantener documentación técnica ligada al sistema real.
+- Patrón deseado: `implementación → tests → security → docs AI → docs Mati → Archify/mapa actualizado → human review`.
+- Evitar convertirlo en burocracia para cambios pequeños; aplicarlo cuando el mapa reduzca complejidad o ayude a reconstruir/explicar el sistema.
 
 ### Datos / conocimiento
 - Supabase/Postgres.
@@ -185,22 +189,25 @@ Matías. Define objetivo, restricciones, prioriza y aprueba decisiones important
 
 ### Browser Operator
 - usa `agent-browser` cuando una tarea requiera interacción real con una interfaz web y no haya una API/integración mejor;
-- puede navegar, leer páginas, hacer click, completar formularios, reutilizar sesiones y verificar resultados;
-- funciona como “manos y ojos” web de otros agentes, no como reemplazo general de APIs.
+- funciona como “manos y ojos” web de otros agentes.
 
 ### Creative / Content Engineer
-- convierte brief/research en assets y piezas audiovisuales siguiendo la estrategia definida por Content Factory;
-- usa Higgsfield Skills como capa candidata de generación visual/video;
+- convierte brief/research en assets y piezas audiovisuales;
+- usa Higgsfield Skills para generación visual/video;
 - usa Remotion Skills para composición/edición/render programático;
-- genera variantes y piezas para repurposing;
-- entrega renders/assets a un reviewer independiente antes del human-in-the-loop de Mati;
-- sirve tanto para UGC de terceros como para publicidad/contenido de Agentis y otros negocios propios.
+- genera variantes y entrega a reviewer independiente + Mati HITL.
+
+### Architecture / Documentation Engineer
+- mantiene la arquitectura comprensible para agentes y para Mati;
+- usa Archify cuando aporte para generar/actualizar mapas de arquitectura, workflows, secuencias y data flows;
+- compara cambios importantes y refleja el estado posterior del sistema;
+- complementa, no reemplaza, `AGENTS.md`, `CLAUDE.md`, specs, contratos, SOPs y documentación funcional para Mati;
+- objetivo: que otro agente pueda reconstruir/entender el sistema y Mati pueda explicar qué hace sin mirar el código.
 
 ### Frontend / UX Engineer
 - Next.js/React;
 - 21st.dev / Agent Elements;
-- UI UX Pro Max;
-- convierte el backend/orquestación en un producto presentable para el cliente.
+- UI UX Pro Max.
 
 ### CRM / Integration Engineer
 - GHL, Chatwoot, Kommo y otros CRMs;
@@ -210,22 +217,20 @@ Matías. Define objetivo, restricciones, prioriza y aprueba decisiones important
 - LightRAG/RAG;
 - ingestión, retrieval y knowledge bases cuando el caso lo necesite.
 
-### Engineer A / Engineer B
-Claude Code y Codex deben funcionar como dos empleados con enfoques independientes, no como clones.
+### Engineer A / Engineer B / Reviewer C opcional
+Claude Code y Codex deben funcionar como dos empleados con enfoques independientes. Gemini puede funcionar como tercer especialista/reviewer opcional cuando aporte diversidad de criterio o capacidad específica; no usar tres modelos por defecto si no agrega valor.
 
 Patrones:
 - Claude implementa → Codex revisa.
 - Codex implementa → Claude revisa.
-- Para decisiones importantes: ambos proponen independientemente y Project Lead compara.
+- Decisiones importantes: propuestas independientes → Project Lead compara → Mati aprueba.
+- Gemini puede entrar como tercera opinión/reviewer cuando el riesgo o la ambigüedad lo justifique.
 
-Las capacidades se definen por rol, no por proveedor. Si una skill existe sólo para uno, buscar equivalente para el otro o adaptar la metodología.
+Las capacidades se definen por rol, no por proveedor.
 
 ### Security Engineer
-Dos capas complementarias:
-- Trail of Bits Skills — revisión de código, configuración, testing y prácticas de seguridad para agentic coding.
-- Strix (usestrix/strix) — pentesting dinámico autorizado de nuestros sistemas/sistemas del cliente con permiso.
-
-Regla: ningún template pasa a vendible sin testing + security review proporcional al riesgo.
+- Trail of Bits Skills — revisión de código/configuración/testing.
+- Strix — pentesting dinámico autorizado.
 
 ### QA / Test
 - happy paths;
@@ -238,26 +243,30 @@ Regla: ningún template pasa a vendible sin testing + security review proporcion
 ## Herramientas / skills / repos a conservar e investigar
 
 ### Agent harness / coordinación
-- Everything Claude Code — repo de Affaan Mustafa (`affaan-m/everything-claude-code`). Skills, agents, hooks, rules, MCPs, metodología y soporte multi-harness. Evaluar qué piezas usar en Claude Code y cuáles trasladar/equivaler en Codex.
-- Get Shit Done — pendiente identificar URL/repo exacto y comparar con Everything Claude Code para coordinación/project management.
+- Everything Claude Code (`affaan-m/everything-claude-code`).
+- Get Shit Done — pendiente identificar URL/repo exacto.
+- Grok Bot architecture — estudiar como referencia de AI employee persistente, sandbox, MCP, automations y human approval.
+- `ptmrio/harness-subagent` — candidato a permitir delegación/revisión cruzada entre harnesses/modelos (Claude/Codex/Grok); investigar antes de adoptar.
 - Repo coordinador de proyectos mencionado por Matías — pendiente identificar.
 - Repo “NeoHN” mencionado por Matías — pendiente URL exacta.
 
 ### n8n
-- n8n MCP — investigar como interfaz para que los agentes entiendan/creen/modifiquen workflows.
+- n8n MCP.
 - `czlonkowski/n8n-mcp` + `czlonkowski/n8n-skills` como candidatos principales para el n8n Engineer.
-- Mantener radar de repos de workflows/templates y seleccionar bases por caso de uso.
+- Mantener radar de repos de workflows/templates.
 
-### Browser / computer-like web interaction
-- `vercel-labs/agent-browser` — candidato principal para Browser Operator. Skill compatible con Claude Code y Codex. Permite interacción web mediante browser real y snapshots/ref-based actions.
+### Browser
+- `vercel-labs/agent-browser` — Browser Operator.
 
 ### Creative / video
-- `higgsfield-ai/skills` — investigar/integrar como skill de generación de assets visuales/video para Claude Code y Codex.
-- `remotion-dev/skills` — investigar/integrar como skill de edición/composición/render programático de video para Claude Code y Codex.
-- Evaluar pipelines existentes que combinen generación + revisión + Remotion antes de construir uno desde cero.
+- `higgsfield-ai/skills` — generación de assets visuales/video.
+- `remotion-dev/skills` — edición/composición/render programático.
+
+### Arquitectura / documentación
+- `tt-a1i/archify` — mapas visuales de arquitectura y workflows para Claude Code/Codex; evaluar como parte del Definition of Done en sistemas medianos/grandes.
 
 ### RAG
-- LightRAG — candidato estándar para Knowledge/RAG cuando sea necesario.
+- LightRAG.
 
 ### Front
 - UI UX Pro Max.
@@ -276,32 +285,27 @@ Demanda freelance / outbound / problema real
           Agentis Backlog
                 ↓
        Research / Reuse Agent
-     (repos/templates existentes)
                 ↓
         Process Architect
                 ↓
           Project Lead
                 ↓
- ┌──────────────┼──────────────┐
- ↓              ↓              ↓
-n8n Eng.    CRM/Integr.    Frontend/UX
-      ↘       Browser Operator       ↙
-          Creative/Content Eng.
+ n8n / CRM / Browser / Front / Creative
                 ↓
-        Claude Code / Codex
+ Claude Code / Codex (+ Gemini opcional)
        implementación + peer review
                 ↓
           QA / Evals / Tests
                 ↓
- Trail of Bits review + Strix cuando aplique
+        Security Review
+                ↓
+ Docs AI + Docs Mati + Archify cuando aplique
                 ↓
        Human-in-the-loop (Mati)
                 ↓
         Agentis Template v1
                 ↓
  demo + docs + video + landing + pricing
-                ↓
-       portfolio / freelance / outbound
 ```
 
 ## Estrategia de marca
@@ -316,8 +320,6 @@ Estructura sugerida:
 - Agentis Learn/Blog — contenido técnico/comercial.
 - Agentis Products — productos que demuestren tracción.
 
-Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar audiencia en muchas marcas. Los productos se independizan sólo cuando tengan señal real (usuarios, tráfico, leads o ventas).
-
 ## Principios
 
 1. n8n es la fábrica/orquestador, no lo que vendemos.
@@ -326,14 +328,16 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 4. Reuse-first: investigar antes de construir.
 5. Human-in-the-loop obligatorio en decisiones y releases importantes.
 6. Claude Code y Codex se revisan mutuamente y deben conservar diversidad de enfoque.
-7. Seguridad y testing forman parte del Definition of Done.
-8. Todo componente reutilizable vuelve a la biblioteca Agentis.
-9. Muchos experimentos, pocas marcas al principio.
-10. La fábrica debe servir para múltiples proyectos/negocios, no sólo para un caso.
-11. La demanda freelance funciona también como investigación de producto: cada patrón pagado puede convertirse en template/servicio.
-12. Mantener un ranking vivo: frecuencia, presupuesto, competencia, idioma/país, vertical y reusabilidad.
-13. Para integración web: preferir API/webhook; usar Browser Operator cuando la interfaz sea realmente la única/mejor vía autorizada.
-14. En Content Factory: generación automática ≠ publicación automática; mantener reviewer independiente + human-in-the-loop.
+7. Gemini es reviewer/especialista opcional, no gasto obligatorio.
+8. Seguridad y testing forman parte del Definition of Done.
+9. Todo componente reutilizable vuelve a la biblioteca Agentis.
+10. Muchos experimentos, pocas marcas al principio.
+11. La fábrica debe servir para múltiples proyectos/negocios.
+12. La demanda freelance funciona también como investigación de producto.
+13. Para integración web: preferir API/webhook; Browser Operator cuando sea la mejor vía autorizada.
+14. En Content Factory: generación automática ≠ publicación automática.
+15. Documentación es un entregable de primera clase: docs para IA + docs comprensibles para Mati + mapa visual cuando aporte.
+16. Un template no está realmente terminado hasta que otro agente pueda entender/reconstruirlo con la documentación y Mati pueda explicar qué hace sin mirar el código.
 
 ## Próximas decisiones
 
@@ -341,23 +345,28 @@ Al inicio, un solo sitio y una sola cuenta principal de Agentis; no fragmentar a
 - [ ] Identificar repo coordinador de proyectos.
 - [ ] Identificar repo NeoHN exacto.
 - [ ] Comparar Everything Claude Code vs GSD vs coordinador y eliminar redundancias.
+- [ ] Evaluar `ptmrio/harness-subagent` y Grok Bot como referencias/capas de coordinación multi-harness.
 - [ ] Investigar n8n MCP y compatibilidad Claude Code/Codex.
-- [ ] Crear matriz `rol → skill Claude → skill Codex → herramienta compartida`.
-- [ ] Inventariar repos/templates n8n por cada template comercial prioritario.
-- [ ] Elegir el conjunto mínimo de herramientas de Agentis Factory v0.1.
-- [ ] Levantar Booking/Lead Agent con canales propios y probar end-to-end.
-- [ ] Diseñar el core compartido Conversation/Qualification/Calendar/CRM/Handoff/Logs.
-- [ ] Evaluar Retell después del primer Booking/Lead core para reutilizarlo como Voice Receptionist.
-- [ ] Probar `vercel-labs/agent-browser` con Claude Code y Codex y documentar el Browser Operator SOP.
-- [ ] Probar Higgsfield Skills desde Claude Code y Codex para generación de assets.
-- [ ] Probar Remotion Skills con un video corto y documentar el ciclo render → revisión → corrección → render final.
-- [ ] Diseñar Content Factory v0.1 reutilizable para UGC externo + Agentis + negocios propios.
+- [ ] Crear matriz `rol → skill Claude → skill Codex → Gemini opcional → herramienta compartida`.
+- [ ] Inventariar repos/templates n8n por template comercial.
+- [ ] Elegir Agentis Factory v0.1 mínima.
+- [ ] Levantar Booking/Lead Agent y probar end-to-end.
+- [ ] Diseñar core Conversation/Qualification/Calendar/CRM/Handoff/Logs.
+- [ ] Evaluar Retell después del Booking/Lead core.
+- [ ] Probar agent-browser con Claude Code y Codex.
+- [ ] Probar Higgsfield Skills.
+- [ ] Probar Remotion Skills con ciclo render → revisión → corrección → render final.
+- [ ] Diseñar Content Factory v0.1 para UGC externo + Agentis + negocios propios.
+- [ ] Probar Archify en un proyecto real y definir cuándo pasa a ser parte obligatoria del Definition of Done.
 
-## Última actualización de mercado
+## Última actualización
 
 - Fecha: 2026-09-09.
 - GHL mantiene prioridad sobre Chatwoot por volumen de demanda observado.
-- Retell sube de prioridad por demanda de voice receptionist + n8n + CRM/booking.
-- Se valida explícitamente el modelo template-first/configuración por cliente.
-- Content Factory + segundo LLM reviewer entra al backlog.
-- Próximo objetivo de producto: construir primero el core Lead & Booking y reutilizarlo como base de WhatsApp, Voice y otros verticales.
+- Retell sube de prioridad.
+- Se valida el modelo template-first/configuración por cliente.
+- Content Factory incorpora generación visual + edición programática.
+- Agent Browser entra como capacidad de interacción web.
+- Gemini queda como tercer reviewer/especialista opcional.
+- Archify entra como capa de arquitectura/documentación visual, especialmente para proyectos medianos/grandes.
+- Próximo objetivo de producto: Factory mínima + core Lead & Booking reutilizable.
