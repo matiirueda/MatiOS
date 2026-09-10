@@ -103,6 +103,7 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Creative Asset Generator Adapter (Higgsfield)
 - Video Composition / Rendering Adapter (Remotion)
 - Architecture Map / Documentation Adapter (Archify)
+- Project Knowledge Graph Adapter (Graphify)
 - LLM Router
 - Human Handoff
 - Lead Scoring
@@ -145,6 +146,13 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Usarlo especialmente en proyectos/templates medianos o grandes para que Mati pueda entender visualmente qué construyeron los agentes y para mantener documentación técnica ligada al sistema real.
 - Patrón deseado: `implementación → tests → security → docs AI → docs Mati → Archify/mapa actualizado → human review`.
 - Evitar convertirlo en burocracia para cambios pequeños; aplicarlo cuando el mapa reduzca complejidad o ayude a reconstruir/explicar el sistema.
+
+### Project knowledge graph / code understanding
+- `Graphify-Labs/graphify` — candidato prioritario para convertir código, documentación, schemas SQL, configs y otros materiales del proyecto en un knowledge graph consultable por agentes.
+- Soporta Claude Code, Codex y Gemini CLI, por lo que encaja especialmente bien con la estrategia multi-modelo de Agentis.
+- Usarlo como capa de comprensión del proyecto: relaciones entre componentes, dependencias, código, datos e infraestructura. No reemplaza la documentación humana ni los mapas visuales.
+- Diferencia conceptual: `Graphify = grafo consultable para que los agentes entiendan el sistema`; `Archify = mapa/documentación visual para explicar y revisar arquitectura`.
+- Probarlo temprano en Factory v0.1 para evaluar si reduce lectura repetitiva de repos y mejora onboarding/contexto de agentes.
 
 ### Datos / conocimiento
 - Supabase/Postgres.
@@ -204,6 +212,12 @@ Matías. Define objetivo, restricciones, prioriza y aprueba decisiones important
 - complementa, no reemplaza, `AGENTS.md`, `CLAUDE.md`, specs, contratos, SOPs y documentación funcional para Mati;
 - objetivo: que otro agente pueda reconstruir/entender el sistema y Mati pueda explicar qué hace sin mirar el código.
 
+### Project Knowledge Engineer
+- usa Graphify cuando aporte para mantener un grafo consultable del proyecto;
+- ayuda a Claude Code, Codex y Gemini a localizar componentes, dependencias y relaciones entre código, documentación, datos e infraestructura;
+- reduce relectura innecesaria y acelera onboarding/contexto de agentes;
+- complementa el Knowledge Engineer de producto, que usa RAG/LightRAG sobre conocimiento del cliente.
+
 ### Frontend / UX Engineer
 - Next.js/React;
 - 21st.dev / Agent Elements;
@@ -262,8 +276,9 @@ Las capacidades se definen por rol, no por proveedor.
 - `higgsfield-ai/skills` — generación de assets visuales/video.
 - `remotion-dev/skills` — edición/composición/render programático.
 
-### Arquitectura / documentación
+### Arquitectura / documentación / comprensión de proyecto
 - `tt-a1i/archify` — mapas visuales de arquitectura y workflows para Claude Code/Codex; evaluar como parte del Definition of Done en sistemas medianos/grandes.
+- `Graphify-Labs/graphify` — knowledge graph del proyecto para Claude Code, Codex y Gemini CLI; prioridad alta para probar en Factory v0.1.
 
 ### RAG
 - LightRAG.
@@ -294,6 +309,8 @@ Demanda freelance / outbound / problema real
                 ↓
  Claude Code / Codex (+ Gemini opcional)
        implementación + peer review
+                ↓
+       Graphify context/knowledge
                 ↓
           QA / Evals / Tests
                 ↓
@@ -338,6 +355,7 @@ Estructura sugerida:
 14. En Content Factory: generación automática ≠ publicación automática.
 15. Documentación es un entregable de primera clase: docs para IA + docs comprensibles para Mati + mapa visual cuando aporte.
 16. Un template no está realmente terminado hasta que otro agente pueda entender/reconstruirlo con la documentación y Mati pueda explicar qué hace sin mirar el código.
+17. La memoria/contexto técnico del proyecto debe ser reutilizable: evaluar Graphify como grafo común para reducir lectura repetida y mejorar coordinación multi-modelo.
 
 ## Próximas decisiones
 
@@ -358,6 +376,7 @@ Estructura sugerida:
 - [ ] Probar Remotion Skills con ciclo render → revisión → corrección → render final.
 - [ ] Diseñar Content Factory v0.1 para UGC externo + Agentis + negocios propios.
 - [ ] Probar Archify en un proyecto real y definir cuándo pasa a ser parte obligatoria del Definition of Done.
+- [ ] Probar `Graphify-Labs/graphify` con Claude Code, Codex y Gemini CLI sobre el mismo repo y medir si mejora navegación, contexto y onboarding.
 
 ## Última actualización
 
@@ -369,4 +388,5 @@ Estructura sugerida:
 - Agent Browser entra como capacidad de interacción web.
 - Gemini queda como tercer reviewer/especialista opcional.
 - Archify entra como capa de arquitectura/documentación visual, especialmente para proyectos medianos/grandes.
+- Graphify entra con prioridad alta como knowledge graph compartido del proyecto para Claude Code, Codex y Gemini CLI.
 - Próximo objetivo de producto: Factory mínima + core Lead & Booking reutilizable.
