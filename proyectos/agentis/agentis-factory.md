@@ -42,9 +42,33 @@ Se observó demanda explícita de clientes que quieren dejar de construir una au
 
 Esto valida directamente la meta de Agentis de reutilizar 70–90% y parametrizar el resto.
 
+La validación más reciente refuerza además un requisito concreto del producto: prompts, thresholds, tiempos, textos, campos y reglas deben poder centralizarse en una capa `Client Config`, de modo que un cliente nuevo requiera principalmente configuración + credenciales + adapters y no cambios en la lógica central.
+
+### Lead & Booking — PRD de mercado para v1
+
+El patrón funcional a usar como criterio de aceptación de la primera versión queda:
+
+`Lead source → webhook → normalize/dedupe → AI qualification → CRM Adapter → human approval → follow-up → Calendar → meeting brief → logs/retries`
+
+La configuración por cliente debe separar al menos:
+
+`prompts + scoring/thresholds + timings + CRM fields/stages + messages + channel rules + credentials/secrets references`
+
+Los secretos no deben vivir embebidos en el workflow exportable; la configuración debe referenciarlos mediante el mecanismo seguro del entorno.
+
+Objetivo: poder verticalizar Real Estate, Legal, Home Services, clínicas u otros sectores principalmente mediante `Client Config + adapters`, sin duplicar el core.
+
 ### Voice agents
 
 Retell sube de prioridad por aparición repetida junto con n8n + GHL + booking/CRM. El Voice Receptionist deja de ser una curiosidad futura y pasa a template comercial relevante, pero después del core de booking/lead.
+
+### Quote / Procurement Engine
+
+Apareció una señal de mayor ticket para automatización de cotizaciones/procurement con extracción estructurada, sourcing de tarifas/proveedores, comparación, checkpoints humanos, generación de cotización y follow-up. Esto amplía el antiguo `AI Quote & Qualification Agent` a un template más generalizable:
+
+`inquiry → structured extraction → supplier/rate sourcing → comparison → HITL → quote generation → CRM/accounting → follow-up`
+
+Potenciales verticales: logística/freight, distribuidores, servicios B2B, compras/procurement y negocios con cotización compleja. Mantenerlo detrás del Lead & Booking core, pero observar frecuencia y ticket porque puede ser una línea de mayor valor.
 
 ### Content Factory
 
@@ -56,13 +80,21 @@ Es un template reutilizable y además valida el patrón de dos modelos/agentes c
 
 La Content Factory debe poder evolucionar a producción audiovisual completa: research/brief → ángulos/hooks → guion/storyboard → generación de assets → edición/motion → revisión independiente → aprobación humana → variantes/repurposing → publicación → métricas/aprendizaje.
 
+### Handover y operabilidad como parte del producto
+
+La demanda reciente vuelve a mostrar que workflow funcionando no alcanza. Para templates comercializables, el entregable debe contemplar cuando corresponda:
+
+`workflow/template importable + Client Config + documentación de instalación/operación + walkthrough/video + tests + error handling + logs + handover`
+
+El cliente debe poder operar la solución y Agentis debe poder clonarla sin reconstruirla.
+
 ## Templates prioritarios — ranking vivo
 
-1. **AI Lead & Booking Engine** — señal muy alta; reuso estimado 85–90%.
-2. **CRM Sales Follow-up** — señal muy alta; reuso 85–90%.
+1. **AI Lead & Booking Engine** — señal muy alta; reuso estimado 85–90%; primer producto/criterio de aceptación de Factory v0.1.
+2. **CRM Sales Follow-up** — señal muy alta; reuso 85–90%; idealmente módulo del mismo core.
 3. **AI Voice Receptionist** — señal alta y creciente; reuso 80–90%.
 4. **WhatsApp Support / Sales Agent** — señal alta; reuso 80–90%.
-5. **AI Quote & Qualification Agent** — señal media/alta; reuso 75–85%.
+5. **AI Quote / Procurement Engine** — señal media/alta con potencial de ticket alto; reuso 75–85%.
 6. **AI Content Factory + Reviewer** — señal creciente; reuso 80–90%.
 7. **Omnichannel Inbox + human handoff** — Chatwoot encaja especialmente bien; reuso 75–85%.
 8. **CRM Automation Core** — transversal; objetivo ~90% reutilizable.
@@ -79,6 +111,14 @@ El canal debe ser intercambiable/configurable:
 
 `WhatsApp | Voice | Web | Telegram`
 
+### Verticalización sin forks
+
+No crear un workflow distinto por industria si cambia sólo configuración. Ejemplo:
+
+`Agentis Lead Core + GHL Adapter + Telegram HITL + Real Estate Config`
+
+Legal, HVAC/Home Services, clínicas y otras verticales deberían cambiar principalmente el `Client Config`, prompts/reglas, campos y adapters necesarios.
+
 ## Servicios publicables derivados de demanda
 
 ### Agentis AI Receptionist
@@ -89,6 +129,9 @@ Implementación interna posible:
 
 ### Agentis Lead Engine
 “Automatizamos tu proceso de leads de punta a punta: formulario/WhatsApp → CRM → calificación → seguimiento → cita.”
+
+### Agentis Quote Engine
+“Transformamos consultas y pedidos complejos en cotizaciones comparadas y listas para aprobar, con seguimiento automático y control humano donde importa.”
 
 La comunicación comercial no debe vender nombres de herramientas: debe vender resultado.
 
@@ -105,13 +148,16 @@ La comunicación comercial no debe vender nombres de herramientas: debe vender r
 - Architecture Map / Documentation Adapter (Archify)
 - Project Knowledge Graph Adapter (Graphify)
 - LLM Router
-- Human Handoff
-- Lead Scoring
+- Human Handoff / Approval Gate
+- Lead Scoring / Qualification
 - Follow-up Engine
 - Client Config
+- Meeting Brief Generator
+- Normalize / Deduplication
 - Logging / Audit
-- Error Handler / Retry / Idempotency
+- Error Handler / Retry / Idempotency / Rate-limit handling
 - Knowledge / RAG Adapter
+- Handover / Installer / Template Export package
 
 ## Stack comercial actual
 
@@ -257,7 +303,7 @@ Las capacidades se definen por rol, no por proveedor.
 ## Herramientas / skills / repos a conservar e investigar
 
 ### Agent harness / coordinación
-- Everything Claude Code (`affaan-m/everything-claude-code`).
+- Everything Claude Code / ECC (`affaan-m/ECC`; verificar compatibilidad/configuración elegida antes de instalar todo el bundle).
 - Get Shit Done — pendiente identificar URL/repo exacto.
 - Grok Bot architecture — estudiar como referencia de AI employee persistente, sandbox, MCP, automations y human approval.
 - `ptmrio/harness-subagent` — candidato a permitir delegación/revisión cruzada entre harnesses/modelos (Claude/Codex/Grok); investigar antes de adoptar.
@@ -322,8 +368,25 @@ Demanda freelance / outbound / problema real
                 ↓
         Agentis Template v1
                 ↓
- demo + docs + video + landing + pricing
+ demo + docs + video + landing + pricing + handover
 ```
+
+## Definition of Done — template comercial
+
+Un template Agentis no termina cuando “funciona”. Para considerarlo comercializable debe, proporcionalmente a su complejidad:
+
+1. resolver happy path y fallos relevantes;
+2. separar core reusable de `Client Config` y adapters;
+3. manejar retries/idempotencia/dedupe/rate limits cuando correspondan;
+4. tener logs/auditoría suficiente para operar y depurar;
+5. proteger secretos/credenciales fuera del template exportable;
+6. tener tests/evals y revisión de seguridad proporcional;
+7. incluir docs AI (`AGENTS.md`/`CLAUDE.md`, specs, contratos/SOPs según aplique);
+8. incluir docs Mati/cliente: qué hace, configuración, operación y troubleshooting básico;
+9. incluir Archify/mapa visual cuando el tamaño lo justifique;
+10. incluir walkthrough/demo y paquete de handover cuando se venda/entregue;
+11. poder ser reconstruido/entendido por otro agente leyendo la documentación;
+12. poder ser explicado por Mati sin mirar el código.
 
 ## Estrategia de marca
 
@@ -356,21 +419,27 @@ Estructura sugerida:
 15. Documentación es un entregable de primera clase: docs para IA + docs comprensibles para Mati + mapa visual cuando aporte.
 16. Un template no está realmente terminado hasta que otro agente pueda entender/reconstruirlo con la documentación y Mati pueda explicar qué hace sin mirar el código.
 17. La memoria/contexto técnico del proyecto debe ser reutilizable: evaluar Graphify como grafo común para reducir lectura repetida y mejorar coordinación multi-modelo.
+18. Verticalizar por configuración y adapters antes de crear forks por industria.
+19. Handover y operabilidad son parte del producto, no tareas administrativas posteriores.
 
 ## Próximas decisiones
 
 - [ ] Identificar Get Shit Done exacto.
 - [ ] Identificar repo coordinador de proyectos.
 - [ ] Identificar repo NeoHN exacto.
-- [ ] Comparar Everything Claude Code vs GSD vs coordinador y eliminar redundancias.
+- [ ] Comparar ECC vs GSD vs coordinador y eliminar redundancias.
 - [ ] Evaluar `ptmrio/harness-subagent` y Grok Bot como referencias/capas de coordinación multi-harness.
 - [ ] Investigar n8n MCP y compatibilidad Claude Code/Codex.
 - [ ] Crear matriz `rol → skill Claude → skill Codex → Gemini opcional → herramienta compartida`.
 - [ ] Inventariar repos/templates n8n por template comercial.
 - [ ] Elegir Agentis Factory v0.1 mínima.
-- [ ] Levantar Booking/Lead Agent y probar end-to-end.
+- [ ] Levantar Lead & Booking Engine según el PRD de mercado y probar end-to-end.
+- [ ] Implementar `Client Config` centralizado y separar secretos/credenciales.
 - [ ] Diseñar core Conversation/Qualification/Calendar/CRM/Handoff/Logs.
+- [ ] Incorporar normalize/dedupe, retries, logging y meeting brief al core v1 donde correspondan.
+- [ ] Probar una segunda vertical cambiando configuración/adapters sin forkear el workflow central.
 - [ ] Evaluar Retell después del Booking/Lead core.
+- [ ] Mantener Quote / Procurement Engine en radar y medir repetición/ticket antes de adelantarlo.
 - [ ] Probar agent-browser con Claude Code y Codex.
 - [ ] Probar Higgsfield Skills.
 - [ ] Probar Remotion Skills con ciclo render → revisión → corrección → render final.
@@ -380,13 +449,15 @@ Estructura sugerida:
 
 ## Última actualización
 
-- Fecha: 2026-09-09.
+- Fecha: 2026-09-10.
 - GHL mantiene prioridad sobre Chatwoot por volumen de demanda observado.
-- Retell sube de prioridad.
-- Se valida el modelo template-first/configuración por cliente.
+- Lead & Booking Engine queda definido como primer producto/criterio de aceptación de Factory v0.1, con `Client Config` centralizado y verticalización por adapters/configuración.
+- Quote / Procurement Engine aparece como línea potencial de mayor ticket a seguir midiendo.
+- Handover, walkthrough, documentación, error handling, logs y operabilidad se consolidan como parte del producto comercial.
+- Retell mantiene prioridad alta después del Lead & Booking core.
 - Content Factory incorpora generación visual + edición programática.
 - Agent Browser entra como capacidad de interacción web.
 - Gemini queda como tercer reviewer/especialista opcional.
 - Archify entra como capa de arquitectura/documentación visual, especialmente para proyectos medianos/grandes.
 - Graphify entra con prioridad alta como knowledge graph compartido del proyecto para Claude Code, Codex y Gemini CLI.
-- Próximo objetivo de producto: Factory mínima + core Lead & Booking reutilizable.
+- ECC queda registrado como candidato de harness operativo; instalar selectivamente para evitar solapamiento con GSD/otras capas.
