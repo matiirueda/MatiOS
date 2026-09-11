@@ -107,6 +107,126 @@ Ejemplos:
 
 El objetivo no es sólo mostrar dashboards: cuando sea seguro y conveniente, cada insight debe poder convertirse en una acción aprobable/ejecutable.
 
+## Estrategia de modularización
+
+No intentar diseñar desde el día 1 una constelación perfecta de microagentes. La secuencia preferida es:
+
+`flujo grande funcional → observar comportamiento real → detectar fronteras → extraer módulos/agentes → reutilizar`
+
+Principio:
+
+> Primero integrar para aprender. Después desacoplar para escalar.
+
+Separar por responsabilidad y contrato, no por moda. Un módulo merece independizarse cuando tiene entradas/salidas claras, errores o estado propios, cambia de manera independiente o aparece reutilizado en varios flujos.
+
+Un “agente” no tiene por qué ser siempre un LLM autónomo: puede ser un subworkflow de n8n determinista. El LLM se incorpora sólo cuando la tarea requiere lenguaje, ambigüedad, razonamiento o generación.
+
+## Model Router — costo/calidad por especialidad
+
+Agentis no debe usar el mismo modelo para todo ni asumir que el modelo más caro es siempre el correcto. Cada agente/componente debería declarar qué capacidad necesita y permitir que una capa de routing elija el proveedor/modelo más adecuado.
+
+Patrón objetivo:
+
+`task type + modality + complexity + quality threshold + latency need + context size + budget → model/provider`
+
+Ejemplos:
+- clasificación, extracción estructurada, dedupe semántico, scoring inicial y prospecting simple → modelo pequeño/barato si alcanza la calidad requerida;
+- decisiones ambiguas, planificación, análisis comercial complejo o excepciones → modelo más capaz;
+- imagen/video/audio → modelos especializados por modalidad;
+- código → modelos especializados de ingeniería como Claude/Codex según la tarea;
+- revisión crítica → preferentemente modelo/agente distinto del productor cuando aporte diversidad real.
+
+El agente debe pedir una capacidad (“clasificar lead”, “extraer campos”, “generar imagen”, “revisar workflow”) y no quedar acoplado innecesariamente a un nombre de modelo concreto.
+
+### Fallback y escalado
+
+El router debe poder aplicar escalado progresivo:
+
+`modelo barato → validar confianza/resultado → si falla o hay ambigüedad → modelo más fuerte → si sigue siendo sensible → HITL`
+
+Esto permite reducir costo manteniendo calidad y reservar modelos caros para los casos donde realmente agregan valor.
+
+### Objetivo de costo
+
+Optimizar costo por resultado útil, no costo por llamada. Un modelo barato que obliga a reintentos frecuentes, genera errores o baja conversión puede ser más caro que uno superior.
+
+## Observabilidad, logs y evaluación continua
+
+La capacidad de medir debe diseñarse desde el comienzo, aunque la primera implementación sea simple. Sin logs y métricas no se puede saber qué agente, prompt o modelo funciona mejor ni dirigir correctamente el Model Router.
+
+Cada ejecución relevante debería registrar, cuando aplique:
+- `trace_id / run_id`;
+- cliente/vertical/workflow/agente;
+- versión del workflow/agente/prompt/config;
+- proveedor y modelo utilizado;
+- motivo/ruta elegida por el router;
+- tokens o unidades consumidas;
+- costo estimado/real;
+- latencia;
+- cantidad de retries/fallbacks;
+- tool calls realizadas y resultado;
+- input/output estructurado necesario para evaluación, respetando privacidad y minimización de datos;
+- error/failure reason;
+- intervención humana y motivo;
+- outcome de negocio posterior cuando pueda asociarse.
+
+### Métricas técnicas
+
+Ejemplos:
+- tasa de éxito por agente/modelo;
+- latencia p50/p95;
+- costo medio por ejecución;
+- tokens por tarea;
+- tasa de retry;
+- tasa de fallback a modelo superior;
+- tool-call failure rate;
+- porcentaje de conversaciones que requieren handoff humano.
+
+### Métricas de calidad
+
+No limitar evaluación a “la API respondió 200”. Según el agente medir:
+- accuracy de clasificación/extracción sobre muestras etiquetadas;
+- respuestas aceptadas/corregidas por humanos;
+- errores o alucinaciones detectadas;
+- cumplimiento de formato/reglas;
+- resolución sin escalado;
+- calidad de cotización/recomendación;
+- precisión de selección de tool/action.
+
+### Métricas de negocio
+
+Siempre que sea posible conectar la evaluación técnica con outcomes reales:
+
+`modelo/agente → acción → resultado de negocio`
+
+Ejemplos:
+- lead → respuesta → booking;
+- booking → asistencia/no-show;
+- reactivation → respuesta → compra/turno;
+- campaña → conversión/ingreso;
+- support → resolución / escalado;
+- quote → aceptación;
+- loyalty action → recurrencia posterior.
+
+La meta es poder responder preguntas como:
+- “¿El modelo barato mantiene conversión?”
+- “¿Qué prompt reduce handoffs?”
+- “¿Qué agente está generando más errores?”
+- “¿El modelo premium agrega suficiente valor para justificar su costo?”
+- “¿Qué vertical necesita reglas distintas?”
+
+### Feedback loop / mejora continua
+
+Patrón deseado:
+
+`logs + outcomes + feedback humano → dataset/evals → comparar modelos/prompts/config → actualizar router/agente → medir nuevamente`
+
+Los cambios de modelo, prompt o lógica importante deberían poder compararse con una baseline mediante evals o A/B tests controlados antes de expandirse a todos los clientes.
+
+Principio:
+
+> Lo que no medimos no se puede optimizar. Agentis debe aprender no sólo de las conversaciones, sino también de qué modelo, agente y decisión produjo mejores resultados al menor costo total.
+
 ## Data layer
 
 Separar conceptualmente:
@@ -118,6 +238,8 @@ Separar conceptualmente:
 No duplicar datos sin necesidad. Definir source-of-truth por entidad/campo. Usar adapters para que GHL sea el primer CRM pero no el único posible.
 
 Candidato actual para Agentis DB: Supabase/Postgres. Redis sólo cuando estado efímero, locking, colas o performance lo justifiquen.
+
+Los logs de observabilidad y evaluación deben diseñarse con retención, privacidad y acceso definidos. No almacenar datos sensibles “por las dudas”; registrar lo necesario para operación, auditoría y evaluación.
 
 ## Human-in-the-loop y permisos
 
@@ -162,6 +284,10 @@ El CRM Adapter debe evolucionar desde CRUD/contactos/pipeline hacia una interfaz
 
 Insight → campaña → contenido → publicación/outreach → conversación → CRM → venta → medición. Potencial de largo plazo; construir modularmente.
 
+### 6. Cost-aware AI como ventaja operativa
+
+Diseñar desde temprano routing de modelos + observabilidad para que la misma capacidad pueda usar modelos diferentes según complejidad, modalidad, costo y calidad. Esto puede convertirse en ventaja de margen para Agentis y en una forma de ofrecer soluciones mejores sin pagar siempre el modelo premium.
+
 ## Implicación para roadmap
 
 No cambiar el orden inmediato por estas señales. Mantener:
@@ -172,9 +298,19 @@ Pero diseñar primitives y contratos evitando bloquear la evolución hacia:
 
 `Lead Agent → agentes especializados → Orchestrator → Agentis Business Operator`
 
-## Principio de diseño
+Desde Factory v0.1 incluir observabilidad mínima: identificadores de ejecución, agente/workflow, versión/config, modelo/proveedor, costo/uso, latencia, outcome, error y handoff. El sistema de evals sofisticado puede crecer después, pero los datos necesarios no deberían empezar a recolectarse tarde.
+
+## Principios de diseño
 
 > Cada capacidad importante debe tender a ser un agente/componente pequeño, testeable y reutilizable. El orquestador coordina; no concentra toda la inteligencia ni toda la lógica.
+
+> Primero integrar para aprender. Después desacoplar para escalar.
+
+> Usar LLM sólo donde aporta. Determinismo cuando alcance; razonamiento cuando haga falta.
+
+> Elegir modelo por capacidad, calidad necesaria y costo total esperado, no por marca ni por “usar siempre el mejor”.
+
+> Lo que no se mide no se puede optimizar: cada agente importante debe poder relacionar ejecución, costo, calidad y outcome.
 
 > El valor futuro de Agentis no es sólo responder mensajes: es transformar datos y conversaciones del negocio en decisiones y acciones medibles.
 
