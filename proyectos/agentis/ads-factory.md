@@ -92,6 +92,24 @@ Recibe assets de Content Factory y arma combinaciones testeables de:
 
 Traduce una campaña aprobada a la API/ad manager del canal. En primeras versiones puede ser semi-automático y requerir HITL antes de publicar o aumentar gasto.
 
+### Ads Platform Operator
+
+Responsabilidad: convertir un plan de campaña aprobado en operaciones concretas sobre cada plataforma mediante MCP/API oficial.
+
+No decide por sí solo la estrategia. Es la capa de ejecución especializada.
+
+Patrón:
+
+`Campaign Plan → Platform Adapter/Skill → MCP/API → draft/paused campaign → validation → human approval → publish`
+
+Subroles/adapters:
+- Meta Ads Operator;
+- Google Ads Operator;
+- TikTok Ads Operator;
+- otros canales futuros.
+
+Debe conocer estructura, objetivos, restricciones, naming, targeting, budget, placements, creatives, pixels/conversiones y políticas propias de cada plataforma.
+
 ### Performance Analyst
 
 Une métricas de plataforma con métricas de negocio. No optimizar sólo por CTR o CPC si el objetivo real es booking, venta, revenue o lead de calidad.
@@ -99,6 +117,90 @@ Une métricas de plataforma con métricas de negocio. No optimizar sólo por CTR
 ### Budget / Experiment Controller
 
 Aplica reglas de test, límites y escalado. Inicialmente recomendado como sistema de recomendaciones + aprobación humana; automatizar gasto sólo cuando las reglas estén bien validadas.
+
+## MCPs y skills investigados para Ads Platform Operator
+
+### Meta Ads — prioridad alta
+
+**MCP oficial de Meta Ads**
+
+Servidor hospedado por Meta: `https://mcp.facebook.com/ads`.
+
+La documentación comunitaria actual reporta que el rollout comenzó en 2026 y que expone herramientas para lectura y gestión del ciclo publicitario mediante OAuth. Preferir el MCP oficial cuando la cuenta tenga acceso.
+
+Fallbacks/open source útiles mientras el rollout no sea universal:
+- `rafaelszago/meta-ads-mcp`: MCP local + skills de launch/report/optimize/pause + contexto de marca;
+- `feel-t/meta-ads-mcp`: wrapper productivo sobre Meta Marketing API;
+- `santmun/meta-ads-skills`: skills de setup y operación sobre Meta Ads CLI;
+- `Sandy-zippy/meta-ads-stack`: skills + MCP con human approval antes de spend.
+
+Decisión Agentis: **Meta Ads Operator = primer adapter a implementar**. Crear siempre campañas nuevas en PAUSED/draft cuando sea posible y exigir aprobación antes de activar gasto.
+
+### Google Ads — prioridad alta después de Meta
+
+Repos/skills útiles:
+- `kastriasani/google-ads-skills`: suite de 13 skills para research, planning, build, optimization, reporting y forecasting;
+- `gabogabucho/google-ads-mcp`: MCP para Google Ads + GA4 con skills de setup/analyze/manage/GA4 y safety checks;
+- `google/skills`: skills/plugins oficiales de Google para productos Google; revisar si incorpora componentes específicos de Ads antes de depender de ellos.
+
+Decisión Agentis: usar skills para estrategia/estructura y un MCP/API para ejecución. Google Ads Operator debe incluir integración de medición con GA4/conversiones cuando corresponda.
+
+### TikTok Ads — prioridad posterior pero prevista desde diseño
+
+Repos/skills útiles:
+- `getmcpads-com/tiktok-ads-mcp-server`: MCP open source para TikTok Business API, lectura + operaciones de escritura con preview/safety model;
+- `thatrebeccarae/claude-marketing` → skill `tiktok-ads`: expertise de campañas, Spark Ads, audiencias, TikTok Shop, Pixel/Events API y optimización;
+- `AdsMCP/tiktok-ads-mcp-server`: alternativa read-only/analytics + OAuth, útil como referencia de seguridad.
+
+Decisión Agentis: preparar contrato de adapter desde el inicio pero implementar después de Meta/Google salvo que la demanda de un cliente justifique adelantarlo.
+
+### Capa multi-plataforma — investigar como acelerador
+
+`adkit/ads-mcp` expone una interfaz MCP multi-plataforma para Google, Meta, TikTok, LinkedIn, Microsoft, Reddit y X Ads, y `adkit/ads-skills` aporta skills de estrategia para paid media.
+
+Puede ser un acelerador para prototipos y comparación de adapters, pero no acoplar el core de Agentis a un proveedor multi-ads sin validar:
+- cobertura real por plataforma;
+- permisos;
+- seguridad de escritura;
+- versionado;
+- costos;
+- estabilidad;
+- capacidad de atribución y reporting;
+- límites frente a APIs oficiales.
+
+Regla: **skills = cerebro/criterio; MCP/API = manos/ejecución; Agentis = guardrails, contexto, métricas y orquestación.**
+
+## Flujo operativo recomendado
+
+```text
+Campaign Strategist
+→ Campaign Spec normalizada
+→ Content Factory genera/selecciona assets
+→ Platform Operator traduce spec al canal
+→ MCP/API crea draft o PAUSED
+→ Validation Agent revisa estructura/políticas/tracking
+→ Mati/HITL aprueba
+→ Platform Operator activa
+→ métricas de plataforma + CRM/outcomes
+→ Performance Analyst
+→ recomendación de iteración
+```
+
+La `Campaign Spec` debe ser agnóstica de canal tanto como sea posible y luego cada adapter hace la traducción específica.
+
+Ejemplo de campos core:
+- business objective;
+- offer;
+- funnel stage;
+- audience intent/segment;
+- geo;
+- budget ceiling;
+- experiment hypothesis;
+- asset IDs;
+- landing/WhatsApp destination;
+- conversion event;
+- tracking/UTM schema;
+- approval policy.
 
 ## Métricas
 
@@ -177,6 +279,14 @@ Al inicio:
 
 Definir límites de gasto diarios/mensuales y kill-switch por cliente/cuenta.
 
+Además:
+- nunca permitir cambios de presupuesto sin respetar ceiling del cliente;
+- registrar actor/agente/tool que realizó cada cambio;
+- mantener before/after de configuración de campaña;
+- preferir preview/dry-run cuando la herramienta lo permita;
+- crear en PAUSED por defecto para nuevas campañas;
+- separar permisos read vs manage cuando la plataforma lo soporte.
+
 ## Conexión con Business Operator
 
 A futuro:
@@ -196,26 +306,29 @@ Ejemplos:
 3. **No optimizar sólo por métricas de plataforma.**
 4. **Conectar identidad de campaña/ad con CRM/outcomes siempre que sea posible.**
 5. **HITL antes de gasto significativo hasta validar reglas.**
-6. **API oficial > browser automation para operación productiva.**
+6. **API/MCP oficial > browser automation para operación productiva.**
 7. **Canales como adapters.** Meta primero no debe acoplar el core a Meta.
 8. **Guardar versiones de creative/copy/offer/audience/config para aprender.**
 9. **Experimentar una variable por vez cuando se quiera inferencia clara.**
 10. **El aprendizaje debe volver a Content Factory y al Business Operator.**
+11. **Skills definen criterio; MCP/API ejecuta; Agentis controla permisos, trazabilidad y resultados.**
+12. **Toda acción que gaste dinero debe tener policy explícita.**
 
 ## Roadmap sugerido
 
 No priorizar Ads Factory antes del Lead/Booking Core. Secuencia razonable:
 
-`Lead/Booking + CRM + tracking → Content Factory v1 → Ads Factory v0.1 → Meta Ads adapter → attribution CRM → experiment loop → Google/TikTok adapters`.
+`Lead/Booking + CRM + tracking → Content Factory v1 → Ads Factory v0.1 → Meta Ads Operator → attribution CRM → experiment loop → Google Ads Operator → TikTok Ads Operator`.
 
 Ads Factory v0.1 puede empezar sin auto-optimización:
 1. Campaign Strategist genera plan;
 2. Content Factory produce variantes;
-3. Mati aprueba;
-4. publicación manual/semi-automática;
-5. ingestión automática de métricas;
-6. Performance Analyst recomienda;
-7. nueva iteración.
+3. Platform Operator prepara campaña en draft/PAUSED;
+4. Mati aprueba;
+5. Platform Operator publica;
+6. ingestión automática de métricas;
+7. Performance Analyst recomienda;
+8. nueva iteración.
 
 Automatizar publicación, presupuesto y escalado sólo después de tener datos suficientes y guardrails claros.
 
