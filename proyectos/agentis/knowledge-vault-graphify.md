@@ -46,7 +46,7 @@ Primero reutilizar Graphify + Obsidian + repos existentes. Construir una UI prop
 
 Secuencia recomendada:
 
-`Obsidian/MatiOS → Graphify/indexación → retrieval de subgrafo → LLM → respuesta con fuentes`
+`Obsidian/MatiOS → Graphify/indexación → retrieval de subgrafo → LLM Router → respuesta con fuentes`
 
 Más adelante:
 
@@ -88,6 +88,8 @@ Context Router
         ↓
 LLM Router
         ↓
+Local model o Cloud model según política
+        ↓
 respuesta + fuentes + subgrafo usado
 ```
 
@@ -102,8 +104,116 @@ Knowledge Vault UI
 ├── Source viewer
 ├── Vault health
 ├── Ingest / sync status
-└── Token / retrieval metrics
+├── Local / Hybrid / Cloud mode
+└── Token / cost / retrieval metrics
 ```
+
+## Estrategia Local / Hybrid / Cloud
+
+Este caso es un candidato fuerte para usar modelos locales porque muchas tareas del Knowledge Vault no necesitan un modelo frontier.
+
+### Local mode
+
+Objetivo: máxima privacidad y costo marginal bajo.
+
+Posibles tareas locales:
+- clasificación de notas;
+- metadata/tagging sugerido;
+- embeddings;
+- clustering/communities;
+- deduplicación semántica;
+- resúmenes cortos;
+- extracción de entidades/relaciones;
+- consultas simples sobre subgrafos recuperados;
+- health checks del vault.
+
+Stack candidato:
+
+`Obsidian + Graphify + embeddings locales + Ollama/model server local + modelo local`
+
+Todo el pipeline puede correr en la PC sin enviar el corpus a un proveedor externo.
+
+### Hybrid mode — recomendado para MatiOS
+
+Usar local por defecto y escalar a cloud sólo cuando aporte una mejora real.
+
+Patrón:
+
+`consulta → retrieval/subgrafo → router → local first → confidence/eval → cloud fallback si hace falta`
+
+Criterios para escalar a modelo externo:
+- baja confianza;
+- ambigüedad alta;
+- síntesis entre muchas fuentes;
+- tarea estratégica compleja;
+- razonamiento importante;
+- respuesta local insuficiente según eval/feedback;
+- necesidad de un modelo multimodal o especializado.
+
+Cloud candidates: Claude, GPT, Gemini u otros proveedores según Model Router.
+
+### Cloud mode
+
+Usar cuando se priorice máxima capacidad o cuando el hardware local no alcance. No debe ser el default por comodidad si una tarea simple puede resolverse localmente.
+
+## Model Router aplicado al Knowledge Vault
+
+El Knowledge Vault debe conectarse al Agentis Model Router.
+
+No seleccionar modelo por marca fija. Seleccionar capacidad según:
+
+`task_type + complexity + privacy_class + latency_need + quality_threshold + context_size + budget → model/provider`
+
+Ejemplo:
+
+```text
+clasificar nota             → local small model
+embeddings                  → local embedding model
+resumir 1 nota              → local model
+consulta factual simple     → local model
+cruzar proyecto + decisiones→ local medium → cloud fallback
+estrategia compleja         → cloud frontier
+imagen/documento visual     → modelo multimodal especializado
+```
+
+Medir al menos:
+- model/provider;
+- local vs cloud;
+- latency;
+- tokens/context size;
+- costo;
+- retrieval size;
+- confidence/eval score;
+- fallback reason;
+- feedback de Mati;
+- respuesta con fuentes;
+- error/hallucination detectada.
+
+Objetivo futuro: poder afirmar con evidencia qué porcentaje de consultas del Knowledge Vault se resuelve localmente con calidad suficiente.
+
+## Privacidad y clasificación de datos
+
+El router no debe decidir sólo por costo/calidad. También por política de privacidad.
+
+Clases sugeridas:
+
+`local-only`  
+Nunca enviar contenido a modelos externos.
+
+`cloud-allowed`  
+Puede procesarse con proveedores externos autorizados.
+
+`cloud-with-redaction`  
+Antes de enviar, eliminar/anonimizar campos sensibles.
+
+`restricted`  
+Sólo herramientas explícitamente autorizadas y con HITL cuando corresponda.
+
+La clasificación puede aplicarse por carpeta, nota, proyecto, fuente o tipo de dato.
+
+Principio:
+
+> El contexto sensible no sale de la máquina sólo porque el modelo cloud sea mejor.
 
 ## Relación con Obsidian
 
@@ -134,6 +244,16 @@ Separar lógicamente dos scopes aunque compartan engine:
 
 Luego permitir consultas que crucen ambos cuando sea útil.
 
+Ejemplo objetivo:
+
+“¿Qué aprendimos sobre seguimiento de leads, dónde lo aplicamos en Agentis y qué workflow/código lo implementa?”
+
+El sistema debería poder recorrer:
+
+`Knowledge note → Decision → Agentis component → workflow/code → métricas`
+
+sin cargar todo el vault y todo el repo al modelo.
+
 ## Relación con MarkItDown
 
 Para documentos externos:
@@ -141,6 +261,8 @@ Para documentos externos:
 `PDF/DOCX/PPTX/etc. → MarkItDown → Markdown normalizado → ingestión Graphify`
 
 Evitar enviar documentos completos al LLM repetidamente.
+
+Si el documento es escaneado o contiene información visual necesaria, usar OCR/visión sólo cuando corresponda.
 
 ## Knowledge Health / mantenimiento
 
@@ -159,7 +281,12 @@ Métricas candidatas:
 - consultas sin buena evidencia;
 - ratio respuesta con fuente;
 - tokens recuperados vs corpus completo;
-- feedback de Mati sobre utilidad de la respuesta.
+- feedback de Mati sobre utilidad de la respuesta;
+- porcentaje resuelto localmente;
+- fallback local → cloud;
+- costo por respuesta útil.
+
+El objetivo no es “tener un grafo lindo”, sino mejorar recuperación, consistencia, trazabilidad y calidad de respuesta.
 
 ## Agentes y permisos
 
@@ -179,9 +306,28 @@ No construir todavía un KAI Vault completo.
 ### MVP 0
 - Obsidian MatiOS real;
 - Graphify sobre una carpeta seleccionada del vault + Agentis repo;
+- embeddings/modelo local cuando sea viable;
 - consulta por CLI/agente;
 - fuentes visibles;
-- medir tokens/latencia/calidad.
+- medir tokens/latencia/calidad/local-vs-cloud.
+
+### MVP 0.5 — experimento de routing
+
+Crear un set de ~20 preguntas reales de Mati y comparar:
+- local only;
+- cloud only;
+- hybrid local-first con fallback.
+
+Medir:
+- calidad percibida;
+- groundedness/fuentes;
+- latency;
+- costo;
+- cantidad de contexto enviado;
+- fallback rate;
+- privacidad/exposición de datos.
+
+Elegir routing con evidencia, no intuición.
 
 ### MVP 1
 Si MVP 0 demuestra valor:
@@ -190,7 +336,8 @@ Si MVP 0 demuestra valor:
 - visualización de subgrafo relevante;
 - search/filter;
 - ingest status;
-- health checks.
+- health checks;
+- selector/indicador Local-Hybrid-Cloud.
 
 ### MVP 2
 Sólo si Mati lo usa realmente:
@@ -201,6 +348,7 @@ Sólo si Mati lo usa realmente:
 - source viewer;
 - historial de preguntas;
 - routing de modelos;
+- políticas de privacidad;
 - Obsidian deep links;
 - métricas de costo/calidad.
 
@@ -212,6 +360,7 @@ Antes de escribir UI/backend propio comparar/reutilizar:
 2. `thanhauco/llm-obsidian-graphify` como referencia de app completa graph + chat.
 3. `Nodesify/nodesify-graphify` por wiki/vault export, Canvas e incremental updates.
 4. `eric-orozco/graphify-obsidian-claude_code-guide` como SOP de setup/mantenimiento.
+5. Ollama o serving local equivalente para experimentar antes de construir infraestructura propia.
 
 Regla Agentis: buscar 60–80% resuelto antes de construir el resto.
 
@@ -225,12 +374,18 @@ La UI tipo KAI Vault sólo vale la pena si mejora alguna de estas variables fren
 - menos decisiones repetidas;
 - mejor onboarding de agentes;
 - mejor experiencia para Mati;
-- mayor detección de conexiones no obvias.
+- mayor detección de conexiones no obvias;
+- mayor privacidad al resolver tareas localmente;
+- menor costo por respuesta útil.
 
 Si no mejora métricas o uso real, mantener Obsidian + Graphify sin otra app.
 
-## Principio
+## Principios
 
 > Obsidian guarda el conocimiento; Graphify lo conecta; los agentes lo consultan; una UI propia sólo se construye si hace ese ciclo claramente mejor.
+
+> Local primero cuando la calidad alcance; cloud cuando aporte capacidad real; privacidad siempre forma parte del routing.
+
+> No optimizar por costo por llamada: optimizar por costo, calidad y privacidad del resultado útil.
 
 Última actualización: 2026-09-11.
