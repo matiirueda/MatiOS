@@ -122,6 +122,54 @@ Repos investigados incluyen colecciones con skills como:
 
 Decisión Agentis: no instalar una colección completa por defecto. Extraer sólo skills que cubran un hueco real y compararlas contra la skill oficial FastAPI y ECC para evitar duplicación de instrucciones.
 
+### 6. Microsoft MarkItDown — preprocessing de documentos para IA
+
+Repo: `microsoft/markitdown`
+
+MarkItDown es una utilidad Python ligera orientada explícitamente a convertir archivos a Markdown para LLMs y pipelines de análisis de texto. Soporta PDF, PowerPoint, Word, Excel, imágenes, audio, HTML, CSV/JSON/XML, ZIP, YouTube, EPUB y otros formatos. El objetivo no es una conversión visual de alta fidelidad sino preservar estructura útil para análisis: headings, listas, tablas, links y contenido textual.
+
+Decisión Agentis: **incorporar como componente recomendado de Document Ingestion / Knowledge Factory**.
+
+Pipeline por defecto cuando el objetivo sea análisis textual/RAG y no inspección visual del documento:
+
+`archivo → detección de tipo → MarkItDown → Markdown limpio → normalización → chunking/indexado → LLM/RAG`
+
+Para PDF con texto embebido, preferir extracción local antes de mandar el binario completo a un modelo multimodal. Markdown suele ser más compacto y reutilizable, y permite cachear el resultado para múltiples consultas posteriores.
+
+Para PDFs escaneados o contenido relevante dentro de imágenes, usar fallback OCR sólo cuando haga falta. MarkItDown dispone de plugin OCR con visión y también puede integrarse con Azure Document Intelligence/Content Understanding para casos de mayor fidelidad.
+
+Regla de costo/calidad:
+
+> No enviar un documento completo a un modelo multimodal si una extracción estructurada local preserva la información necesaria. Convertir una vez, reutilizar muchas veces.
+
+No asumir que la conversión siempre reduce tokens en todos los documentos. Medir `bytes/tokens original-equivalent vs markdown`, calidad de extracción, tablas preservadas, errores y costo total. Para documentos visuales, diagramas, layouts complejos o casos donde la ubicación espacial importe, conservar también el archivo/páginas originales y escalar a visión sólo en las páginas necesarias.
+
+Posible servicio futuro:
+
+`POST /v1/documents/ingest`
+
+Responsabilidades:
+- validar tipo/tamaño;
+- elegir converter;
+- generar Markdown;
+- detectar necesidad de OCR/visión;
+- persistir hash + versión + artefacto derivado;
+- deduplicar conversiones;
+- devolver metadata y quality flags;
+- dejar listo para chunking/RAG.
+
+Observabilidad sugerida:
+- file type + size;
+- converter/version;
+- páginas/hojas/slides;
+- chars/tokens resultantes;
+- OCR usado o no;
+- latencia;
+- costo externo si hubo visión/OCR cloud;
+- errores/warnings;
+- quality flags;
+- cache hit/miss.
+
 ## Backend Factory — roles
 
 ### Backend Architect
