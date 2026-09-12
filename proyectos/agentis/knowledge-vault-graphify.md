@@ -364,6 +364,175 @@ Antes de escribir UI/backend propio comparar/reutilizar:
 
 Regla Agentis: buscar 60–80% resuelto antes de construir el resto.
 
+## Comparativa Memanto vs Graphify vs LightRAG — decisión 2026-09-12
+
+No son equivalentes y no conviene elegir uno como reemplazo universal de los otros.
+
+### Memanto — memoria operativa de agentes
+
+Rol recomendado: **episodic/semantic agent memory**.
+
+Fortalezas:
+- memoria persistente entre sesiones;
+- recall semántico y temporal;
+- tipos de memoria como decisiones, preferencias, objetivos y errores;
+- confidence/provenance;
+- detección de conflictos;
+- expiración/corrección de recuerdos;
+- integración directa con Claude Code, Codex, Cursor y otros agentes;
+- `MEMORY.md` como briefing compacto para evitar releer historial completo;
+- puede correr on-prem y tiene mecanismos de export/migración.
+
+No debe ser la fuente canónica de documentos/proyectos. Su función es recordar lo que los agentes aprendieron o decidieron y recuperar sólo lo necesario para continuidad operativa.
+
+Ejemplos:
+- “este bug ya apareció y se resolvió así”;
+- “Mati aprobó esta convención”;
+- “esta decisión reemplazó la anterior”;
+- “el último intento falló por X”;
+- “la próxima tarea pendiente es Y”.
+
+### Graphify — estructura y relaciones explícitas del corpus
+
+Rol recomendado: **project/knowledge graph derivado**.
+
+Fortalezas:
+- parseo determinístico de código mediante AST;
+- ingesta de docs, SQL, configs, PDFs y otros artefactos;
+- relaciones explicables;
+- graph query/path/explain;
+- clustering/community structure;
+- actualización incremental;
+- export a Obsidian/wiki/GraphML/Neo4j;
+- útil para navegar arquitectura y conectar conceptos sin releer todos los archivos.
+
+Graphify es especialmente fuerte en “cómo se conecta esto con aquello”, arquitectura, dependencias, relaciones de proyecto y visualización/consulta de la estructura del conocimiento.
+
+### LightRAG — retrieval/generation sobre un corpus grande
+
+Rol recomendado: **document RAG / knowledge retrieval engine cuando el corpus lo justifique**.
+
+Fortalezas:
+- combina knowledge graph + vector embeddings;
+- modos local/global/hybrid/naive/mix;
+- retrieval orientado tanto a preguntas puntuales como a síntesis cross-document;
+- múltiples estrategias de chunking;
+- configuración distinta de modelos por rol (extract/query/keywords/VLM);
+- soporte de despliegue local y backends de almacenamiento escalables;
+- puede devolver referencias/contexto recuperado y conectarse a eval/tracing.
+
+Costo/contra principal: es una capa extra de ingesta, extracción y storage que no deberíamos introducir hasta demostrar que Graphify + búsqueda directa no alcanza.
+
+### Obsidian — source of truth humano
+
+Rol: **conocimiento canónico editable por Mati**.
+
+No reemplazarlo con Memanto, Graphify ni LightRAG. Esos sistemas son índices/memorias derivadas y regenerables.
+
+### Arquitectura objetivo combinada
+
+```text
+Obsidian / GitHub / documentos
+        ↓
+MarkItDown + normalización
+        ↓
+fuente canónica Markdown/código
+        ├────────────→ Graphify → relaciones/project graph
+        ├────────────→ LightRAG (opcional) → document retrieval
+        └────────────→ agentes trabajan
+                            ↓
+                    Memanto → memoria operativa
+                            ↓
+consulta nueva
+        ↓
+Context Router
+        ↓
+1) Memanto recall: qué aprendimos/decidimos antes
+2) Graphify: qué archivos/nodos/relaciones son relevantes
+3) LightRAG sólo si la pregunta requiere corpus documental amplio o cross-document retrieval
+        ↓
+Context Budgeter / dedupe
+        ↓
+LLM Router local/cloud
+        ↓
+respuesta con fuentes
+```
+
+### Regla anti-duplicación
+
+No indexar y mandar al modelo tres copias del mismo conocimiento.
+
+- **Obsidian/GitHub**: verdad canónica.
+- **Memanto**: recuerdos compactos y temporales derivados de trabajo real.
+- **Graphify**: relaciones/estructura derivadas del corpus.
+- **LightRAG**: chunks/entities/embeddings derivados sólo donde aporte retrieval adicional.
+
+El Context Router debe fusionar, deduplicar y limitar el contexto final.
+
+### Estrategia de costo/tokens
+
+El ahorro no viene simplemente de “tener memoria”, sino de **seleccionar mejor contexto**.
+
+Objetivo por consulta:
+
+`query → retrieve cheap → rank → dedupe → context budget → infer`
+
+Orden de costo recomendado:
+1. lookup/cache/metadata determinístico;
+2. Memanto recall compacto;
+3. Graphify query/subgraph;
+4. búsqueda lexical/semántica local;
+5. LightRAG si hace falta retrieval más profundo;
+6. modelo local para síntesis simple;
+7. cloud frontier sólo si la complejidad/calidad lo exige.
+
+Medir:
+- tokens recuperados;
+- tokens finalmente enviados al LLM;
+- número de fuentes/recuerdos candidatos vs usados;
+- duplicación de contexto;
+- recall/precision;
+- groundedness;
+- latency;
+- costo total;
+- fallback rate;
+- correcciones humanas;
+- costo por respuesta útil.
+
+### Decisión de implementación
+
+**No instalar las tres capas completas el primer día.**
+
+Orden recomendado:
+
+1. Obsidian + GitHub como canon.
+2. Graphify para Project/Knowledge Graph y navegación.
+3. Memanto como experimento para continuidad de Claude/Codex y memoria operativa.
+4. Crear benchmark propio con preguntas reales y medir si Memanto reduce relectura/tokens y mejora continuidad.
+5. Introducir LightRAG sólo si aparecen consultas documentales donde Graphify + búsqueda normal tengan recall insuficiente.
+6. Una UI Knowledge Vault propia consume estas capacidades detrás de adapters; nunca debe quedar acoplada a un único proveedor.
+
+Hipótesis inicial: **Graphify + Memanto son complementarios y tienen alta probabilidad de convivir. LightRAG es opcional y debe ganarse su lugar con métricas.**
+
+### Experimento recomendado
+
+Dataset de 30–50 preguntas/tareas reales repartidas entre:
+- continuidad de proyecto y decisiones pasadas;
+- arquitectura/código;
+- preguntas sobre notas/documentos;
+- preguntas cross-document;
+- cambios temporales (“qué habíamos decidido antes y qué cambió”).
+
+Comparar:
+- búsqueda/Markdown directo;
+- Graphify;
+- Memanto;
+- Graphify + Memanto;
+- Graphify + LightRAG;
+- Graphify + Memanto + LightRAG.
+
+No medir sólo exactitud. Registrar contexto enviado, costo, latencia, groundedness y cantidad de intervención humana.
+
 ## Hipótesis a validar
 
 La UI tipo KAI Vault sólo vale la pena si mejora alguna de estas variables frente a Obsidian + Graphify directo:
@@ -388,4 +557,6 @@ Si no mejora métricas o uso real, mantener Obsidian + Graphify sin otra app.
 
 > No optimizar por costo por llamada: optimizar por costo, calidad y privacidad del resultado útil.
 
-Última actualización: 2026-09-11.
+> Memoria, grafo y RAG no son sinónimos: cada capa debe justificar el contexto y costo que agrega.
+
+Última actualización: 2026-09-12.
