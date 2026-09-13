@@ -17,25 +17,11 @@ producto/brief → research → ángulos → hooks → guion → character sheet
 ### Recursos / repos para estudiar
 
 - AI Creator Academy — https://github.com/Anil-matcha/ai-creator-academy
-  - Track de AI Video Ads / UGC.
-  - Investigar especialmente character consistency: prompt fijo, reference image y LoRA.
-
 - Open AI UGC — https://github.com/siriokun/ugc
-  - Alternativa open-source para generar UGC.
-  - Revisar arquitectura, proveedores/modelos y posibilidad de reutilizar código.
-
 - UGC Factory — https://github.com/charlesdove977/UGC-Factory
-  - Pipeline/skills para UGC con Claude Code.
-  - Revisar character creation, ad structure, style routing, B-roll y stitching con ffmpeg.
-
 - Atlas Marketing Studio — https://github.com/AtlasCloudAI/atlas-marketing-studio
-  - Revisar workflows de UGC Product Ad, remake de anuncios, AI Drama y anuncios de dos personas.
-
 - Lazynext — https://github.com/Lazynext-Platform/Lazynext
-  - Evaluar arquitectura self-hosted y componentes reutilizables.
-
 - Consistent AI Character Prompts — https://github.com/metrosir/consistent-ai-character-prompts
-  - Biblioteca/referencia para consistencia de personajes y uso de LoRA.
 
 ## Herramientas/modelos a comparar
 
@@ -55,25 +41,82 @@ producto/brief → research → ángulos → hooks → guion → character sheet
 
 ### Voz / lipsync / edición
 - ElevenLabs
-- Kling / Higgsfield para movimiento o lipsync según caso
+- Kling / Higgsfield
 - CapCut para prototipo manual
-- ffmpeg para automatización
+- ffmpeg / Remotion para automatización
 
 ### Orquestación
 - n8n primero
 - APIs pay-per-use / agregadores cuando convenga
-- luego portar los componentes estables a código
+- luego portar componentes estables a código
 
-## Formación a revisar antes de pagar AvatarHype
+## Formación antes de pagar AvatarHype
 
-1. AI Creator Academy (gratis/open source).
-2. AI Creators Lab y tutoriales gratuitos de UGC/character consistency.
-3. Cursos Udemy de AI influencer / personajes consistentes / AI UGC. Matías tiene acceso a Udemy mediante el trabajo, por lo que revisar primero si están incluidos en su catálogo corporativo.
-4. Recién después evaluar AvatarHype (€75 aprox.) como benchmark/reverse engineering si siguen existiendo huecos concretos.
+1. AI Creator Academy.
+2. AI Creators Lab y tutoriales gratuitos.
+3. Cursos Udemy de AI influencer / personajes consistentes / AI UGC disponibles mediante el trabajo.
+4. Recién después evaluar AvatarHype si quedan huecos concretos.
 
-## Qué queremos extraer de cualquier curso
+## Selfhost-AI como MatiOS Runtime — CANDIDATO / TEST ALTA PRIORIDAD
 
-No mirar pasivamente. Documentar:
+Repo: https://github.com/kossakovsky/selfhost-ai
+
+Idea: dejar de pensar MatiOS únicamente como repositorio y separar **cerebro** de **runtime**.
+
+### Arquitectura conceptual
+
+- **MatiOS Core:** GitHub + conocimiento + principios + proyectos + skills/agentes.
+- **MatiOS Runtime:** Selfhost-AI como base candidata de infraestructura local/self-hosted.
+- **Orquestación:** n8n.
+- **Inteligencia local:** Ollama.
+- **Research:** Crawl4AI; evaluar SearXNG cuando exista caso concreto.
+- **Generación visual:** ComfyUI.
+- **Datos:** Postgres inicialmente.
+- **Video:** Remotion + ffmpeg + modelos generativos externos/locales.
+- **Integraciones:** WhatsApp, GHL, APIs, modelos frontier y servicios externos.
+
+### MatiOS AI Lab v1
+
+No desplegar todos los servicios disponibles. Primer stack mínimo:
+
+Caddy / infraestructura → n8n → Ollama + Crawl4AI + ComfyUI → Postgres/Redis donde sean necesarios.
+
+Agregar Remotion como capa de composición de video.
+
+Qdrant, Supabase, Grafana, Flowise, SearXNG, etc. solo cuando un caso real los justifique.
+
+### Primer experimento end-to-end
+
+**Content Factory v0.1 / AvatarHype Challenge**
+
+URL/producto → Crawl4AI → Research Agent → ángulos/hooks/guion → ComfyUI/assets → modelo de video → Remotion → anuncio UGC final.
+
+Después extender:
+
+publicación → métricas → Performance Agent → aprendizaje → nueva iteración.
+
+### Segundo caso transversal: Agentis
+
+WhatsApp/audio → n8n → STT → agente → Postgres/inventario → detección stock mínimo → propuesta de pedido → human-in-the-loop → WhatsApp proveedor.
+
+Usar Ollama para tareas locales/baratas cuando tenga calidad suficiente y modelos frontier cuando aporten valor real.
+
+### Principios de adopción
+
+- ADOPT como base candidata de laboratorio; NO adoptar todavía para producción.
+- No instalar servicios por disponibilidad: cada servicio necesita caso real.
+- Mantener personalizaciones mediante configuración/overrides para facilitar upgrades.
+- Revisar seguridad, puertos, secretos, autenticación y exposición pública antes de producción.
+- Priorizar componentes reutilizables entre Content Factory, Agentis, cuadros, página tech y futuros negocios.
+- Diseñar para que Codex y Claude Code puedan trabajar sobre GitHub/n8n/infraestructura y reutilizar skills/patrones.
+
+### Criterio de éxito del spike
+
+Si logramos `URL → Crawl4AI → Research Agent → guion → ComfyUI → assets`, ya validamos una parte sustancial de Content Factory sobre la infraestructura.
+
+El siguiente milestone es agregar Remotion/modelo de video y conseguir `URL → research → creativo → assets → video final` con métricas de costo, tiempo, calidad e intervención humana.
+
+## Qué queremos extraer de cualquier curso/workflow
 
 - modelo/proveedor usado en cada etapa;
 - prompt completo o estructura de prompt;
@@ -91,28 +134,14 @@ No mirar pasivamente. Documentar:
 
 ## Métricas del AvatarHype Challenge
 
-Para el mismo brief/producto comparar cada workflow por:
-
-- calidad visual;
-- realismo humano;
-- consistencia del personaje;
-- consistencia del producto;
-- calidad de voz/lipsync;
-- calidad publicitaria del hook/guion;
-- tiempo total;
-- minutos de intervención humana;
-- costo API total;
-- facilidad de automatización;
-- capacidad de generar variantes.
+Para el mismo brief/producto comparar cada workflow por calidad visual, realismo humano, consistencia del personaje/producto, voz/lipsync, hook/guion, tiempo total, intervención humana, costo API, facilidad de automatización y capacidad de generar variantes.
 
 ## Regla de decisión
 
-Si el stack gratuito/open-source llega a ~90% del resultado objetivo con costo y tiempo razonables, no comprar AvatarHype.
-
-Si aparecen huecos específicos difíciles de reproducir (por ejemplo microgestos, identidad consistente, acceso barato a modelos o prompts/workflows particularmente buenos), usar AvatarHype como benchmark pago y extraer únicamente el conocimiento que falte.
+Si el stack gratuito/open-source llega a ~90% del resultado objetivo con costo y tiempo razonables, no comprar AvatarHype. Si aparecen huecos específicos difíciles de reproducir, usar AvatarHype como benchmark pago y extraer únicamente el conocimiento que falte.
 
 ## Encaje con MatiOS
 
-Este experimento forma parte del proyecto Content Factory. El objetivo final no es solo generar avatares: es construir infraestructura reutilizable para UGC de terceros, Agentis, cuadros, página tech y futuros negocios.
+Content Factory debe ser infraestructura reutilizable para UGC de terceros, Agentis, cuadros, página tech y futuros negocios.
 
 Arquitectura objetivo de agentes: Research Agent → Creative Strategist → Hook Agent → Script Writer → Production Director → Video/Editing Agent → Repurposing Agent → Publishing Agent → Performance Agent, siempre con human-in-the-loop.
