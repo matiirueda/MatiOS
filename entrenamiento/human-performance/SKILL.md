@@ -69,5 +69,6 @@ Prefer personal trends and deviations from personal baseline over isolated gener
 - PENDING: not yet researched enough for operational recommendations.
 
 ## Current progress
-- Block 01 started: skeletal muscle contraction, adaptation and resistance-training translation.
+- Block 01 — skeletal muscle / mechanotransduction / neuromuscular adaptation / hypertrophy / atrophy: **MOSTLY CONSOLIDATED**, with explicit provisional zones for exact mechanosensor ranking, fiber-specific prescriptions, field partitioning of central vs peripheral fatigue and individual muscle-memory prediction.
+- Next research block: **Bioenergetics — ATP-PCr/purines, glycolysis, oxidative metabolism, lactate, fatigue, thresholds, VO2 and HIIT.**
 - Remaining blocks: pending.
