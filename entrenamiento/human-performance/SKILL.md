@@ -69,6 +69,8 @@ Prefer personal trends and deviations from personal baseline over isolated gener
 - PENDING: not yet researched enough for operational recommendations.
 
 ## Current progress
-- Block 01 — skeletal muscle / mechanotransduction / neuromuscular adaptation / hypertrophy / atrophy: **MOSTLY CONSOLIDATED**, with explicit provisional zones for exact mechanosensor ranking, fiber-specific prescriptions, field partitioning of central vs peripheral fatigue and individual muscle-memory prediction.
-- Next research block: **Bioenergetics — ATP-PCr/purines, glycolysis, oxidative metabolism, lactate, fatigue, thresholds, VO2 and HIIT.**
+- Block 01 — skeletal muscle / mechanotransduction / neuromuscular adaptation / hypertrophy / atrophy: **MOSTLY CONSOLIDATED**, with explicit provisional zones for exact mechanosensor ranking, fiber-specific prescriptions, field partitioning of central vs peripheral fatigue and individual muscle-memory prediction. See `blocks/01-skeletal-muscle.md`.
+- Block 02 — ATP-PCr/purines / glycolysis / oxidative metabolism / lactate / fatigue / thresholds / VO2 / HIIT: **MOSTLY CONSOLIDATED** for core physiology and broad training implications. Provisional zones remain for protocol-specific threshold interchangeability, exact individual energetic contributions, universal HIIT optimization and mechanism-specific field attribution of fatigue. See `blocks/02-bioenergetics-fatigue-vo2-hiit.md`.
+- Cross-block rules now formalized: energy systems overlap rather than switch; lactate is not a fatigue toxin; fatigue is multi-causal; acute metabolic surrogates do not prove superior chronic adaptation; apparent individual non-response must be checked against measurement error before updating the personal response model.
+- Next research block: **Autonomic nervous system — HR, HRV and post-exercise recovery.**
 - Remaining blocks: pending.
