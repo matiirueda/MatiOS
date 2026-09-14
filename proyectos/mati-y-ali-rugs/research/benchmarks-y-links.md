@@ -26,6 +26,32 @@ Qué sirve como benchmark:
 - WhatsApp simple;
 - variedad sin necesidad de tener todo producido en stock.
 
+Datos observados / validados en septiembre 2026:
+- En conversación por WhatsApp informaron un plazo aproximado de 20–25 días corridos, según tamaño.
+- Indicaron que trabajan todas las alfombras con lana acrílica.
+- Su propia web describe el material como lana acrílica sintética, elegida por resistencia, suavidad, mantenimiento y variedad de colores.
+- La web confirma producción artesanal a pedido y personalización de medidas y colores.
+- El catálogo público ofrece una amplitud grande de tamaños, desde piezas chicas hasta formatos de 300x300 y 400x300 cm.
+- Precio público de referencia observado: varios diseños base aparecen desde ARS 162.500 / ARS 130.000 por transferencia, variando mucho por tamaño y modelo. Revalidar siempre antes de cotizar.
+
+Cuidados comunicados por Bengal:
+- aspirado regular;
+- durante las primeras semanas puede desprender pelusa por excedente de fibras;
+- para manchas localizadas recomiendan espuma limpiatapizados y cepillo de cerdas no muy gruesas;
+- no lavar en lavarropas ni sumergir;
+- evitar abrasivos, blanqueadores y químicos fuertes;
+- evitar sol directo prolongado y humedad excesiva;
+- ante derrames, secar por presión sin frotar;
+- limpieza profesional de tapizados cada 12–18 meses según uso.
+
+Lecturas para Mati y Ali Rugs:
+- el acrílico aparece validado por uno de los competidores más visibles como material central y no como alternativa barata secundaria;
+- un lead time de 20–25 días confirma que el mercado acepta producción a pedido con espera si el producto es personalizado;
+- oportunidad clara para mejorar experiencia digital y comunicación de estado del pedido;
+- conviene diseñar desde el inicio una guía propia de cuidado y limpieza;
+- la facilidad de mantenimiento puede ser un argumento comercial fuerte para hogares con mascotas;
+- medir en el taller cómo responden distintos acrílicos a carving, aspirado y limpieza localizada antes de definir proveedor definitivo.
+
 Oportunidad de mejora para Mati y Ali Rugs:
 - home más editorial y moderna;
 - configurador de colores/tamaños;
@@ -86,6 +112,26 @@ Qué sirve como benchmark:
 - coherencia de paleta, composición y fotografía;
 - referencia para construir una marca visual más premium que el promedio del mercado.
 
+### EME Atelier / EME Estudio
+Instagram:
+- https://www.instagram.com/e.m.e.atelier
+- https://www.instagram.com/e.m.e.estudio
+
+Observaciones visuales compartidas:
+- piezas de mascotas y animales con silueta orgánica;
+- evidencia de detalle avanzado en tigres, rayas, ojos y zonas pequeñas;
+- trabajos de gran formato que muestran que el límite práctico depende más de tamaño, habilidad, carving y tiempo que de la tufting gun;
+- útil como benchmark para tres niveles de producción: Prototype 50x50, Standard 70–100 cm y Signature 120 cm+;
+- valida una línea Pet Rugs y una línea artística/tattoo con bastante más detalle del que conviene usar en el primer taller.
+
+### Taller Black Sheep
+Instagram: https://www.instagram.com/taller.black.sheep
+
+Estado:
+- nuevo competidor/referencia descubierto por Instagram;
+- todavía sin datos validados de precios, materiales, tamaños o plazos;
+- agregar a la tabla viva y relevar: catálogo, custom sí/no, material, ticket, tiempos, estética, seguidores/señales de demanda y ubicación.
+
 ## Canales visuales
 
 ### Pinterest
@@ -106,6 +152,8 @@ Regla: no copiar piezas ajenas uno a uno para comercializarlas. Usar referencias
 - La producción bajo pedido evita inmovilizar capital en stock terminado.
 - Una línea premium puede coexistir con catálogo estándar; el precio debe reflejar tamaño, complejidad y trabajo de terminación, no solo m².
 - Señal comercial útil: mostrar siempre tamaño, precio, plazo y forma de pago en una misma pieza de comunicación.
+- Señal preliminar: los competidores visibles encontrados hasta ahora no parecen conformar un mercado local hiper-saturado. No asumir todavía "baja competencia" sin un relevamiento sistemático por Instagram, Google, Mercado Libre, TikTok y mapas.
+- La ventaja potencial de Mati y Ali Rugs puede estar en combinar diseño propio + personalización + IA + experiencia digital + catálogo vivo + multi-producto, no solo en fabricar alfombras.
 
 ## Benchmarks adicionales mencionados / investigados
 
