@@ -1,0 +1,74 @@
+product:
+  sku: ""
+  name: ""
+  category: rug
+  type: standard|semi_custom|full_custom
+  dimensions_cm:
+    width: 0
+    height: 0
+  area_m2: 0
+  shape: organic|rectangular|custom
+
+materials:
+  primary_cloth:
+    quantity_m2: 0
+    unit_cost_ars: 0
+    total_cost_ars: 0
+  yarn:
+    - color: ""
+      fiber: acrylic|wool|polyester|blend|other
+      grams_estimated: 0
+      grams_actual: 0
+      cost_per_kg_ars: 0
+      total_cost_ars: 0
+  adhesive:
+    quantity: 0
+    unit: kg|l
+    unit_cost_ars: 0
+    total_cost_ars: 0
+  backing:
+    quantity_m2: 0
+    unit_cost_ars: 0
+    total_cost_ars: 0
+  packaging:
+    total_cost_ars: 0
+  other:
+    total_cost_ars: 0
+
+labor:
+  design_hours: 0
+  tracing_hours: 0
+  tufting_hours: 0
+  gluing_hours: 0
+  finishing_hours: 0
+  packing_hours: 0
+  total_hours: 0
+  hourly_rate_ars: 0
+  total_labor_cost_ars: 0
+
+commercial:
+  payment_fee_pct: 0
+  ad_cost_allocated_ars: 0
+  shipping_subsidy_ars: 0
+  tax_allocated_ars: 0
+
+costs:
+  materials_total_ars: 0
+  labor_total_ars: 0
+  commercial_total_ars: 0
+  total_cost_ars: 0
+
+pricing:
+  list_price_ars: 0
+  transfer_price_ars: 0
+  deposit_pct: 50
+  gross_margin_ars: 0
+  gross_margin_pct: 0
+  contribution_margin_ars: 0
+  contribution_margin_pct: 0
+
+learning:
+  waste_pct: 0
+  difficulty_1_to_5: 0
+  defects_or_rework: ""
+  notes: ""
