@@ -1,0 +1,46 @@
+inventory:
+  yarn:
+    - sku: ""
+      color: ""
+      fiber: ""
+      grams_on_hand: 0
+      grams_reserved: 0
+      grams_available: 0
+      min_stock_grams: 0
+      target_stock_grams: 0
+      supplier: ""
+      last_cost_per_kg_ars: 0
+      last_purchase_date: ""
+      reorder: false
+
+  other_materials:
+    - sku: ""
+      name: ""
+      unit: ""
+      qty_on_hand: 0
+      qty_reserved: 0
+      min_stock: 0
+      target_stock: 0
+      supplier: ""
+      last_unit_cost_ars: 0
+      reorder: false
+
+purchasing_rules:
+  buy_special_colors_only_after_deposit: true
+  keep_core_palette_stock: true
+  use_overstock_in_standard_collection: true
+  prefer_supplier_price_tiers: true
+  track_price_history: true
+
+supplier_quote:
+  supplier: ""
+  contact: ""
+  material: ""
+  qty: 0
+  quoted_unit_cost_ars: 0
+  shipping_ars: 0
+  valid_until: ""
+  volume_tiers:
+    - min_qty: 0
+      unit_cost_ars: 0
+  notes: ""
