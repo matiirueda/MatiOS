@@ -30,9 +30,10 @@ Secuencia inicial propuesta:
 3. relieve / carving / texturas 3D;
 4. almohadones tufted;
 5. velas de diseño;
-6. bases y objetos de yeso/jesmonite u otros materiales compatibles;
-7. pintura y terminaciones decorativas;
-8. futuras técnicas manuales según demanda real.
+6. aromatización de ambientes: perfuminas y difusores;
+7. bases y objetos de yeso/jesmonite u otros materiales compatibles;
+8. pintura y terminaciones decorativas;
+9. futuras técnicas manuales según demanda real.
 
 No se busca que Ali aprenda todo de golpe. Se incorpora una técnica, se hacen prototipos, se mide y recién después se decide si entra al catálogo.
 
@@ -130,7 +131,26 @@ Antes de comercializar se debe validar:
 
 El objetivo no es vender velas genéricas, sino piezas alineadas con la identidad de Amarte Deco.
 
-### 4. Bases y pequeños objetos decorativos
+### 4. Aromatización de ambientes
+
+Explorar una línea propia de:
+
+- perfuminas textiles/ambientales;
+- difusores con varillas;
+- eventualmente sprays de ambiente y wax melts.
+
+Ventajas:
+
+- fabricación relativamente simple;
+- bajo costo unitario potencial;
+- alta frecuencia de recompra;
+- buen cross-sell con rugs, velas y objetos;
+- posibilidad de crear una firma olfativa propia de Amarte Deco;
+- packaging pequeño y fácil de enviar.
+
+Antes de vender hay que validar formulación, estabilidad, compatibilidad de envase, concentración, etiquetado y cualquier requisito aplicable al producto.
+
+### 5. Bases y pequeños objetos decorativos
 
 Explorar materiales de baja barrera de entrada, por ejemplo:
 
@@ -146,7 +166,7 @@ Explorar materiales de baja barrera de entrada, por ejemplo:
 
 La lógica es aprender moldes, pigmentos, lijado, sellado y terminaciones.
 
-### 5. Cuadros y láminas
+### 6. Cuadros y láminas
 
 Categoría de prioridad alta porque aprovecha inmediatamente la capacidad digital.
 
@@ -228,6 +248,39 @@ Ejemplo:
 Lo mismo aplica a rugs y otras piezas custom.
 
 El objetivo es que los pedidos personalizados aumenten el valor del catálogo en vez de ser trabajos aislados que desaparecen luego de la entrega.
+
+## Curaduría mayorista y reventa sin stock pesado
+
+Además de fabricar y diseñar, Amarte Deco puede incorporar una capa de **curaduría de terceros** usando bazares, distribuidores y mayoristas locales.
+
+Modelo inicial:
+
+1. identificar mayoristas con catálogo digital, stock relativamente estable y precios de reventa viables;
+2. seleccionar únicamente productos alineados con la identidad Amarte Deco;
+3. publicar una selección acotada, no todo el catálogo del proveedor;
+4. trabajar bajo pedido, reposición rápida o stock mínimo según disponibilidad;
+5. comprar al mayorista solo cuando haya señales suficientes de demanda;
+6. medir margen, rotación, devoluciones y quiebres de stock.
+
+Datos a registrar por producto/proveedor:
+
+```yaml
+supplier: proveedor_x
+supplier_sku: ABC123
+supplier_cost: 0
+supplier_stock: 0
+last_stock_check: YYYY-MM-DD
+our_price: 0
+gross_margin_pct: 0
+palette: []
+style: []
+room: []
+lead_time_days: 0
+```
+
+Ideal futuro: automatizar la lectura de stock/precios del proveedor cuando exista planilla, feed, API, web estable o mecanismo autorizado. Si no, empezar manual y automatizar solo después de validar que el proveedor sirve.
+
+La ventaja no es ser un bazar genérico. Es **curar productos que combinan con el universo Amarte** y hacerlos descubribles con el mismo sistema de paletas, estilos y recomendación por ambiente.
 
 ## Curaduría e importación — etapa posterior
 
