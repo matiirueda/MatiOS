@@ -1,6 +1,7 @@
 # Agentis — Bootstrap, Knowledge Core y Change Control
 
 Fecha: 2026-09-14
+Actualizado: 2026-09-15
 
 ## Visión
 
@@ -70,7 +71,7 @@ Módulos reutilizables:
 - stock_movements
 - purchase_orders
 
-Las extensiones verticales se agregan sólo cuando exista una diferencia real de dominio. Una cancha, estética y odontología deberían reutilizar el mismo Booking Core y reinterpretar/configurar `service` y `resource`.
+Las extensiones verticales se agregan sólo cuando exista una diferencia real de dominio. Una cancha de fútbol, una cancha de pádel, una escuela de danza, una estética y una odontología deberían reutilizar el mismo Booking & Info Core y reinterpretar/configurar `service`, `resource`, reglas y conocimiento.
 
 ## 3. Router de conocimiento
 
@@ -338,7 +339,76 @@ Medir desde el primer cliente:
 
 Objetivo: demostrar que Agentis escala como Factory/plataforma y no como consultora artesanal.
 
-## 13. Principios consolidados
+## 13. Agent identity, governance y Activity Ledger
+
+Se incorpora como principio de arquitectura que los agentes deben tener objetos explícitos de identidad y gobierno:
+
+- role;
+- permissions;
+- tools permitidas;
+- knowledge scope;
+- límites/riesgo;
+- canales permitidos;
+- relaciones/eventos con otros agentes.
+
+Agregar un `Agent Activity Ledger` común para poder reconstruir:
+
+`agent → role → task → knowledge accessed → tools called → permission used → decision/proposal → HITL → result → cost → timestamp`
+
+La auditabilidad debe cubrir tanto cambios de datos como acciones de agentes.
+
+## 14. Conversation Intelligence Core
+
+Incorporar un core reutilizable que pueda operar sobre conversaciones humanas o agentic:
+
+`conversation → summary → facts → intent → objections → lead/customer state → next action → CRM/event → knowledge gaps → Bootstrap Learn`
+
+Valor inicial: sumar inteligencia sin obligar al negocio a reemplazar inmediatamente la atención humana.
+
+Usos:
+
+- priorización de follow-up;
+- extracción automática de datos al CRM;
+- detección de intención/objeciones;
+- propuestas de próxima acción;
+- detección de FAQs y conocimiento faltante;
+- medición posterior de conversiones/promociones.
+
+## 15. Estrategia de despliegue vertical repetible
+
+Decisión 2026-09-15: **la unidad de producto no es el rubro; es el core + conocimiento/configuración del cliente**.
+
+Una cancha de fútbol, pádel, escuela de danza, odontología, estética u otro negocio de reservas no debe disparar un desarrollo nuevo. El despliegue debería ser esencialmente el mismo:
+
+`prospecto → fuentes públicas/entregadas → Bootstrap → Standard Schema → Knowledge Core → Client Config → Booking & Info Core → sandbox/demo → conversaciones de prueba → Bootstrap Learn → corrección/validación → producción`
+
+### Caso testigo como motor comercial
+
+Para cada vertical con señal suficiente:
+
+1. elegir un negocio real como caso testigo/prospecto;
+2. usar sólo información pública verificable de su web/red para construir una demo inicial, sin asumir datos no publicados;
+3. Bootstrap extrae servicios, FAQs, horarios/reglas visibles y knowledge;
+4. generar Client Config y demo sobre el core existente;
+5. probar internamente;
+6. mostrar el caso al negocio;
+7. si valida/interesa, completar faltantes con información autorizada del cliente;
+8. usar el mismo demo/configurable para outbound a negocios similares;
+9. pasar luego a un vertical distinto para demostrar que el core no está acoplado al rubro.
+
+Ejemplo de secuencia de validación:
+
+`cancha fútbol/pádel → escuela de danza/servicio con reservas → odontología/estética`
+
+La prueba de arquitectura no es tener muchas demos: es poder cambiar de rubro principalmente mediante `Client Config + Knowledge + adapters`, manteniendo ~85–90% del core.
+
+### Flywheel buscado
+
+`nuevo cliente → Bootstrap más robusto → mejor schema/knowledge routing → deployment más rápido → más clientes → conversaciones reales → Bootstrap Learn → mejor core`
+
+Cada implementación debe mejorar la Factory y reducir el costo marginal de la siguiente.
+
+## 16. Principios consolidados
 
 1. Modelar la empresa una vez; todos los agentes consumen la misma fuente de verdad.
 2. Datos críticos/cambiantes/temporales → estructura y versionado.
@@ -352,3 +422,8 @@ Objetivo: demostrar que Agentis escala como Factory/plataforma y no como consult
 10. El dueño debe poder mantener precios, promociones, horarios y conocimiento sin depender operativamente de Mati.
 11. Promos/precios históricos deben conectarse a ventas para medir impacto y generar inteligencia comercial.
 12. Objetivo de reuso: 70–90%; idealmente ~90% en Booking & Info.
+13. El rubro es configuración/knowledge cuando el problema de negocio es el mismo; crear forks sólo ante diferencias reales de dominio.
+14. Cada agente debe tener identidad, permisos, tools y knowledge scope explícitos.
+15. Las acciones de agentes también deben ser auditables mediante Activity Ledger.
+16. Construir casos testigo rápidos sobre información pública verificable y luego completar/validar con el cliente.
+17. La Factory debe optimizar `Time-to-First-Agent`, no cantidad de workflows artesanales.
